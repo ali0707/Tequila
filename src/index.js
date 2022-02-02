@@ -3,9 +3,16 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
+import { Helmet } from "react-helmet";
 
 ReactDOM.render(
   <React.StrictMode>
+    <Helmet>
+      <script src="assets/js/jquery-3.1.1.min.js"></script>
+      <script src="assets/js/plugins.js"></script>
+      <script src="Assets/js/dsn-grid.js"></script>
+      <script src="assets/js/custom.js"></script>
+    </Helmet>
     <App />
   </React.StrictMode>,
   document.getElementById("root")
