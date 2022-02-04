@@ -1,11 +1,11 @@
 @charset "UTF-8";
 /*-----------------------------------------------------------
 
-  Template Name: Droow - Ajax Portfolio Showcase HTML Template
-  Template URI: http://theme.dsngrid.com/droow
-  Description: Droow Ajax Portfolio Showcase HTML Template
-  Author: design_grid
-  Author URI: https://themeforest.net/user/design_grid
+  Template Name: etereolifestyle - Ajax Portfolio Showcase HTML Template
+  Template URI: http://etereolifestyle.com
+  Description:
+  Author: Ali ben said
+  Author URI: https://github.com/ali0707
   Version: 1.0.0
 
 -------------------------------------------------------------*/
@@ -1688,7 +1688,7 @@ body > * {
 }
 
 .one-title {
-  width: 620px;
+  /* width: 620px; */
   margin-bottom: 70px;
 }
 
@@ -9144,7 +9144,7 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
 }
 
 /* -------------------------------------------------------
-                   
+
 -------------------------------------------------------- */
 .header-hero {
   position: relative;
@@ -9313,7 +9313,7 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
 }
 
 /* -------------------------------------------------------
-                   
+
 -------------------------------------------------------- */
 .header-single-post {
   position: relative;

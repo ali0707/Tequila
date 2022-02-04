@@ -11,7 +11,7 @@ export default function Footer() {
                 <div className="footer-block">
                   <div className="footer-logo">
                     <a href="">
-                      <img src="assets/img/logo.png" alt="" />
+                      <img src="assets/img/logo/etero.png" alt="" />
                     </a>
                   </div>
 
@@ -28,13 +28,8 @@ export default function Footer() {
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="https://www.instagram.com/etereolifestyle/">
                           <i className="fab fa-instagram"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i className="fab fa-twitter"></i>
                         </a>
                       </li>
                     </ul>
@@ -67,22 +62,8 @@ export default function Footer() {
               <div className="col-md-3 dsn-col-footer">
                 <div className="footer-block col-contact">
                   <h4 className="footer-title">Contact</h4>
-                  <p>
-                    <strong>T</strong> <span>:</span> +001 225 3351
-                  </p>
-                  <p>
-                    <strong>F</strong> <span>:</span>+001 225 3351
-                  </p>
-                  <p className="over-hidden">
-                    <strong>E</strong> <span>:</span>
-                    <a
-                      className="link-hover"
-                      data-hover-text="info@dsngrid.com"
-                      href="#"
-                    >
-                      info@dsngrid.com
-                    </a>
-                  </p>
+                  <p>HAMADE@ETEREOLIFESTYLE.COM</p>
+                  <p>JAMES@ETEREOLIFESTYLE.COM</p>
                 </div>
               </div>
 
@@ -91,11 +72,10 @@ export default function Footer() {
                   <h4 className="footer-title">Address</h4>
 
                   <p>
-                    El-Mahalla El-Kubra 37
-                    <br />
+                    Etereo Spirits LLC , Irvine, California 92606 – USA <br />
                     1776 Damietta
                     <br />
-                    Egypt
+                    2855 Michelle Drive Suite 280
                   </p>
                 </div>
               </div>
@@ -104,7 +84,7 @@ export default function Footer() {
 
           <div className="copyright">
             <div className="text-center">
-              <p>© 2020 Droow Digital Agency</p>
+              <p>© 2022 étereolifestyle </p>
               <div className="copright-text over-hidden">
                 Designed by{" "}
                 <a
@@ -113,7 +93,7 @@ export default function Footer() {
                   href="#"
                   target="_blank"
                 >
-                  DSN Grid
+                  SilverInternational
                 </a>
               </div>
             </div>

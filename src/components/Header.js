@@ -56,8 +56,8 @@ export default function Header() {
               <li>
                 <a href="about.html">Life Style</a>
               </li>
-              <li className="custom-drop-down">
-                <a href="#">Work</a>
+              <li>
+                <a href="Prosses">OUR PROCESS</a>
                 {/* <ul>
                   <li>
                     <a href="work.html">Shop</a>
@@ -88,7 +88,7 @@ export default function Header() {
                 <a href="contact.html">NFT</a>
               </li>
               <li>
-                <a href="contact.html">Contact</a>
+                <a href="Prosses">Contact</a>
               </li>
             </ul>
           </nav>

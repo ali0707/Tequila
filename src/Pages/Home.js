@@ -8,16 +8,17 @@ export default function Home() {
         <div class="preloader-after"></div>
         <div class="preloader-before"></div>
         <div class="preloader-block">
-          <div class="title">Droow</div>
+          <div class="title">étereo </div>
           <div class="percent">0</div>
-          <div class="loading">loading...</div>
+          <div class="loading">
+            <iframe src="https://embed.lottiefiles.com/animation/29783"></iframe>
+          </div>
         </div>
         <div class="preloader-bar">
           <div class="preloader-progress"></div>
         </div>
       </div>
-      <Header />
-      <main class="main-root">
+      <div class="main-root">
         <div id="dsn-scrollbar">
           <header>
             <div
@@ -30,16 +31,10 @@ export default function Home() {
                 data-dsn-ajax="img"
               >
                 <div class=" " data-dsn="video" data-overlay="4">
-                  <video
-                    class="bg-image cover-bg dsn-video"
-                    poster="assets/img/video-bg.jpg"
-                    autoplay
-                    loop
-                    muted
-                    playsinline
-                  >
+                  <video class=" dsn-video" controls autoplay loop playsinline>
                     <source
-                      src="http://theme.dsngrid.com/video/videos.mp4"
+                      autoplay
+                      src="assets/videos/homevideo.mp4"
                       type="video/mp4"
                     />
                     Your browser does not support HTML5 video.
@@ -51,15 +46,15 @@ export default function Home() {
                 <div class="h-100">
                   <div class="row justify-content-center align-items-center h-100">
                     <div class="project-title" id="dsn-hero-parallax-title">
-                      <div class="sub-text-header">
-                        <h5>We make digital products and services.</h5>
-                      </div>
-
+                      {/* <div class="sub-text-header">
+                        <h5 class="arrow-left">We make digital products and services.</h5>
+                      </div> */}
+                      {/*
                       <div class="title-text-header">
                         <span class="title-text-header-inner">
-                          <span>We are digital agency.</span>
+                          <span class="arrow-left" >We are digital agency.</span>
                         </span>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>
@@ -91,18 +86,18 @@ export default function Home() {
                         complete journey that will awaken all of your senses.
                       </p>
 
-                      <h6 data-dsn-animate="text">SALVADOR DALI</h6>
+                      {/* <h6 data-dsn-animate="text">SALVADOR DALI</h6> */}
                       <small data-dsn-animate="text">About Us</small>
 
                       <div class="exper">
                         <div class="numb-ex">
                           <span class="word" data-dsn-animate="text">
-                            25
+                            6
                           </span>
                         </div>
 
                         <h4 data-dsn-animate="up">
-                          YEARS OF <br /> DIGITAL EXPERIENCE
+                          YEARS OF <br /> EXPERIENCE
                         </h4>
                       </div>
                     </div>
@@ -134,62 +129,47 @@ export default function Home() {
 
             <section class="our-services section-margin">
               <div class="container">
-                <div class="one-title">
+                <div class="one-title" style={{ textAlign: "center" }}>
                   <div class="title-sub-container">
                     <p class="title-sub">OUR SERVCIES</p>
                   </div>
-                  <h2 class="title-main">New Branding Agency</h2>
+                  <h2 class="title-main"> AWARDS AND REVIEWS </h2>
                 </div>
 
                 <div class="row">
-                  <div class="col-lg-6">
+                  <div class="col-lg-4">
                     <div class="services-item">
                       <div class="line-before"></div>
-                      <h4 class="subtitle">Brand Identity</h4>
+                      <h4 class="subtitle">TEQUILA AND SPIRITS</h4>
                       <p>
-                        As Vintage decided to have a closer look into fast-paced
-                        New York web design realm in person, we get to acquaint
-                        with most diverse and exceptionally captivating
-                        personalities.{" "}
+                        We can say with confidence that Etereo's products stand
+                        out among the competition. Each flavor--the blanco,
+                        reposado, and extra anejo--take you on a complete
+                        journey that is exactly what its name represents--out of
+                        this world..{" "}
                       </p>
                     </div>
                   </div>
 
-                  <div class="col-lg-6">
+                  <div class="col-lg-4">
                     <div class="services-item">
                       <div class="line-before"></div>
-                      <h4 class="subtitle">Brand Identity</h4>
+                      <h4 class="subtitle">ALPHA MARKETING</h4>
                       <p>
-                        As Vintage decided to have a closer look into fast-paced
-                        New York web design realm in person, we get to acquaint
-                        with most diverse and exceptionally captivating
-                        personalities.{" "}
+                        There is no tequila like this on the market. Any tequila
+                        aficionado understands the complexity of its flavors and
+                        the passion that has gone into every bottle. Salud!{" "}
                       </p>
                     </div>
                   </div>
-
-                  <div class="col-lg-6">
+                  <div class="col-lg-4">
                     <div class="services-item">
-                      <div class="line-before"></div>
-                      <h4 class="subtitle">Brand Identity</h4>
+                      <h4 class="subtitle">GLOBAL SPIRITS</h4>
                       <p>
-                        As Vintage decided to have a closer look into fast-paced
-                        New York web design realm in person, we get to acquaint
-                        with most diverse and exceptionally captivating
-                        personalities.{" "}
-                      </p>
-                    </div>
-                  </div>
-
-                  <div class="col-lg-6">
-                    <div class="services-item">
-                      <div class="line-before"></div>
-                      <h4 class="subtitle">Brand Identity</h4>
-                      <p>
-                        As Vintage decided to have a closer look into fast-paced
-                        New York web design realm in person, we get to acquaint
-                        with most diverse and exceptionally captivating
-                        personalities.{" "}
+                        After tasting hundreds of tequilas, this tequila is by
+                        far our favorite. The founders share their entire
+                        process using the traditional, lowland blue weber agave.
+                        You can taste the sweet agave flavors with each sip.{" "}
                       </p>
                     </div>
                   </div>
@@ -251,7 +231,7 @@ export default function Home() {
                         <div class="work-item slick-slide">
                           <img
                             class="has-top-bottom"
-                            src="assets/img/fond/fond-etereo.jpg"
+                            src="assets/img/tequila/mexican.png"
                             alt=""
                           />
                           <div class="item-border"></div>
@@ -261,10 +241,10 @@ export default function Home() {
                               data-dsn-grid="move-up"
                               class="effect-ajax"
                             >
-                              <h5 class="cat">Photography</h5>
-                              <h4>Nile - Kabutha</h4>
+                              <h5 class="cat">Cocktail MEXICAN </h5>
+                              <h4>MEXICAN NEGRONI</h4>
                               <span>
-                                <span>Veiw Project</span>
+                                <span>view Cocktail</span>
                               </span>
                             </a>
                           </div>
@@ -273,7 +253,7 @@ export default function Home() {
                         <div class="work-item slick-slide">
                           <img
                             class="has-top-bottom"
-                            src="assets/img/project/project6/1.jpg"
+                            src="assets/img/tequila/mexican.png"
                             alt=""
                           />
                           <div class="item-border"></div>
@@ -283,10 +263,10 @@ export default function Home() {
                               data-dsn-grid="move-up"
                               class="effect-ajax"
                             >
-                              <h5 class="cat">Fashion</h5>
-                              <h4>Bloawshom</h4>
+                              <h5 class="cat">PINA JALAPEÑO DELICIOUS </h5>
+                              <h4>THE PERFECT MIX</h4>
                               <span>
-                                <span>Veiw Project</span>
+                                <span>view Cocktail</span>
                               </span>
                             </a>
                           </div>
@@ -295,20 +275,20 @@ export default function Home() {
                         <div class="work-item slick-slide">
                           <img
                             class="has-top-bottom"
-                            src="assets/img/project/project4/1.jpg"
+                            src="assets/img/tequila/margou.png"
                             alt=""
                           />
                           <div class="item-border"></div>
                           <div class="item-info">
                             <a
-                              href="project-4.html"
+                              href="project-6.html"
                               data-dsn-grid="move-up"
                               class="effect-ajax"
                             >
-                              <h5 class="cat">Photography</h5>
-                              <h4>Bastian Bux</h4>
+                              <h5 class="cat">MARGUERITA COCKTAIL </h5>
+                              <h4>THE PERFECT MIX</h4>
                               <span>
-                                <span>Veiw Project</span>
+                                <span>view Cocktail</span>
                               </span>
                             </a>
                           </div>
@@ -317,7 +297,7 @@ export default function Home() {
                         <div class="work-item slick-slide">
                           <img
                             class="has-top-bottom"
-                            src="assets/img/project/project5/1.jpg"
+                            src="assets/img/tequila/margou.png"
                             alt=""
                           />
                           <div class="item-border"></div>
@@ -327,10 +307,10 @@ export default function Home() {
                               data-dsn-grid="move-up"
                               class="effect-ajax"
                             >
-                              <h5 class="cat">Fashion</h5>
-                              <h4>Bloawshom</h4>
+                              <h5 class="cat">WATERMELON</h5>
+                              <h4> JALAPEÑO MARGUERITA</h4>
                               <span>
-                                <span>Veiw Project</span>
+                                <span>view Cocktail</span>
                               </span>
                             </a>
                           </div>
@@ -347,10 +327,14 @@ export default function Home() {
               <div class="container">
                 <div class="row align-items-center h-100">
                   <div class="col-lg-6 ">
-                    <div class="box-im" data-dsn-grid="move-up">
+                    <div
+                      class="box-im"
+                      data-dsn-grid="move-up"
+                      style={{ borderRadius: "13px" }}
+                    >
                       <img
                         class="has-top-bottom"
-                        src="assets/img/project/project9/7.jpg"
+                        src="assets/img/tequila/tequila.jpg"
                         alt=""
                         data-dsn-move="20%"
                       />
@@ -360,23 +344,24 @@ export default function Home() {
                   <div class="col-lg-6">
                     <div class="box-info">
                       <div class="vertical-title" data-dsn-animate="up">
-                        <h2>Time Tag Watch.</h2>
+                        <h2>Life Style.</h2>
                       </div>
 
                       <h6 data-dsn-animate="up">
-                        Sometimes, we need to check the time, wondering when our
-                        work or meeting will finish, without getting caught by
-                        others.
+                        We ARE NOT SELLING TEQUILA ,WE ARE PURVEYING A
+                        LIFESTYLE.
                       </h6>
 
                       <p data-dsn-animate="up">
-                        To avoid your boss’s staring eye, you should not roll
-                        your eyes to check the time. The Time Tag Watch is a
-                        consummately appropriate for it. Those tags do the role
-                        of the hands of the watch. By rotating the face of the
-                        watch not the hands, it gets harder to be damaged. It
-                        provides you with experience to feel the time at the end
-                        of your finger without damaging your watch.
+                        We are selling a lifestyle paired with emotions,
+                        hype,good vibes,limited supply and prestige. we
+                        diffrentiate ourselves by offering a unique experience
+                        through a carefully curated & inspirational instagram
+                        gallery feed,influencer marketing and exlusive events
+                        worlwide,inspired by the work of legendary photographers
+                        slim aarons Mario testino,we already started creating
+                        content celebrating the unapologetically glamorous
+                        lifestyle portrayed by these masters.
                       </p>
 
                       <div class="link-custom" data-dsn-animate="up">
@@ -680,20 +665,9 @@ export default function Home() {
                 </div>
               </div>
             </section>
-
-            <section class="contact-up section-margin section-padding">
-              <div class="container">
-                <div class="c-wapp">
-                  <a href="contact.html" class="effect-ajax">
-                    <span class="hiring">We are hiring</span>
-                    <span class="career">Dare and contact us immediately!</span>
-                  </a>
-                </div>
-              </div>
-            </section>
           </div>
         </div>
-      </main>
+      </div>
 
       <div class="wait-loader">
         <div class="loader-inner">
