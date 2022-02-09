@@ -6,7 +6,7 @@ import RouterPage from "./Pages/RouterPage";
 function App() {
   return (
     <div className="App">
-      <Header />
+      {/* <Header /> */}
       <RouterPage />
       <Footer />
     </div>

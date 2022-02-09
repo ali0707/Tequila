@@ -98,9 +98,13 @@ export default function Prosses() {
                         </div>
 
                         <p>
-                          Sometimes, we need to check the time, wondering when
-                          our work or meeting will finish, without getting
-                          caught by others.
+                          The planting, tending, and harvesting of the blue
+                          weber agave plant remains a manual effort that relies
+                          on centuries-old know-how that has been passed down
+                          from generation to generation. The agave used in
+                          Etereo's tequila is grown in the distillery’s own
+                          fields in the lowlands which have been cultivated for
+                          three generations.
                         </p>
 
                         <div class="link-custom">
@@ -142,15 +146,18 @@ export default function Prosses() {
                               class="effect-ajax"
                               data-dsn-ajax="slider"
                             >
-                              COOKING{" "}
+                              COOKING
                             </a>
                           </div>
                         </div>
 
                         <p>
-                          Cal was first. The first public university in the
-                          great state of California. They are the pioneers. They
-                          are the trailblazers who started it all.
+                          During this step, steam injection within traditional
+                          brick ovens or stainless steel autoclaves is used to
+                          activate a chemical process within the piña that
+                          converts complex carbohydrates into simple fermentable
+                          sugars. Cooking also softens the piña, making the
+                          process of sugar extraction easier.
                         </p>
 
                         <div class="link-custom">
@@ -188,61 +195,11 @@ export default function Prosses() {
                         <div class="title-text-header">
                           <div class="title-text-header-inner">
                             <a
-                              href="project-3.html"
-                              class="effect-ajax"
-                              data-dsn-ajax="slider"
-                            >
-                              Re Styling
-                            </a>
-                          </div>
-                        </div>
-
-                        <p>
-                          Once the brand strategy was sharp and real for
-                          everyone inside of the company, all the brand behavior
-                          started to roll out as stationary material.
-                        </p>
-
-                        <div class="link-custom">
-                          <a
-                            href="project-3.html"
-                            class="image-zoom effect-ajax"
-                            data-dsn="parallax"
-                            data-dsn-ajax="slider"
-                          >
-                            <span>View Case</span>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="image-container">
-                      <div
-                        class="image-bg cover-bg"
-                        data-image-src="assets/img/steps/3.jpeg"
-                        data-overlay="0"
-                      >
-                        <img src="assets/img/steps/3.jpeg" alt="" />
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="slide-item swiper-slide">
-                    <div class="slide-content">
-                      <div class="slide-content-inner">
-                        <div class="project-metas">
-                          <div class="project-meta-box project-work cat">
-                            <span>Photography</span>
-                          </div>
-                        </div>
-
-                        <div class="title-text-header">
-                          <div class="title-text-header-inner">
-                            <a
                               href="project-8.html"
                               class="effect-ajax"
                               data-dsn-ajax="slider"
                             >
-                              Toast 2019 Reel
+                              Toast 2019 Reelxx
                             </a>
                           </div>
                         </div>
@@ -271,17 +228,17 @@ export default function Prosses() {
                         data-image-src="assets/img/steps/4.jpeg"
                         data-overlay="2"
                       >
-                        <img src="assets/img/steps/4.jpeg" alt="" />
+                        <img src="assets/img/steps/3.jpeg" alt="" />
                       </div>
 
                       <div class=" " data-dsn="video" data-overlay="4">
                         <div class="image-container">
                           <div
                             class="image-bg cover-bg"
-                            data-image-src="assets/img/steps/4.jpeg"
+                            data-image-src="assets/img/steps/3.jpeg"
                             data-overlay="0"
                           >
-                            <img src="assets/img/steps/4.jpeg" alt="" />
+                            <img src="assets/img/steps/3.jpeg" alt="" />
                           </div>
                         </div>
                       </div>
@@ -304,14 +261,16 @@ export default function Prosses() {
                               class="effect-ajax"
                               data-dsn-ajax="slider"
                             >
-                              Nile - Kabutha
+                              Fermentation{" "}
                             </a>
                           </div>
                         </div>
 
                         <p>
-                          Striking and powerful Aston Martin Vantage captivates
-                          you at the first sight.
+                          During the fermentation process the sugars are
+                          transformed into alcohol within large wooden vats or
+                          stainless steel tanks. Yeast may be added to
+                          accelerate and control the fermentation.
                         </p>
 
                         <div class="link-custom">
@@ -340,27 +299,28 @@ export default function Prosses() {
                   <div class="slide-item swiper-slide">
                     <div class="slide-content">
                       <div class="slide-content-inner">
-                        <div class="project-metas">
-                          <div class="project-meta-box project-work cat">
-                            <span>Photography</span>
-                          </div>
-                        </div>
-
                         <div class="title-text-header">
                           <div class="title-text-header-inner">
                             <a
-                              href="project-6.html"
+                              href="project-7.html"
                               class="effect-ajax"
                               data-dsn-ajax="slider"
                             >
-                              Sleep Walker
+                              AGING
                             </a>
                           </div>
                         </div>
 
+                        <p>
+                          Almost all containers used in tequila aging are French
+                          or American white oak barrels that have previously
+                          been used to age bourbon. Reposados are aged between
+                          two and twelve months
+                        </p>
+
                         <div class="link-custom">
                           <a
-                            href="project-6.html"
+                            href="project-7.html"
                             class="image-zoom effect-ajax"
                             data-dsn="parallax"
                             data-dsn-ajax="slider"
@@ -374,7 +334,7 @@ export default function Prosses() {
                       <div
                         class="image-bg cover-bg"
                         data-image-src="assets/img/steps/6.jpeg"
-                        data-overlay="5"
+                        data-overlay="2"
                       >
                         <img src="assets/img/steps/6.jpeg" alt="" />
                       </div>
@@ -384,32 +344,30 @@ export default function Prosses() {
                   <div class="slide-item swiper-slide">
                     <div class="slide-content">
                       <div class="slide-content-inner">
-                        <div class="project-metas">
-                          <div class="project-meta-box project-work cat">
-                            <span>Sports</span>
-                          </div>
-                        </div>
-
                         <div class="title-text-header">
                           <div class="title-text-header-inner">
                             <a
-                              href="project-1.html"
+                              href="project-7.html"
                               class="effect-ajax"
                               data-dsn-ajax="slider"
                             >
-                              Magista
+                              BOTTLING
                             </a>
                           </div>
                         </div>
 
                         <p>
-                          The Brief team has been sincerely committed to
-                          designing great communication around our projects.{" "}
+                          Almost all containers used in tequila aging are French
+                          or American white oak barrels that have previously
+                          been used to age bourbon. Reposados are aged between
+                          two and twelve months, Añejos are aged between one and
+                          three years and Extra Añejos are aged for over three
+                          years
                         </p>
 
                         <div class="link-custom">
                           <a
-                            href="project-1.html"
+                            href="project-7.html"
                             class="image-zoom effect-ajax"
                             data-dsn="parallax"
                             data-dsn-ajax="slider"
@@ -479,55 +437,6 @@ export default function Prosses() {
                       </div>
                     </div>
                   </div>
-
-                  <div class="slide-item swiper-slide">
-                    <div class="slide-content">
-                      <div class="slide-content-inner">
-                        <div class="project-metas">
-                          <div class="project-meta-box project-work cat">
-                            <span>Architecture</span>
-                          </div>
-                        </div>
-
-                        <div class="title-text-header">
-                          <div class="title-text-header-inner">
-                            <a
-                              href="project-5.html"
-                              class="effect-ajax"
-                              data-dsn-ajax="slider"
-                            >
-                              Novara Conic
-                            </a>
-                          </div>
-                        </div>
-
-                        <p>
-                          Cal was first. The first public university in the
-                          great state of California. They are the pioneers.
-                        </p>
-
-                        <div class="link-custom">
-                          <a
-                            href="project-5.html"
-                            class="image-zoom effect-ajax"
-                            data-dsn="parallax"
-                            data-dsn-ajax="slider"
-                          >
-                            <span>View Case</span>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="image-container">
-                      <div
-                        class="image-bg cover-bg"
-                        data-image-src="assets/img/project/project5/1.jpg"
-                        data-overlay="4"
-                      >
-                        <img src="assets/img/project/project5/1.jpg" alt="" />
-                      </div>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
@@ -565,7 +474,7 @@ export default function Prosses() {
                   <div class="image-container">
                     <div
                       class="image-bg cover-bg"
-                      data-image-src="assets/img/steps/3.jpg"
+                      data-image-src="assets/img/steps/3.jpeg"
                       data-overlay="2"
                     ></div>
                   </div>
@@ -726,18 +635,14 @@ export default function Prosses() {
                     <div class="num">
                       <small>01</small>
                     </div>
-                    <h3>Time Tag Watch</h3>
-
-                    <div class="project-type">
-                      <span>Brands</span>
-                    </div>
+                    <h3>HARVESTING</h3>
                   </a>
                 </li>
 
                 <li class="work-item ">
                   <img
                     class="dsn-animate-webgl"
-                    src="assets/img/project/project4/2.jpg"
+                    src="assets/img/steps/1.jpg"
                     alt=""
                   />
                   <a
@@ -748,17 +653,13 @@ export default function Prosses() {
                     <div class="num">
                       <small>02</small>
                     </div>
-                    <h3>Under Armour</h3>
-
-                    <div class="project-type">
-                      <span>Brands</span>
-                    </div>
+                    <h3>COOKING</h3>
                   </a>
                 </li>
                 <li class="work-item">
                   <img
                     class="dsn-animate-webgl"
-                    src="assets/img/project/project3/1.jpg"
+                    src="assets/img/steps/2.jpeg"
                     alt=""
                   />
 
@@ -770,18 +671,14 @@ export default function Prosses() {
                     <div class="num">
                       <small>03</small>
                     </div>
-                    <h3>Re Styling</h3>
-
-                    <div class="project-type">
-                      <span>Photography</span>
-                    </div>
+                    <h3>EXTRACTION</h3>
                   </a>
                 </li>
 
                 <li class="work-item">
                   <img
                     class="dsn-animate-webgl"
-                    src="assets/img/steps/4.jpeg"
+                    src="assets/img/steps/3.jpg"
                     alt=""
                   />
 
@@ -793,18 +690,14 @@ export default function Prosses() {
                     <div class="num">
                       <small>04</small>
                     </div>
-                    <h3>Toast 2019 Reel</h3>
-
-                    <div class="project-type">
-                      <span>Architecture</span>
-                    </div>
+                    <h3>Fermentation</h3>
                   </a>
                 </li>
 
                 <li class="work-item">
                   <img
                     class="dsn-animate-webgl"
-                    src="assets/img/project/project7/1.jpg"
+                    src="assets/img/steps/4.jpeg"
                     alt=""
                   />
 
@@ -816,18 +709,14 @@ export default function Prosses() {
                     <div class="num">
                       <small>05</small>
                     </div>
-                    <h3>Nile - Kabutha</h3>
-
-                    <div class="project-type">
-                      <span>PHOTOGRAPHY</span>
-                    </div>
+                    <h3>DISTILLATION</h3>
                   </a>
                 </li>
 
                 <li class="work-item">
                   <img
                     class="dsn-animate-webgl"
-                    src="assets/img/project/project6/1.jpg"
+                    src="assets/img/steps/5.jpg"
                     alt=""
                   />
 
@@ -839,18 +728,14 @@ export default function Prosses() {
                     <div class="num">
                       <small>06</small>
                     </div>
-                    <h3>Sleep Walker</h3>
-
-                    <div class="project-type">
-                      <span>Industrial Design</span>
-                    </div>
+                    <h3>AGING</h3>
                   </a>
                 </li>
 
                 <li class="work-item">
                   <img
                     class="dsn-animate-webgl"
-                    src="assets/img/project/project1/1.jpg"
+                    src="assets/img/steps/6.jpeg"
                     alt=""
                   />
 
@@ -862,58 +747,16 @@ export default function Prosses() {
                     <div class="num">
                       <small>07</small>
                     </div>
-                    <h3>Magista</h3>
-
-                    <div class="project-type">
-                      <span>Sports</span>
-                    </div>
+                    <h3>BOTTLING</h3>
                   </a>
                 </li>
 
                 <li class="work-item">
                   <img
                     class="dsn-animate-webgl"
-                    src="assets/img/project/project2/1.jpg"
+                    src="assets/img/steps/6.jpg"
                     alt=""
                   />
-
-                  <a
-                    href="project-2.html"
-                    class="effect-ajax"
-                    data-dsn-ajax="list"
-                  >
-                    <div class="num">
-                      <small>08</small>
-                    </div>
-                    <h3>Bastian Bux</h3>
-
-                    <div class="project-type">
-                      <span>Photography</span>
-                    </div>
-                  </a>
-                </li>
-
-                <li class="work-item">
-                  <img
-                    class="dsn-animate-webgl"
-                    src="assets/img/project/project5/1.jpg"
-                    alt=""
-                  />
-
-                  <a
-                    href="project-5.html"
-                    class="effect-ajax"
-                    data-dsn-ajax="list"
-                  >
-                    <div class="num">
-                      <small>09</small>
-                    </div>
-                    <h3>Novara Conic</h3>
-
-                    <div class="project-type">
-                      <span>Architecture</span>
-                    </div>
-                  </a>
                 </li>
               </ul>
             </div>
@@ -929,26 +772,6 @@ export default function Prosses() {
           </div>
         </div>
       </main>
-
-      <div class="wait-loader">
-        <div class="loader-inner">
-          <div class="loader-circle">
-            <div class="loader-layer"></div>
-          </div>
-        </div>
-      </div>
-
-      <div class="cursor">
-        <div class="cursor-helper cursor-view">
-          <span>VIEW</span>
-        </div>
-
-        <div class="cursor-helper cursor-close">
-          <span>Close</span>
-        </div>
-
-        <div class="cursor-helper cursor-link"></div>
-      </div>
     </div>
   );
 }

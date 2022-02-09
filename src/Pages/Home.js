@@ -18,6 +18,8 @@ export default function Home() {
           <div class="preloader-progress"></div>
         </div>
       </div>
+      <Header />
+
       <div class="main-root">
         <div id="dsn-scrollbar">
           <header>
@@ -116,11 +118,42 @@ export default function Home() {
                     style={{ borderRadius: "20px" }}
                   >
                     <div class="img-container">
-                      <img
-                        data-dsn-y="30%"
-                        src="assets/img/fond/fond-etereo.jpg"
-                        alt=""
-                      />
+                      <table>
+                        <tr>
+                          <th>
+                            {" "}
+                            <img
+                              style={{ borderRadius: "30px 0px 0px 30px" }}
+                              data-dsn-y="30%"
+                              src="assets/img/tequila/1.jpg"
+                              alt=""
+                            />
+                          </th>
+                          <th>
+                            {" "}
+                            <img
+                              // style={{ borderRadius: "20px" }}
+                              data-dsn-y="30%"
+                              src="assets/img/tequila/3.jpg"
+                              alt=""
+                            />
+                          </th>
+                          <th>
+                            {" "}
+                            <img
+                              style={{ borderRadius: "1px 30px 30px 1px" }}
+                              data-dsn-y="30%"
+                              src="assets/img/tequila/2.jpg"
+                              alt=""
+                            />
+                          </th>
+                        </tr>
+                        <tr>
+                          <td> </td>
+                          <td></td>
+                          <td> </td>
+                        </tr>
+                      </table>
                     </div>
                   </div>
                 </div>
@@ -667,26 +700,6 @@ export default function Home() {
             </section>
           </div>
         </div>
-      </div>
-
-      <div class="wait-loader">
-        <div class="loader-inner">
-          <div class="loader-circle">
-            <div class="loader-layer"></div>
-          </div>
-        </div>
-      </div>
-
-      <div class="cursor">
-        <div class="cursor-helper cursor-view">
-          <span>VIEW</span>
-        </div>
-
-        <div class="cursor-helper cursor-close">
-          <span>Close</span>
-        </div>
-
-        <div class="cursor-helper cursor-link"></div>
       </div>
     </div>
   );
