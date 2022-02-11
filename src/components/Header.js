@@ -32,7 +32,7 @@ export default function Header() {
                 <a href="AboutUs">About Us</a>
               </li>
               <li>
-                <a href="about.html">Life Style</a>
+                <a href="LifeStyle">Life Style</a>
               </li>
               <li>
                 <a href="Prosses">OUR PROCESS</a>
