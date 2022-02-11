@@ -26,25 +26,25 @@ export default function Header() {
           <nav className=" accent-menu main-navigation">
             <ul className="extend-container">
               <li>
-                <a href="/">Home</a>
+                <a href="/">HOME</a>
               </li>
               <li >
-                <a href="AboutUs">About Us</a>
+                <a href="AboutUs">ABOUT US</a>
               </li>
               <li>
-                <a href="LifeStyle">Life Style</a>
+                <a href="LifeStyle">LIFESTYLE</a>
               </li>
               <li>
                 <a href="Prosses">OUR PROCESS</a>
               </li>
               <li>
-                <a href="Shop">Shop</a>
+                <a href="Shop">SHOP</a>
               </li>
               <li>
                 <a href="Nft">NFT</a>
               </li>
               <li>
-                <a href="contact">Contact</a>
+                <a href="contact">CONTACT</a>
               </li>
             </ul>
           </nav>
@@ -89,10 +89,10 @@ export default function Header() {
           </div>
           <div className="nav-content">
             <div className="inner-content">
-            <address class="v-middle">
-                  <span> California 92606 – USA</span>
-                  <span>Etereo Spirits LLC 2855 Michelle Drive Suite 280 , Irvine,</span>
-                </address>
+              <address class="v-middle">
+                <span> California 92606 – USA</span>
+                <span>Etereo Spirits LLC 2855 Michelle Drive Suite 280 , Irvine,</span>
+              </address>
             </div>
           </div>
         </div>
