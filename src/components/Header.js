@@ -28,7 +28,7 @@ export default function Header() {
               <li>
                 <a href="/">Home</a>
               </li>
-              <li className="custom-drop-down">
+              <li >
                 <a href="AboutUs">About Us</a>
               </li>
               <li>
@@ -89,11 +89,10 @@ export default function Header() {
           </div>
           <div className="nav-content">
             <div className="inner-content">
-              <address className="v-middle">
-                <span>Egypt</span>
-                <span>Damietta,El-Mahalla El-Kubra,</span>
-                <span>01024552406 , 01004392260</span>
-              </address>
+            <address class="v-middle">
+                  <span> California 92606 – USA</span>
+                  <span>Etereo Spirits LLC 2855 Michelle Drive Suite 280 , Irvine,</span>
+                </address>
             </div>
           </div>
         </div>

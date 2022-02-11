@@ -25,10 +25,10 @@ export default function Header2() {
           </div>
           <nav className=" accent-menu main-navigation">
             <ul className="extend-container">
-              <li className="custom-drop-down">
+              <li >
                 <a href="etereo">Home</a>
               </li>
-              <li className="custom-drop-down">
+              <li >
                 <a href="AboutUs">About Us</a>
               </li>
               <li>
@@ -37,7 +37,7 @@ export default function Header2() {
               <li>
                 <a href="Prosses">OUR PROCESS</a>
               </li>
-              <li className="custom-drop-down">
+              <li >
                 <a href="Shop">Shop</a>
               </li>
               <li>

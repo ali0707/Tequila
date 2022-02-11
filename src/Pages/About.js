@@ -32,9 +32,10 @@ export default function About() {
                     <div class="row align-items-center h-100">
                         <div class="col-lg-12">
                             <div class="contenet-hero">
-                                <h1>THE ART OF LUXURY APPAREL</h1>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis mollitia libero
-                                    quis odio unde ab officia est dolor.</p>
+                                <h1>LIFESTYLE</h1>
+                                <p>We Are Not Selling Tequila,
+We Are Purveying A
+LifeStyle"</p>
                                 <a href="#" class="view-case scroll-down scroll-to">Scroll Down <img
                                         src="assets/img/arrow-right-wight.png" alt=""/></a>
                             </div>
@@ -49,16 +50,19 @@ export default function About() {
                 <div class="box-seat box-seat-full">
                     <div class="container-fluid">
                         <div class="inner-img" data-dsn-grid="move-up">
-                            <img src="assets/img/pexels.jpg" alt="" data-dsn-y="30%" data-dsn-scale="1"/>
+                            <img src="assets/img/wow.png" alt="" data-dsn-y="30%" data-dsn-scale="1"/>
                         </div>
                         <div class="pro-text">
-                            <h3 data-dsn-animate="up">Hello we are, <br/> Dsn Grid.</h3>
-                            <p data-dsn-animate="up">Founded in 2000, Dsn Grid has become one of the best
-                                Digital
-                                Agency in
-                                ThemeForest.
-                                Blue money going forward, but deploy to production. C-suite. First-order optimal
-                                strategies build on a culture of contribution and inclusion so those options
+                            <h4 data-dsn-animate="up">
+                                We are selling a lifestyle paired with emotions hype, good vibes <br/>limited supply and prestige.</h4>
+                            <p data-dsn-animate="up">
+                            We differentiate ourselves by offering a unique 
+                            experience through a carefully curated & inspirational 
+                            Instagram gallery feed, 
+                            influencer marketing and exclusive events worldwide. 
+                            Inspired by the work of legendary photographers Slim Aarons, 
+                            Mario Testino, we already started creating content celebrating the unapologetically glamorous lifestyle portrayed by these masters. 
+							
 
                             </p>
                         </div>
@@ -97,50 +101,48 @@ export default function About() {
                 <section class="our-services section-margin">
                     <div class="container">
                         <div class="one-title" data-dsn-animate="up">
-                            <div class="title-sub-container">
-                                <p class="title-sub">OUR SERVCIES</p>
-                            </div>
-                            <h2 class="title-main">New Branding Agency</h2>
+                         
+                            <h2 class="title-main">OUR STORY</h2>
                         </div>
 
                         <div class="row">
+                        
+                        <div class="col-md-6">
+                                <div class="services-item">
+                                    <div class="line-before"></div>
+                                    <h4 class="subtitle">Etereto</h4>
+                                    <p> We found the perfect balance beteween the past and present clean,minimalist and timeless with a strong creative logo 
+                                        that embodies the true roots of our products. Our logo is defined by two distinct elements 
+                                        The toltec Cyclops symbol discovered in the ancient cave located in mexico.
+                                        The Eétreo agave plant Surounding our logo as a crown
+                                        /sun to enhance the importance of our tequila flavors
+                                         </p>
+                                </div>
+                            </div>
                             <div class="col-md-6">
                                 <div class="services-item">
                                     <div class="line-before"></div>
-                                    <h4 class="subtitle">Brand Identity</h4>
-                                    <p>As Vintage decided to have a closer look into fast-paced New York web design
-                                        realm in person, we get to acquaint with most diverse and exceptionally
-                                        captivating personalities. </p>
+                                    <h4 class="subtitle">“BEYOND TEQUILA, IT IS A LIFESTYLE.
+</h4>
+                                    <p>The founders, from all across the globe, met one night at an exclusive nightclub in London. After several tequila shots and despite barely meeting, the newfound group of friends spontaneously booked flights to Ibiza and shared more epic memories together, including being backstage with Black Coffee. The friends wanted to share their out-of-body experience with the world, and Etéreo was born.</p>
                                 </div>
                             </div>
 
                             <div class="col-md-6">
                                 <div class="services-item">
                                     <div class="line-before"></div>
-                                    <h4 class="subtitle">Brand Identity</h4>
-                                    <p>As Vintage decided to have a closer look into fast-paced New York web design
-                                        realm in person, we get to acquaint with most diverse and exceptionally
-                                        captivating personalities. </p>
+                                    <h4 class="subtitle">“WE ARE CREATING MORE THAN A TEQUILA, WE ARE PURVIVING A LIFESTYLE.</h4>
+                                    <p>Our logo was also carefully curated to evoke the “Etéreo” brand, which is combined of two designs: (1) an ancient Toltec petroglyph discovered thousands of years ago in a Mexican cave resembling a one-eyed creature described as “out of this world”; and (2) the blue weber agave plant as an ornament on top of its head. Our logo is timeless and intended to pay homage to the Mexican heritage. </p>
                                 </div>
                             </div>
+
+                          
 
                             <div class="col-md-6">
                                 <div class="services-item">
                                     <div class="line-before"></div>
-                                    <h4 class="subtitle">Brand Identity</h4>
-                                    <p>As Vintage decided to have a closer look into fast-paced New York web design
-                                        realm in person, we get to acquaint with most diverse and exceptionally
-                                        captivating personalities. </p>
-                                </div>
-                            </div>
-
-                            <div class="col-md-6">
-                                <div class="services-item">
-                                    <div class="line-before"></div>
-                                    <h4 class="subtitle">Brand Identity</h4>
-                                    <p>As Vintage decided to have a closer look into fast-paced New York web design
-                                        realm in person, we get to acquaint with most diverse and exceptionally
-                                        captivating personalities. </p>
+                                    <h4 class="subtitle">Etéreo is the synergy of an American & French vision rooted in the London nightlife</h4>
+                                    <p>Etéreo, which is Spanish for “ethereal” in English, means “out of this world or heavenly.” This is the perfect description to capture those unforgettable moments and memories that define your unique lifestyle, and it is the perfect description when you take a sip of Etéreo—a true out-of-body experience.</p>
                                 </div>
                             </div>
                         </div>
@@ -158,49 +160,28 @@ export default function About() {
 
                         <div class="custom-container">
                             <div class="slick-slider">
-                                <div class="team-item slick-slide">
-                                    <div class="box-img">
-                                        <img src="assets/img/team/1.png" alt=""/>
+                                <div class="team-item slick-slide" >
+                                    <div class="box-img"  style={{borderRadius:"25px"}}>
+                                        <img src="assets/img/one.jpeg" alt=""/>
                                     </div>
 
                                     <div class="box-content">
-                                        <h4>Blake Hamilton</h4>
-                                        <p>Project manager</p>
+                                        <h4>HAMADE NASSER</h4>
+                                        <p>Co-Founder</p>
                                     </div>
                                 </div>
 
                                 <div class="team-item slick-slide">
-                                    <div class="box-img">
-                                        <img src="assets/img/team/2.png" alt=""/>
+                                    <div class="box-img" style={{borderRadius:"25px"}}>
+                                    <img src="assets/img/two.jpeg" alt=""/>
                                     </div>
 
                                     <div class="box-content">
-                                        <h4>Ahmed Shawky</h4>
-                                        <p>Web Designer</p>
+                                        <h4>JAMES LING </h4>
+                                        <p>Co-Founder</p>
                                     </div>
                                 </div>
 
-                                <div class="team-item slick-slide">
-                                    <div class="box-img">
-                                        <img src="assets/img/team/3.png" alt=""/>
-                                    </div>
-
-                                    <div class="box-content">
-                                        <h4>John Doe</h4>
-                                        <p>Engineer</p>
-                                    </div>
-                                </div>
-
-                                <div class="team-item slick-slide">
-                                    <div class="box-img">
-                                        <img src="assets/img/team/4.png" alt=""/>
-                                    </div>
-
-                                    <div class="box-content">
-                                        <h4>Hesham Megahed</h4>
-                                        <p>Founder</p>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -256,7 +237,7 @@ export default function About() {
 
                         <div class="wapper-client">
                             <div class="logo-box">
-                                <img src="assets/img/logo/1.png" alt=""/>
+                                <img src="assets/img/team/CAP1.png" alt=""/>
 
                                 <div class="info">
                                     <div class="content">
@@ -275,7 +256,7 @@ export default function About() {
                             </div>
 
                             <div class="logo-box">
-                                <img src="assets/img/logo/2.png" alt=""/>
+                            <img src="assets/img/team/cap2.png" alt=""/>
 
                                 <div class="info">
                                     <div class="content">
@@ -294,7 +275,7 @@ export default function About() {
                             </div>
 
                             <div class="logo-box">
-                                <img src="assets/img/logo/3.png" alt=""/>
+                            <img src="assets/img/team/cap3.png" alt=""/>
 
                                 <div class="info">
                                     <div class="content">
@@ -313,7 +294,7 @@ export default function About() {
                             </div>
 
                             <div class="logo-box">
-                                <img src="assets/img/logo/4.png" alt=""/>
+                            <img src="assets/img/team/cap4.png" alt=""/>
 
                                 <div class="info">
                                     <div class="content">
@@ -332,7 +313,7 @@ export default function About() {
                             </div>
 
                             <div class="logo-box">
-                                <img src="assets/img/logo/5.png" alt=""/>
+                            <img src="assets/img/team/cap5.png" alt=""/>
 
                                 <div class="info">
                                     <div class="content">
@@ -350,24 +331,6 @@ export default function About() {
                                 </div>
                             </div>
 
-                            <div class="logo-box">
-                                <img src="assets/img/logo/6.png" alt=""/>
-
-                                <div class="info">
-                                    <div class="content">
-                                        <div class="icon">
-                                            <i class="fas fa-plus"></i>
-                                        </div>
-
-                                        <div class="entry">
-                                            <div>
-                                                <h5>Google</h5>
-                                                <a href="#">www.google.com</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </section>
@@ -377,13 +340,17 @@ export default function About() {
             <section class="contact-up section-margin section-padding">
                 <div class="container">
                     <div class="c-wapp">
-                        <a href="contact.html" class="effect-ajax">
+                        <a class="effect-ajax">
                             <span class="hiring">
-                                We are hiring
-                            </span>
+                            Sign up for our NEWLETTERS
+                                                        </span>
                             <span class="career">
-                                Dare and contact us immediately!
-                            </span>
+                            <label>
+    YOUR Email:
+    <input type="text" name="EMAIL" />
+  </label>
+  <input type="submit" value="SEND" />
+                                </span>
                         </a>
                     </div>
                 </div>

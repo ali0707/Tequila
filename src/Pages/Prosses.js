@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "../components/Header";
+import Header2 from "../components/Header2";
 
 export default function Prosses() {
   return (
@@ -19,7 +20,7 @@ export default function Prosses() {
           <div class="preloader-progress"></div>
         </div>
       </div>
-      <Header />
+      <Header2/>
       <div class="dsn-nav-bar">
         <div class="header-top header-top-hamburger">
           <div class="header-container">
