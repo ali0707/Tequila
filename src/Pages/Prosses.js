@@ -1,4 +1,5 @@
 import React from "react";
+import Header from "../components/Header";
 
 export default function Prosses() {
   return (
@@ -18,7 +19,7 @@ export default function Prosses() {
           <div class="preloader-progress"></div>
         </div>
       </div>
-
+      <Header />
       <div class="dsn-nav-bar">
         <div class="header-top header-top-hamburger">
           <div class="header-container">
@@ -430,10 +431,10 @@ export default function Prosses() {
                     <div class="image-container">
                       <div
                         class="image-bg cover-bg"
-                        data-image-src="assets/img/project/project2/1.jpg"
+                        data-image-src="assets/img/steps/7.jpg"
                         data-overlay="0"
                       >
-                        <img src="assets/img/project/project2/1.jpg" alt="" />
+                        <img src="assets/img/steps/7.jpg" alt="" />
                       </div>
                     </div>
                   </div>
@@ -624,7 +625,7 @@ export default function Prosses() {
                 <li class="work-item dsn-active">
                   <img
                     class="dsn-animate-webgl"
-                    src="assets/img/project/project9/1.jpg"
+                    src="assets/img/steps/1.jpg"
                     alt=""
                   />
                   <a
@@ -642,7 +643,7 @@ export default function Prosses() {
                 <li class="work-item ">
                   <img
                     class="dsn-animate-webgl"
-                    src="assets/img/steps/1.jpg"
+                    src="assets/img/steps/2.jpeg"
                     alt=""
                   />
                   <a
@@ -659,7 +660,7 @@ export default function Prosses() {
                 <li class="work-item">
                   <img
                     class="dsn-animate-webgl"
-                    src="assets/img/steps/2.jpeg"
+                    src="assets/img/steps/3.jpeg"
                     alt=""
                   />
 
@@ -678,7 +679,7 @@ export default function Prosses() {
                 <li class="work-item">
                   <img
                     class="dsn-animate-webgl"
-                    src="assets/img/steps/3.jpg"
+                    src="assets/img/steps/3.jpeg"
                     alt=""
                   />
 
@@ -697,7 +698,7 @@ export default function Prosses() {
                 <li class="work-item">
                   <img
                     class="dsn-animate-webgl"
-                    src="assets/img/steps/4.jpeg"
+                    src="assets/img/steps/5.jpg"
                     alt=""
                   />
 
@@ -716,7 +717,7 @@ export default function Prosses() {
                 <li class="work-item">
                   <img
                     class="dsn-animate-webgl"
-                    src="assets/img/steps/5.jpg"
+                    src="assets/img/steps/6.jpeg"
                     alt=""
                   />
 
@@ -735,7 +736,7 @@ export default function Prosses() {
                 <li class="work-item">
                   <img
                     class="dsn-animate-webgl"
-                    src="assets/img/steps/6.jpeg"
+                    src="assets/img/steps/7.jpg"
                     alt=""
                   />
 
@@ -754,7 +755,7 @@ export default function Prosses() {
                 <li class="work-item">
                   <img
                     class="dsn-animate-webgl"
-                    src="assets/img/steps/6.jpg"
+                    src="assets/img/steps/7.jpg"
                     alt=""
                   />
                 </li>

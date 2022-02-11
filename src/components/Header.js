@@ -26,10 +26,10 @@ export default function Header() {
           <nav className=" accent-menu main-navigation">
             <ul className="extend-container">
               <li className="custom-drop-down">
-                <a href="#">Home</a>
+                <a href="/">Home</a>
               </li>
               <li className="custom-drop-down">
-                <a href="#">About Us</a>
+                <a href="AboutUs">About Us</a>
               </li>
               <li>
                 <a href="about.html">Life Style</a>
@@ -37,14 +37,14 @@ export default function Header() {
               <li>
                 <a href="Prosses">OUR PROCESS</a>
               </li>
-              <li className="custom-drop-down">
-                <a href="#">Shop</a>
+              <li>
+                <a href="Shop">Shop</a>
               </li>
               <li>
-                <a href="contact.html">NFT</a>
+                <a href="Nft">NFT</a>
               </li>
               <li>
-                <a href="Prosses">Contact</a>
+                <a href="contact">Contact</a>
               </li>
             </ul>
           </nav>
