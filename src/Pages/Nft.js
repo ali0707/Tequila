@@ -170,7 +170,7 @@ export default function Nft() {
                     <div class="c-wapp">
                         <a class="effect-ajax">
                             <span class="hiring">
-                            Sign up for our NEWLETTERS
+                            Sign up for our NEWLETTERS !
                                                         </span>
                             <span class="career">
                             <label>
