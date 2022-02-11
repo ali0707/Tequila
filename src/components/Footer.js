@@ -100,7 +100,7 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <div class="cursor">
+      {/* <div class="cursor">
         <div class="cursor-helper cursor-view">
           <span>VIEW</span>
         </div>
@@ -110,7 +110,7 @@ export default function Footer() {
         </div>
 
         <div class="cursor-helper cursor-link"></div>
-      </div>
+      </div> */}
     </div>
   );
 }

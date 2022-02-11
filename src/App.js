@@ -8,6 +8,7 @@ function App() {
     <div className="App">
       {/* <Header /> */}
       <RouterPage />
+      {/* <Footer /> */}
     </div>
   );
 }

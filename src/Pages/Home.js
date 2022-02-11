@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 
 export default function Home() {
@@ -412,91 +413,7 @@ export default function Home() {
               </div>
             </div>
 
-            <section class="client-see section-margin">
-              <div class="container">
-                <div class="inner">
-                  <div class="left">
-                    <h2
-                      class="title"
-                      data-dsn-grid="move-section"
-                      data-dsn-move="-60"
-                      data-dsn-duration="100%"
-                      data-dsn-opacity="1"
-                      data-dsn-responsive="tablet"
-                    >
-                      <span class="text">Feedback from our clients.</span>
-                    </h2>
-                  </div>
-
-                  <div class="items">
-                    <div class="bg"></div>
-                    <div class="slick-slider">
-                      <div class="item">
-                        <div class="quote">
-                          <p>
-                            "The Brief team has been sincerely committed to
-                            designing great communication around our projects.
-                            Our customers love their creative work - and so do
-                            we!"
-                          </p>
-                        </div>
-                        <div class="bottom">
-                          <div class="avatar">
-                            <img src="assets/img/avatar/1.jpg" alt="" />
-                          </div>
-                          <div class="label">
-                            <div class="cell">
-                              - Helen Ginsberg, CEO of Treasure Island
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="item">
-                        <div class="quote">
-                          <p>
-                            "Stage direction, music, ballet, workshops,
-                            backstage, the GTG presents the first episode of the
-                            series “Les Indes galantes en création"
-                          </p>
-                        </div>
-                        <div class="bottom">
-                          <div class="avatar">
-                            <img src="assets/img/avatar/2.jpg" alt="" />
-                          </div>
-                          <div class="label">
-                            <div class="cell">
-                              - Helen Ginsberg, CEO of Treasure Island
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="item">
-                        <div class="quote">
-                          <p>
-                            "The Brief team has been sincerely committed to
-                            designing great communication around our projects.
-                            Our customers love their creative work - and so do
-                            we!"
-                          </p>
-                        </div>
-                        <div class="bottom">
-                          <div class="avatar">
-                            <img src="assets/img/avatar/3.jpg" alt="" />
-                          </div>
-                          <div class="label">
-                            <div class="cell">
-                              - Helen Ginsberg, CEO of Treasure Island
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
+          
 
             <section class="our-news section-margin">
               <div class="container">
@@ -509,62 +426,49 @@ export default function Home() {
                 <div class="custom-container">
                   <div class="slick-slider">
                     <div class="item-new slick-slide">
-                      <div class="image" data-overlay="5">
-                        <img src="assets/img/blog/1.jpg" alt="" />
+                      <div class="image" data-overlay="1"  style={{ borderRadius: "20px" }}>
+                      <img src="assets/img/fond/x.jpg" alt="" />
                       </div>
-                      <div class="content">
-                        <div class="background"></div>
-                        <h5>Web , Brand</h5>
+                      <div class="content"  >
+                        <div class="background"style={{ borderRadius: "20px" }}></div>
+                        <h5>LifeStyle</h5>
 
                         <div class="cta">
-                          <a href="#">Digital Photography Tips</a>
+                        <a href="LifeStyle">Learn More</a>
                         </div>
 
-                        <p>
-                          Simple point-and-shoot digital cameras can give
-                          surprising quality when they have the right lenses and
-                          sensors.
-                        </p>
                       </div>
                     </div>
 
                     <div class="item-new slick-slide">
-                      <div class="image" data-overlay="5">
-                        <img src="assets/img/blog/2.jpg" alt="" />
+                      <div class="image" data-overlay="1"  style={{ borderRadius: "20px" }}>
+                      <img src="assets/img/fond/et4.jpg" alt="" />
                       </div>
-                      <div class="content">
-                        <div class="background"></div>
-                        <h5>Web , Brand</h5>
+                      <div class="content"  >
+                        <div class="background"style={{ borderRadius: "20px" }}></div>
+                        <h5>Our Process</h5>
 
                         <div class="cta">
-                          <a href="#">Digital Photography Tips</a>
+                          <a href="Prosses">Learn More</a>
                         </div>
 
-                        <p>
-                          Simple point-and-shoot digital cameras can give
-                          surprising quality when they have the right lenses and
-                          sensors.
-                        </p>
                       </div>
                     </div>
 
                     <div class="item-new slick-slide">
-                      <div class="image" data-overlay="5">
-                        <img src="assets/img/blog/3.jpg" alt="" />
+                      <div class="image" data-overlay="1" style={{ borderRadius: "20px" }}>
+                        <img src="assets/img/fond/g.jpeg" alt="" />
                       </div>
-                      <div class="content">
-                        <div class="background"></div>
-                        <h5>Web , Brand</h5>
+                      <div class="content"  >
+                        <div class="background"style={{ borderRadius: "20px" }} ></div>
+                        <h5>LifeStyle</h5>
 
                         <div class="cta">
-                          <a href="#">Digital Photography Tips</a>
+                        <a href="Shop">hoodies and hats</a>
+
                         </div>
 
-                        <p>
-                          Simple point-and-shoot digital cameras can give
-                          surprising quality when they have the right lenses and
-                          sensors.
-                        </p>
+                      
                       </div>
                     </div>
                   </div>
@@ -582,125 +486,125 @@ export default function Home() {
                 </div>
 
                 <div class="wapper-client">
-                  <div class="logo-box">
-                    <img src="assets/img/logo/eterologo-blanc.png" alt="" />
+                <div class="logo-box">
+                            <img src="assets/img/logo/etero.png" alt=""/>
 
-                    <div class="info">
-                      <div class="content">
-                        <div class="icon">
-                          <i class="fas fa-plus"></i>
-                        </div>
+                                <div class="info">
+                                    <div class="content">
+                                        <div class="icon">
+                                            <i class="fas fa-plus"></i>
+                                        </div>
 
-                        <div class="entry">
-                          <div>
-                            <h5>Google</h5>
-                            <a href="#">www.google.com</a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="logo-box">
-                    <img src="assets/img/logo/eterologo-blanc.png" alt="" />
-
-                    <div class="info">
-                      <div class="content">
-                        <div class="icon">
-                          <i class="fas fa-plus"></i>
-                        </div>
-
-                        <div class="entry">
-                          <div>
-                            <h5>Google</h5>
-                            <a href="#">www.google.com</a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                                        <div class="entry">
+                                            <div>
+                                                <h5>Google</h5>
+                                                <a href="#">www.google.com</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 
                   <div class="logo-box">
-                    <img src="assets/img/logo/eterologo-blanc.png" alt="" />
+                            <img src="assets/img/logo/etero.png" alt=""/>
 
-                    <div class="info">
-                      <div class="content">
-                        <div class="icon">
-                          <i class="fas fa-plus"></i>
-                        </div>
+                                <div class="info">
+                                    <div class="content">
+                                        <div class="icon">
+                                            <i class="fas fa-plus"></i>
+                                        </div>
 
-                        <div class="entry">
-                          <div>
-                            <h5>Google</h5>
-                            <a href="#">www.google.com</a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                                        <div class="entry">
+                                            <div>
+                                                <h5>Google</h5>
+                                                <a href="#">www.google.com</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                  <div class="logo-box">
+                            <img src="assets/img/logo/etero.png" alt=""/>
+
+                                <div class="info">
+                                    <div class="content">
+                                        <div class="icon">
+                                            <i class="fas fa-plus"></i>
+                                        </div>
+
+                                        <div class="entry">
+                                            <div>
+                                                <h5>Google</h5>
+                                                <a href="#">www.google.com</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 
                   <div class="logo-box">
-                    <img src="assets/img/logo/eterologo-blanc.png" alt="" />
+                            <img src="assets/img/logo/etero.png" alt=""/>
 
-                    <div class="info">
-                      <div class="content">
-                        <div class="icon">
-                          <i class="fas fa-plus"></i>
-                        </div>
+                                <div class="info">
+                                    <div class="content">
+                                        <div class="icon">
+                                            <i class="fas fa-plus"></i>
+                                        </div>
 
-                        <div class="entry">
-                          <div>
-                            <h5>Google</h5>
-                            <a href="#">www.google.com</a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="logo-box">
-                    <img src="assets/img/logo/eterologo-blanc.png" alt="" />
-
-                    <div class="info">
-                      <div class="content">
-                        <div class="icon">
-                          <i class="fas fa-plus"></i>
-                        </div>
-
-                        <div class="entry">
-                          <div>
-                            <h5>Google</h5>
-                            <a href="#">www.google.com</a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                                        <div class="entry">
+                                            <div>
+                                                <h5>Google</h5>
+                                                <a href="#">www.google.com</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 
                   <div class="logo-box">
-                    <img src="assets/img/logo/eterologo-blanc.png" alt="" />
+                            <img src="assets/img/logo/etero.png" alt=""/>
 
-                    <div class="info">
-                      <div class="content">
-                        <div class="icon">
-                          <i class="fas fa-plus"></i>
-                        </div>
+                                <div class="info">
+                                    <div class="content">
+                                        <div class="icon">
+                                            <i class="fas fa-plus"></i>
+                                        </div>
 
-                        <div class="entry">
-                          <div>
-                            <h5>Google</h5>
-                            <a href="#">www.google.com</a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                                        <div class="entry">
+                                            <div>
+                                                <h5>Google</h5>
+                                                <a href="#">www.google.com</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                  <div class="logo-box">
+                            <img src="assets/img/logo/etero.png" alt=""/>
+
+                                <div class="info">
+                                    <div class="content">
+                                        <div class="icon">
+                                            <i class="fas fa-plus"></i>
+                                        </div>
+
+                                        <div class="entry">
+                                            <div>
+                                                <h5>Google</h5>
+                                                <a href="#">www.google.com</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                 </div>
               </div>
             </section>
           </div>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 }
