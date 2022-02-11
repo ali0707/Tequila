@@ -166,19 +166,23 @@ export default function Nft() {
                 </div>
 
                 <section class="contact-up section-margin section-padding">
-                    <div class="container">
-                        <div class="c-wapp">
-                            <a href="contact.html" class="effect-ajax">
-                                <span class="hiring">
-                                    We are hiring
+                <div class="container">
+                    <div class="c-wapp">
+                        <a class="effect-ajax">
+                            <span class="hiring">
+                            Sign up for our NEWLETTERS
+                                                        </span>
+                            <span class="career">
+                            <label>
+    YOUR Email:
+    <input type="text" name="EMAIL" />
+  </label>
+  <input type="submit" value="SEND" />
                                 </span>
-                                <span class="career">
-                                    Dare and contact us immediately!
-                                </span>
-                            </a>
-                        </div>
+                        </a>
                     </div>
-                </section>
+                </div>
+            </section>
 
             </div>
            <Footer/>
