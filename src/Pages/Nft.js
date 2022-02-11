@@ -3,7 +3,7 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Header2 from "../components/Header2";
 
-export default function Shop() {
+export default function Nft() {
   return (
     <div class="hamburger-menu dsn-effect-scroll dsn-ajax" data-dsn-mousemove="true">
 

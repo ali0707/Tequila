@@ -197,29 +197,14 @@ LifeStyle"</p>
                         </div>
 
                         <div class="client-curs">
-                            <div class="client-item">
-                                <div>
-                                    <p>
-                                        Dave & his team at Blacksmith Agency were incredible partners
-                                        at a critical time for our company. Day in & day out, they
-                                        were there for us every step of the way delivering results for
-                                        us & our high profile corporate partner.
-                                    </p>
-                                    <h5>Brandon Barbello</h5>
-                                    <span>Vivalnk Inc | Google IO</span>
-                                </div>
-                            </div>
+                       
 
                             <div class="client-item">
                                 <div>
                                     <p>
-                                        Dave & his team at Blacksmith Agency were incredible partners
-                                        at a critical time for our company. Day in & day out, they
-                                        were there for us every step of the way delivering results for
-                                        us & our high profile corporate partner.
+                                    Gold color. Inviting aromas of roasted nuts, candied cherries, vanilla bean, and sweet blossoms with a velvety, vibrant, fruity light-to-medium body and a peppery, intriguing, very long ripe melons, toffee, and white pepper finish. A tantalizing melange of complex flavors that reward each sip
                                     </p>
-                                    <h5>Brandon Barbello</h5>
-                                    <span>Vivalnk Inc | Google IO</span>
+                                    <h5>ali ben said</h5>
                                 </div>
                             </div>
                         </div>
@@ -237,7 +222,7 @@ LifeStyle"</p>
 
                         <div class="wapper-client">
                             <div class="logo-box">
-                                <img src="assets/img/team/CAP1.png" alt=""/>
+                            <img src="assets/img/logo/etero.png" alt=""/>
 
                                 <div class="info">
                                     <div class="content">
@@ -256,7 +241,7 @@ LifeStyle"</p>
                             </div>
 
                             <div class="logo-box">
-                            <img src="assets/img/team/cap2.png" alt=""/>
+                            <img src="assets/img/logo/etero.png" alt=""/>
 
                                 <div class="info">
                                     <div class="content">
@@ -275,7 +260,7 @@ LifeStyle"</p>
                             </div>
 
                             <div class="logo-box">
-                            <img src="assets/img/team/cap3.png" alt=""/>
+                            <img src="assets/img/logo/etero.png" alt=""/>
 
                                 <div class="info">
                                     <div class="content">
@@ -294,7 +279,7 @@ LifeStyle"</p>
                             </div>
 
                             <div class="logo-box">
-                            <img src="assets/img/team/cap4.png" alt=""/>
+                            <img src="assets/img/logo/etero.png" alt=""/>
 
                                 <div class="info">
                                     <div class="content">
@@ -313,7 +298,7 @@ LifeStyle"</p>
                             </div>
 
                             <div class="logo-box">
-                            <img src="assets/img/team/cap5.png" alt=""/>
+                            <img src="assets/img/logo/etero.png" alt=""/>
 
                                 <div class="info">
                                     <div class="content">
@@ -331,6 +316,24 @@ LifeStyle"</p>
                                 </div>
                             </div>
 
+                            <div class="logo-box">
+                                <img src="assets/img/logo/etero.png" alt=""/>
+
+                                <div class="info">
+                                    <div class="content">
+                                        <div class="icon">
+                                            <i class="fas fa-plus"></i>
+                                        </div>
+
+                                        <div class="entry">
+                                            <div>
+                                                <h5>Google</h5>
+                                                <a href="#">www.google.com</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </section>

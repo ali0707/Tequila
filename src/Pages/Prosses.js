@@ -89,7 +89,6 @@ export default function Prosses() {
                         <div class="title-text-header">
                           <div class="title-text-header-inner">
                             <a
-                              href="project-9.html"
                               class="effect-ajax"
                               data-dsn-ajax="slider"
                             >
@@ -108,16 +107,7 @@ export default function Prosses() {
                           three generations.
                         </p>
 
-                        <div class="link-custom">
-                          <a
-                            href="project-9.html"
-                            class="image-zoom effect-ajax"
-                            data-dsn="parallax"
-                            data-dsn-ajax="slider"
-                          >
-                            <span>View Case</span>
-                          </a>
-                        </div>
+                       
                       </div>
                     </div>
                     <div class="image-container">
@@ -143,7 +133,7 @@ export default function Prosses() {
                         <div class="title-text-header">
                           <div class="title-text-header-inner">
                             <a
-                              href="project-4.html"
+                              
                               class="effect-ajax"
                               data-dsn-ajax="slider"
                             >
@@ -161,16 +151,7 @@ export default function Prosses() {
                           process of sugar extraction easier.
                         </p>
 
-                        <div class="link-custom">
-                          <a
-                            href="project-4.html"
-                            class="image-zoom effect-ajax"
-                            data-dsn="parallax"
-                            data-dsn-ajax="slider"
-                          >
-                            <span>View Case</span>
-                          </a>
-                        </div>
+                       
                       </div>
                     </div>
                     <div class="image-container">
@@ -196,7 +177,7 @@ export default function Prosses() {
                         <div class="title-text-header">
                           <div class="title-text-header-inner">
                             <a
-                              href="project-8.html"
+                              
                               class="effect-ajax"
                               data-dsn-ajax="slider"
                             >
@@ -210,16 +191,7 @@ export default function Prosses() {
                           Special thanks to all of our talented friends.
                         </p>
 
-                        <div class="link-custom">
-                          <a
-                            href="project-8.html"
-                            class="image-zoom effect-ajax"
-                            data-dsn="parallax"
-                            data-dsn-ajax="slider"
-                          >
-                            <span>View Case</span>
-                          </a>
-                        </div>
+                       
                       </div>
                     </div>
 
@@ -258,7 +230,7 @@ export default function Prosses() {
                         <div class="title-text-header">
                           <div class="title-text-header-inner">
                             <a
-                              href="project-7.html"
+                              
                               class="effect-ajax"
                               data-dsn-ajax="slider"
                             >
@@ -274,16 +246,7 @@ export default function Prosses() {
                           accelerate and control the fermentation.
                         </p>
 
-                        <div class="link-custom">
-                          <a
-                            href="project-7.html"
-                            class="image-zoom effect-ajax"
-                            data-dsn="parallax"
-                            data-dsn-ajax="slider"
-                          >
-                            <span>View Case</span>
-                          </a>
-                        </div>
+                       
                       </div>
                     </div>
                     <div class="image-container">
@@ -303,7 +266,7 @@ export default function Prosses() {
                         <div class="title-text-header">
                           <div class="title-text-header-inner">
                             <a
-                              href="project-7.html"
+                              
                               class="effect-ajax"
                               data-dsn-ajax="slider"
                             >
@@ -319,16 +282,7 @@ export default function Prosses() {
                           two and twelve months
                         </p>
 
-                        <div class="link-custom">
-                          <a
-                            href="project-7.html"
-                            class="image-zoom effect-ajax"
-                            data-dsn="parallax"
-                            data-dsn-ajax="slider"
-                          >
-                            <span>View Case</span>
-                          </a>
-                        </div>
+                       
                       </div>
                     </div>
                     <div class="image-container">
@@ -348,7 +302,7 @@ export default function Prosses() {
                         <div class="title-text-header">
                           <div class="title-text-header-inner">
                             <a
-                              href="project-7.html"
+                              
                               class="effect-ajax"
                               data-dsn-ajax="slider"
                             >
@@ -366,16 +320,7 @@ export default function Prosses() {
                           years
                         </p>
 
-                        <div class="link-custom">
-                          <a
-                            href="project-7.html"
-                            class="image-zoom effect-ajax"
-                            data-dsn="parallax"
-                            data-dsn-ajax="slider"
-                          >
-                            <span>View Case</span>
-                          </a>
-                        </div>
+                       
                       </div>
                     </div>
                     <div class="image-container">
@@ -401,7 +346,7 @@ export default function Prosses() {
                         <div class="title-text-header">
                           <div class="title-text-header-inner">
                             <a
-                              href="project-1.html"
+                              
                               class="effect-ajax"
                               data-dsn-ajax="slider"
                             >
@@ -416,16 +361,7 @@ export default function Prosses() {
                           element: the music.
                         </p>
 
-                        <div class="link-custom">
-                          <a
-                            href="project-2.html"
-                            class="image-zoom effect-ajax"
-                            data-dsn="parallax"
-                            data-dsn-ajax="slider"
-                          >
-                            <span>View Case</span>
-                          </a>
-                        </div>
+                       
                       </div>
                     </div>
                     <div class="image-container">
@@ -629,7 +565,7 @@ export default function Prosses() {
                     alt=""
                   />
                   <a
-                    href="project-9.html"
+                    
                     class="effect-ajax"
                     data-dsn-ajax="list"
                   >
@@ -647,7 +583,7 @@ export default function Prosses() {
                     alt=""
                   />
                   <a
-                    href="project-4.html"
+                    
                     class="effect-ajax"
                     data-dsn-ajax="list"
                   >
@@ -665,7 +601,7 @@ export default function Prosses() {
                   />
 
                   <a
-                    href="project-3.html"
+                    
                     class="effect-ajax"
                     data-dsn-ajax="list"
                   >
@@ -684,7 +620,7 @@ export default function Prosses() {
                   />
 
                   <a
-                    href="project-8.html"
+                    
                     class="effect-ajax"
                     data-dsn-ajax="list"
                   >
@@ -703,7 +639,7 @@ export default function Prosses() {
                   />
 
                   <a
-                    href="project-7.html"
+                    
                     class="effect-ajax"
                     data-dsn-ajax="list"
                   >
@@ -722,7 +658,7 @@ export default function Prosses() {
                   />
 
                   <a
-                    href="project-6.html"
+                    
                     class="effect-ajax"
                     data-dsn-ajax="list"
                   >
@@ -741,7 +677,7 @@ export default function Prosses() {
                   />
 
                   <a
-                    href="project-1.html"
+                    
                     class="effect-ajax"
                     data-dsn-ajax="list"
                   >

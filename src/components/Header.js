@@ -7,7 +7,7 @@ export default function Header() {
         <div className="extend-container">
           <div className="inner-header">
             <div className="main-logo">
-              <a href="index.html">
+              <a href="/">
                 <img
                   className="dark-logo"
                   src="assets/img/logo/etero.png"
@@ -53,7 +53,7 @@ export default function Header() {
       <div className="header-top header-top-hamburger">
         <div className="header-container">
           <div className="logo main-logo">
-            <a href="index.html">
+            <a href="/">
               <img
                 className="dark-logo"
                 src="assets/img/logo/etero.png"

@@ -4,6 +4,7 @@ import AboutUs from "./About";
 import Allprosses from "./allProsses";
 import Contact from "./contact";
 import Home from "./Home";
+import Nft from "./Nft";
 import Prosses from "./Prosses";
 import Shop from "./Shop";
 
@@ -18,6 +19,8 @@ export default function RouterPage() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/Shop" element={<Shop />} />
           <Route path="/AboutUs" element={<AboutUs />} />
+          <Route path="/Nft" element={<Nft />} />
+
 
         </Routes>
       </Router>
