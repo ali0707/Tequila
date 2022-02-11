@@ -43,7 +43,8 @@ export default function Nft() {
                 <div class="root-work">
                     <div class="container">
                         <div class="box-title" data-dsn-title="cover">
-                            <h2 class="title-cover" data-dsn-grid="move-section" data-dsn-move="-70">Nft</h2>
+                            <h2 class="title-cover" data-dsn-grid="move-section" data-dsn-move="-70">Explore Collections
+</h2>
                         </div>
 
                         <div class="filterings">

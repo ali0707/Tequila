@@ -181,7 +181,7 @@ export default function Prosses() {
                               class="effect-ajax"
                               data-dsn-ajax="slider"
                             >
-                              Toast 2019 Reelxx
+                              Toast 2019 Reelx
                             </a>
                           </div>
                         </div>

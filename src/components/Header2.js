@@ -25,26 +25,26 @@ export default function Header2() {
           </div>
           <nav className=" accent-menu main-navigation">
             <ul className="extend-container">
-              <li >
-                <a href="etereo">Home</a>
+              <li>
+                <a href="/">Home</a>
               </li>
               <li >
                 <a href="AboutUs">About Us</a>
               </li>
               <li>
-                <a href="">Life Style</a>
+                <a href="about.html">Life Style</a>
               </li>
               <li>
                 <a href="Prosses">OUR PROCESS</a>
               </li>
-              <li >
+              <li>
                 <a href="Shop">Shop</a>
               </li>
               <li>
-                <a href="">NFT</a>
+                <a href="Nft">NFT</a>
               </li>
               <li>
-                <a href="Contact">Contact</a>
+                <a href="contact">Contact</a>
               </li>
             </ul>
           </nav>
@@ -53,7 +53,7 @@ export default function Header2() {
       <div className="header-top header-top-hamburger">
         <div className="header-container">
           <div className="logo main-logo">
-            <a href="index.html">
+            <a href="/">
               <img
                 className="dark-logo"
                 src="assets/img/logo/etero.png"
