@@ -32,7 +32,7 @@ export default function Nft() {
                         <div class="col-lg-6">
                             <div class="contenet-hero">
                                 <h5>Our </h5>
-                                <h1>Shop</h1>
+                                <h1>NFT</h1>
                             </div>
                         </div>
                     </div>
@@ -43,7 +43,7 @@ export default function Nft() {
                 <div class="root-work">
                     <div class="container">
                         <div class="box-title" data-dsn-title="cover">
-                            <h2 class="title-cover" data-dsn-grid="move-section" data-dsn-move="-70">Shop</h2>
+                            <h2 class="title-cover" data-dsn-grid="move-section" data-dsn-move="-70">Nft</h2>
                         </div>
 
                         <div class="filterings">
@@ -53,47 +53,47 @@ export default function Nft() {
                                     <button type="button" data-filter="*" class="active">
                                         All
                                     </button>
-                                    <button type="button" data-filter=".Tequila">Tequila</button>
-                                    <button type="button" data-filter=".Hats">Hats</button>
-                                    <button type="button" data-filter=".hoodies ">hoodies </button>
+                                    <button type="button" data-filter=".Monkey">Monkey</button>
+                                    <button type="button" data-filter=".3D">3D</button>
+                                    <button type="button" data-filter=".person ">person </button>
 
                                 </div>
                             </div>
                         </div>
 
                         <div class="projects-list gallery">
-                            <div class="item Tequila">
+                            <div class="item Monkey">
                                 <a href="project-9.html" class="effect-ajax" data-dsn-ajax="work"
                                     data-dsn-grid="move-up">
                                     <img class="has-top-bottom" src="assets/img/project/project9/1.jpg" alt="" />
                                     <div class="item-border"></div>
                                     <div class="item-info">
-                                        <h5 class="cat">Tequila</h5>
+                                        <h5 class="cat">Monkey</h5>
                                         <h4>Time Tag Watch</h4>
                                         <span><span>Veiw Project</span></span>
                                     </div>
                                 </a>
                             </div>
 
-                            <div class="item Tequila">
+                            <div class="item Monkey">
                                 <a href="project-4.html" class="effect-ajax" data-dsn-ajax="work"
                                     data-dsn-grid="move-up">
                                     <img class="has-top-bottom" src="assets/img/project/project4/2.jpg" alt="" />
                                     <div class="item-border"></div>
                                     <div class="item-info">
-                                        <h5 class="cat">Tequila</h5>
+                                        <h5 class="cat">Monkey</h5>
                                         <h4>Under Armour</h4>
                                         <span><span>Veiw Project</span></span>
                                     </div>
                                 </a>
                             </div>
 
-                            <div class="item Hats">
+                            <div class="item 3D">
                                 <a href="project-3.html" data-dsn-grid="move-up">
                                     <img class="has-top-bottom" src="assets/img/project/project3/1.jpg" alt="" />
                                     <div class="item-border"></div>
                                     <div class="item-info">
-                                        <h5 class="cat">Hats</h5>
+                                        <h5 class="cat">3D</h5>
                                         <h4>Re Styling</h4>
                                         <span><span>Veiw Project</span></span>
                                     </div>
@@ -102,60 +102,60 @@ export default function Nft() {
 
                     
 
-                            <div class="item Hats">
+                            <div class="item 3D">
                                 <a href="project-7.html" data-dsn-grid="move-up">
                                     <img class="has-top-bottom" src="assets/img/project/project7/1.jpg" alt="" />
                                     <div class="item-border"></div>
                                     <div class="item-info">
-                                        <h5 class="cat">Hats</h5>
+                                        <h5 class="cat">3D</h5>
                                         <h4>Nile - Kabutha</h4>
                                         <span><span>Veiw Project</span></span>
                                     </div>
                                 </a>
                             </div>
 
-                            <div class="item Hats">
+                            <div class="item 3D">
                                 <a  data-dsn-grid="move-up">
                                     <img class="has-top-bottom" src="assets/img/project/project6/1.jpg" alt="" />
                                     <div class="item-border"></div>
                                     <div class="item-info">
-                                        <h5 class="cat">Hats</h5>
+                                        <h5 class="cat">3D</h5>
                                         <h4>Sleep Walker</h4>
                                         <span><span>Veiw Project</span></span>
                                     </div>
                                 </a>
                             </div>
 
-                            <div class="item Tequila">
+                            <div class="item Monkey">
                                 <a href="project-1.html" data-dsn-grid="move-up">
                                     <img class="has-top-bottom" src="assets/img/project/project1/1.jpg" alt="" />
                                     <div class="item-border"></div>
                                     <div class="item-info">
-                                        <h5 class="cat">Tequila</h5>
+                                        <h5 class="cat">Monkey</h5>
                                         <h4>Magista</h4>
                                         <span><span>Veiw Project</span></span>
                                     </div>
                                 </a>
                             </div>
 
-                            <div class="item Hats">
+                            <div class="item 3D">
                                 <a href="project-2.html" data-dsn-grid="move-up">
                                     <img class="has-top-bottom" src="assets/img/project/project2/1.jpg" alt="" />
                                     <div class="item-border"></div>
                                     <div class="item-info">
-                                        <h5 class="cat">Hats</h5>
+                                        <h5 class="cat">3D</h5>
                                         <h4>Bastian Bux</h4>
                                         <span><span>Veiw Project</span></span>
                                     </div>
                                 </a>
                             </div>
 
-                            <div class="item hoodies ">
+                            <div class="item person ">
                                 <a href="project-5.html" data-dsn-grid="move-up">
                                     <img class="has-top-bottom" src="assets/img/project/project5/1.jpg" alt="" />
                                     <div class="item-border"></div>
                                     <div class="item-info">
-                                        <h5 class="cat">hoodies </h5>
+                                        <h5 class="cat">person </h5>
                                         <h4>Novara Conic</h4>
                                         <span><span>Veiw Project</span></span>
                                     </div>
