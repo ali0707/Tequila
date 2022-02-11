@@ -5,8 +5,7 @@ export default function Contact() {
   return (
     <div
       class=" hamburger-menu dsn-effect-scroll dsn-ajax"
-      data-dsn-mousemove="true"
-    >
+      data-dsn-mousemove="true">
       <div class="preloader">
         <div class="preloader-after"></div>
         <div class="preloader-before"></div>

@@ -60,11 +60,10 @@ export default function Prosses() {
             </div>
             <div class="nav-content">
               <div class="inner-content">
-                {/* <address class="v-middle">
-                  <span>Egypt</span>
-                  <span>Damietta,El-Mahalla El-Kubra,</span>
-                  <span>01024552406 , 01004392260</span>
-                </address> */}
+                <address class="v-middle">
+                  <span> California 92606 – USA</span>
+                  <span>Etereo Spirits LLC 2855 Michelle Drive Suite 280 , Irvine,</span>
+                </address>
               </div>
             </div>
           </div>

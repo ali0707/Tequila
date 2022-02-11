@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../components/Header";
 
-export default function saif() {
+export default function Shop() {
   return (
     <div
       class="hamburger-menu dsn-effect-scroll dsn-ajax"

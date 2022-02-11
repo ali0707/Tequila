@@ -25,7 +25,7 @@ export default function Header() {
           </div>
           <nav className=" accent-menu main-navigation">
             <ul className="extend-container">
-              <li className="custom-drop-down">
+              <li>
                 <a href="/">Home</a>
               </li>
               <li className="custom-drop-down">

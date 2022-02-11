@@ -26,25 +26,25 @@ export default function Header2() {
           <nav className=" accent-menu main-navigation">
             <ul className="extend-container">
               <li className="custom-drop-down">
-                <a href="#">Home</a>
+                <a href="etereo">Home</a>
               </li>
               <li className="custom-drop-down">
-                <a href="#">About Us</a>
+                <a href="AboutUs">About Us</a>
               </li>
               <li>
-                <a href="about.html">Life Style</a>
+                <a href="">Life Style</a>
               </li>
               <li>
                 <a href="Prosses">OUR PROCESS</a>
               </li>
               <li className="custom-drop-down">
-                <a href="#">Shop</a>
+                <a href="Shop">Shop</a>
               </li>
               <li>
-                <a href="contact.html">NFT</a>
+                <a href="">NFT</a>
               </li>
               <li>
-                <a href="Prosses">Contact</a>
+                <a href="Contact">Contact</a>
               </li>
             </ul>
           </nav>
@@ -89,11 +89,10 @@ export default function Header2() {
           </div>
           <div className="nav-content">
             <div className="inner-content">
-              <address className="v-middle">
-                <span>Egypt</span>
-                <span>Damietta,El-Mahalla El-Kubra,</span>
-                <span>01024552406 , 01004392260</span>
-              </address>
+            <address class="v-middle">
+                  <span> California 92606 – USA</span>
+                  <span>Etereo Spirits LLC 2855 Michelle Drive Suite 280 , Irvine,</span>
+                </address>
             </div>
           </div>
         </div>
