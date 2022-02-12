@@ -132,6 +132,49 @@ export default function Home() {
               </div>
             </section>
 
+            <section>
+              <div class="container-fluid gallery-col">
+                <div class="row">
+                  <div class="col-md-4 box-im section-padding">
+                    <div class="image-zoom" data-dsn="parallax">
+                      <a
+                        class="single-image"
+                        href="assets/img/project/project9/2.jpg"
+                      >
+                        <img src="assets/img/project/project9/2.jpg" alt="" />
+                      </a>
+
+                      <div class="caption">Trevor Bittinger</div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-4 box-im section-padding">
+                    <div class="image-zoom" data-dsn="parallax">
+                      <a
+                        class="single-image"
+                        href="assets/img/project/project9/3.jpg"
+                      >
+                        <img src="assets/img/project/project9/3.jpg" alt="" />
+                      </a>
+                      <div class="caption">Sef McCullough</div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-4 box-im section-padding">
+                    <div class="image-zoom" data-dsn="parallax">
+                      <a
+                        class="single-image"
+                        href="assets/img/project/project9/4.jpg"
+                      >
+                        <img src="assets/img/project/project9/4.jpg" alt="" />
+                      </a>
+                      <div class="caption">Sef McCullough</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
             <section class="our-services section-margin">
               <div class="container">
                 <div class="one-title" style={{ textAlign: "center" }}>
@@ -361,7 +404,7 @@ export default function Home() {
                     >
                       <img
                         class="has-top-bottom"
-                        src="assets/img/tequila/tequila.jpg"
+                        src="assets/img/tequila/etlf.jpg"
                         alt=""
                         data-dsn-move="20%"
                       />
@@ -371,11 +414,11 @@ export default function Home() {
                   <div class="col-lg-6">
                     <div class="box-info">
                       <div class="vertical-title" data-dsn-animate="up">
-                        <h2>Life Style.</h2>
+                        <h2>LIFESTYLE"</h2>
                       </div>
 
                       <h6 data-dsn-animate="up">
-                        We ARE NOT SELLING TEQUILA ,WE ARE PURVEYING A
+                        WE ARE NOT SELLING TEQUILA ,WE ARE PURVEYING A
                         LIFESTYLE.
                       </h6>
 
@@ -394,7 +437,7 @@ export default function Home() {
                       <div class="link-custom" data-dsn-animate="up">
                         <a
                           class="image-zoom effect-ajax"
-                          href="project-9.html"
+                          href="localhost:3000/LifeStyle"
                           data-dsn="parallax"
                         >
                           <span>Learn More</span>
@@ -597,7 +640,22 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      <div class="cursor">
+        <div class="cursor-helper cursor-view">
+          <span>VIEW</span>
+        </div>
+
+        <div class="cursor-helper cursor-close">
+          <span>Close</span>
+        </div>
+
+        <div class="cursor-helper cursor-link"></div>
+      </div>
+
+
       <Footer />
+
     </div>
   );
 }

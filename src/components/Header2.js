@@ -35,7 +35,7 @@ export default function Header2() {
                 <a href="LifeStyle">LIFESTYLE</a>
               </li>
               <li>
-                <a href="Prosses">OUR PROCESS</a>
+                <a href="our-process">OUR PROCESS</a>
               </li>
               <li>
                 <a href="Shop">SHOP</a>
