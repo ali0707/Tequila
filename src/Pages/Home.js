@@ -78,7 +78,7 @@ export default function Home() {
                         data-dsn-opacity="1.2"
                         data-dsn-responsive="tablet"
                       >
-                        Lifestyle
+                        LIFESTYLE"
                         <br /> ETÉREO TEQUILA
                       </h2>
 
@@ -111,6 +111,7 @@ export default function Home() {
                 <div
                   class="background-mask-bg"
                   style={{ borderRadius: "20px" }}
+
                 ></div>
                 <div class="img-box">
                   <div
@@ -119,42 +120,12 @@ export default function Home() {
                     style={{ borderRadius: "20px" }}
                   >
                     <div class="img-container">
-                      <table>
-                        <tr>
-                          <th>
-                            {" "}
-                            <img
-                              style={{ borderRadius: "30px 0px 0px 30px" }}
-                              data-dsn-y="30%"
-                              src="assets/img/tequila/1.jpg"
-                              alt=""
-                            />
-                          </th>
-                          <th>
-                            {" "}
-                            <img
-                              // style={{ borderRadius: "20px" }}
-                              data-dsn-y="30%"
-                              src="assets/img/tequila/3.jpg"
-                              alt=""
-                            />
-                          </th>
-                          <th>
-                            {" "}
-                            <img
-                              style={{ borderRadius: "1px 30px 30px 1px" }}
-                              data-dsn-y="30%"
-                              src="assets/img/tequila/2.jpg"
-                              alt=""
-                            />
-                          </th>
-                        </tr>
-                        <tr>
-                          <td> </td>
-                          <td></td>
-                          <td> </td>
-                        </tr>
-                      </table>
+                      <img
+                        style={{ borderRadius: "30px 0px 0px 30px" }}
+                        data-dsn-y="50%"
+                        src="assets/img/Lifestyle/d.jpeg"
+                        alt=""
+                      />
                     </div>
                   </div>
                 </div>
@@ -165,7 +136,7 @@ export default function Home() {
               <div class="container">
                 <div class="one-title" style={{ textAlign: "center" }}>
                   <div class="title-sub-container">
-                    <p class="title-sub">OUR SERVCIES</p>
+                    <p class="title-sub">OUR STORY</p>
                   </div>
                   <h2 class="title-main"> AWARDS AND REVIEWS </h2>
                 </div>
@@ -216,7 +187,7 @@ export default function Home() {
                 <div class="inner-img" data-dsn-grid="move-up">
                   <img
                     data-dsn-y="30%"
-                    src="assets/img/fond/image5.png"
+                    src="assets/img/Lifestyle/woow.jpg"
                     alt=""
                   />
                 </div>
@@ -252,9 +223,9 @@ export default function Home() {
               <div class="container">
                 <div class="one-title">
                   <div class="title-sub-container">
-                    <p class="title-sub">Our Work</p>
+                    <p class="title-sub">TASTE</p>
                   </div>
-                  <h2 class="title-main">Cocktails</h2>
+                  <h2 class="title-main">OUR COCKTAILS</h2>
                 </div>
               </div>
               <div class="container-fluid">
@@ -265,7 +236,7 @@ export default function Home() {
                         <div class="work-item slick-slide">
                           <img
                             class="has-top-bottom"
-                            src="assets/img/tequila/mexican.png"
+                            src="assets/img/cocktails/1.png"
                             alt=""
                           />
                           <div class="item-border"></div>
@@ -275,7 +246,29 @@ export default function Home() {
                               data-dsn-grid="move-up"
                               class="effect-ajax"
                             >
-                              <h5 class="cat">Cocktail MEXICAN </h5>
+                              <h5 class="cat">DELICIOUS </h5>
+                              <h4>PINA JALAPEÑO</h4>
+                              <span>
+                                <span>view Cocktail</span>
+                              </span>
+                            </a>
+                          </div>
+                        </div>
+
+                        <div class="work-item slick-slide">
+                          <img
+                            class="has-top-bottom"
+                            src="assets/img/cocktails/2.png"
+                            alt=""
+                          />
+                          <div class="item-border"></div>
+                          <div class="item-info">
+                            <a
+                              href="project-6.html"
+                              data-dsn-grid="move-up"
+                              class="effect-ajax"
+                            >
+                              <h5 class="cat">THE PERFECT TASTE </h5>
                               <h4>MEXICAN NEGRONI</h4>
                               <span>
                                 <span>view Cocktail</span>
@@ -287,7 +280,7 @@ export default function Home() {
                         <div class="work-item slick-slide">
                           <img
                             class="has-top-bottom"
-                            src="assets/img/tequila/mexican.png"
+                            src="assets/img/cocktails/3.png"
                             alt=""
                           />
                           <div class="item-border"></div>
@@ -297,8 +290,8 @@ export default function Home() {
                               data-dsn-grid="move-up"
                               class="effect-ajax"
                             >
-                              <h5 class="cat">PINA JALAPEÑO DELICIOUS </h5>
-                              <h4>THE PERFECT MIX</h4>
+                              <h5 class="cat">THE PERFECT MIX</h5>
+                              <h4>WATERMELON JALAPEÑO MARGUERITA</h4>
                               <span>
                                 <span>view Cocktail</span>
                               </span>
@@ -309,29 +302,7 @@ export default function Home() {
                         <div class="work-item slick-slide">
                           <img
                             class="has-top-bottom"
-                            src="assets/img/tequila/margou.png"
-                            alt=""
-                          />
-                          <div class="item-border"></div>
-                          <div class="item-info">
-                            <a
-                              href="project-6.html"
-                              data-dsn-grid="move-up"
-                              class="effect-ajax"
-                            >
-                              <h5 class="cat">MARGUERITA COCKTAIL </h5>
-                              <h4>THE PERFECT MIX</h4>
-                              <span>
-                                <span>view Cocktail</span>
-                              </span>
-                            </a>
-                          </div>
-                        </div>
-
-                        <div class="work-item slick-slide">
-                          <img
-                            class="has-top-bottom"
-                            src="assets/img/tequila/margou.png"
+                            src="assets/img/cocktails/4.png"
                             alt=""
                           />
                           <div class="item-border"></div>
@@ -341,8 +312,30 @@ export default function Home() {
                               data-dsn-grid="move-up"
                               class="effect-ajax"
                             >
-                              <h5 class="cat">WATERMELON</h5>
-                              <h4> JALAPEÑO MARGUERITA</h4>
+                              <h5 class="cat">OLD & GOLD</h5>
+                              <h4>ETÉREO OLD FASHIONED</h4>
+                              <span>
+                                <span>view Cocktail</span>
+                              </span>
+                            </a>
+                          </div>
+                        </div>
+
+                        <div class="work-item slick-slide">
+                          <img
+                            class="has-top-bottom"
+                            src="assets/img/cocktails/5.png"
+                            alt=""
+                          />
+                          <div class="item-border"></div>
+                          <div class="item-info">
+                            <a
+                              href="project-5.html"
+                              data-dsn-grid="move-up"
+                              class="effect-ajax"
+                            >
+                              <h5 class="cat">THE BEST TASTE</h5>
+                              <h4> MARGUERITA COCKTAIL</h4>
                               <span>
                                 <span>view Cocktail</span>
                               </span>
@@ -413,7 +406,7 @@ export default function Home() {
               </div>
             </div>
 
-          
+
 
             <section class="our-news section-margin">
               <div class="container">
@@ -426,26 +419,26 @@ export default function Home() {
                 <div class="custom-container">
                   <div class="slick-slider">
                     <div class="item-new slick-slide">
-                      <div class="image" data-overlay="1"  style={{ borderRadius: "20px" }}>
-                      <img src="assets/img/fond/x.jpg" alt="" />
+                      <div class="image" data-overlay="1" style={{ borderRadius: "20px" }}>
+                        <img src="assets/img/fond/x.jpg" alt="" />
                       </div>
                       <div class="content"  >
-                        <div class="background"style={{ borderRadius: "20px" }}></div>
+                        <div class="background" style={{ borderRadius: "20px" }}></div>
                         <h5>LifeStyle</h5>
 
                         <div class="cta">
-                        <a href="LifeStyle">Learn More</a>
+                          <a href="LifeStyle">Learn More</a>
                         </div>
 
                       </div>
                     </div>
 
                     <div class="item-new slick-slide">
-                      <div class="image" data-overlay="1"  style={{ borderRadius: "20px" }}>
-                      <img src="assets/img/fond/et4.jpg" alt="" />
+                      <div class="image" data-overlay="1" style={{ borderRadius: "20px" }}>
+                        <img src="assets/img/fond/et4.jpg" alt="" />
                       </div>
                       <div class="content"  >
-                        <div class="background"style={{ borderRadius: "20px" }}></div>
+                        <div class="background" style={{ borderRadius: "20px" }}></div>
                         <h5>Our Process</h5>
 
                         <div class="cta">
@@ -460,15 +453,15 @@ export default function Home() {
                         <img src="assets/img/fond/g.jpeg" alt="" />
                       </div>
                       <div class="content"  >
-                        <div class="background"style={{ borderRadius: "20px" }} ></div>
+                        <div class="background" style={{ borderRadius: "20px" }} ></div>
                         <h5>LifeStyle</h5>
 
                         <div class="cta">
-                        <a href="Shop">hoodies and hats</a>
+                          <a href="Shop">hoodies and hats</a>
 
                         </div>
 
-                      
+
                       </div>
                     </div>
                   </div>
@@ -486,125 +479,125 @@ export default function Home() {
                 </div>
 
                 <div class="wapper-client">
-                <div class="logo-box">
-                            <img src="assets/img/logo/etero.png" alt=""/>
+                  <div class="logo-box">
+                    <img src="assets/img/logo/etero.png" alt="" />
 
-                                <div class="info">
-                                    <div class="content">
-                                        <div class="icon">
-                                            <i class="fas fa-plus"></i>
-                                        </div>
+                    <div class="info">
+                      <div class="content">
+                        <div class="icon">
+                          <i class="fas fa-plus"></i>
+                        </div>
 
-                                        <div class="entry">
-                                            <div>
-                                                <h5>Google</h5>
-                                                <a href="#">www.google.com</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="entry">
+                          <div>
+                            <h5>Google</h5>
+                            <a href="#">www.google.com</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
 
                   <div class="logo-box">
-                            <img src="assets/img/logo/etero.png" alt=""/>
+                    <img src="assets/img/logo/etero.png" alt="" />
 
-                                <div class="info">
-                                    <div class="content">
-                                        <div class="icon">
-                                            <i class="fas fa-plus"></i>
-                                        </div>
+                    <div class="info">
+                      <div class="content">
+                        <div class="icon">
+                          <i class="fas fa-plus"></i>
+                        </div>
 
-                                        <div class="entry">
-                                            <div>
-                                                <h5>Google</h5>
-                                                <a href="#">www.google.com</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="entry">
+                          <div>
+                            <h5>Google</h5>
+                            <a href="#">www.google.com</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                   <div class="logo-box">
-                            <img src="assets/img/logo/etero.png" alt=""/>
+                    <img src="assets/img/logo/etero.png" alt="" />
 
-                                <div class="info">
-                                    <div class="content">
-                                        <div class="icon">
-                                            <i class="fas fa-plus"></i>
-                                        </div>
+                    <div class="info">
+                      <div class="content">
+                        <div class="icon">
+                          <i class="fas fa-plus"></i>
+                        </div>
 
-                                        <div class="entry">
-                                            <div>
-                                                <h5>Google</h5>
-                                                <a href="#">www.google.com</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                  <div class="logo-box">
-                            <img src="assets/img/logo/etero.png" alt=""/>
-
-                                <div class="info">
-                                    <div class="content">
-                                        <div class="icon">
-                                            <i class="fas fa-plus"></i>
-                                        </div>
-
-                                        <div class="entry">
-                                            <div>
-                                                <h5>Google</h5>
-                                                <a href="#">www.google.com</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="entry">
+                          <div>
+                            <h5>Google</h5>
+                            <a href="#">www.google.com</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
 
                   <div class="logo-box">
-                            <img src="assets/img/logo/etero.png" alt=""/>
+                    <img src="assets/img/logo/etero.png" alt="" />
 
-                                <div class="info">
-                                    <div class="content">
-                                        <div class="icon">
-                                            <i class="fas fa-plus"></i>
-                                        </div>
+                    <div class="info">
+                      <div class="content">
+                        <div class="icon">
+                          <i class="fas fa-plus"></i>
+                        </div>
 
-                                        <div class="entry">
-                                            <div>
-                                                <h5>Google</h5>
-                                                <a href="#">www.google.com</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="entry">
+                          <div>
+                            <h5>Google</h5>
+                            <a href="#">www.google.com</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
 
                   <div class="logo-box">
-                            <img src="assets/img/logo/etero.png" alt=""/>
+                    <img src="assets/img/logo/etero.png" alt="" />
 
-                                <div class="info">
-                                    <div class="content">
-                                        <div class="icon">
-                                            <i class="fas fa-plus"></i>
-                                        </div>
+                    <div class="info">
+                      <div class="content">
+                        <div class="icon">
+                          <i class="fas fa-plus"></i>
+                        </div>
 
-                                        <div class="entry">
-                                            <div>
-                                                <h5>Google</h5>
-                                                <a href="#">www.google.com</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="entry">
+                          <div>
+                            <h5>Google</h5>
+                            <a href="#">www.google.com</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="logo-box">
+                    <img src="assets/img/logo/etero.png" alt="" />
+
+                    <div class="info">
+                      <div class="content">
+                        <div class="icon">
+                          <i class="fas fa-plus"></i>
+                        </div>
+
+                        <div class="entry">
+                          <div>
+                            <h5>Google</h5>
+                            <a href="#">www.google.com</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </section>
           </div>
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 }

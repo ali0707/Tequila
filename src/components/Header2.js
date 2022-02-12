@@ -41,6 +41,9 @@ export default function Header2() {
                 <a href="Shop">SHOP</a>
               </li>
               <li>
+                <a href="Cocktails">COCKTAILS</a>
+              </li>
+              <li>
                 <a href="Nft">NFT</a>
               </li>
               <li>
