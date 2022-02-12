@@ -133,15 +133,25 @@ export default function Home() {
             </section>
 
             <section>
+
+              <div class="container">
+                <div class="one-title">
+                  <div class="title-sub-container">
+                    <p class="title-sub">TEQUILA</p>
+                  </div>
+                  <h2 class="title-main">POPULAR PRODUCTS</h2>
+                </div>
+              </div>
+
               <div class="container-fluid gallery-col">
                 <div class="row">
                   <div class="col-md-4 box-im section-padding">
                     <div class="image-zoom" data-dsn="parallax">
                       <a
                         class="single-image"
-                        href="assets/img/project/project9/2.jpg"
+                        href="assets/img/tequila/1.jpg"
                       >
-                        <img src="assets/img/project/project9/2.jpg" alt="" />
+                        <img src="assets/img/tequila/1.jpg" alt="" />
                       </a>
 
                       <div class="caption">Trevor Bittinger</div>
@@ -152,9 +162,9 @@ export default function Home() {
                     <div class="image-zoom" data-dsn="parallax">
                       <a
                         class="single-image"
-                        href="assets/img/project/project9/3.jpg"
+                        href="assets/img/tequila/3.jpg"
                       >
-                        <img src="assets/img/project/project9/3.jpg" alt="" />
+                        <img src="assets/img/tequila/3.jpg" alt="" />
                       </a>
                       <div class="caption">Sef McCullough</div>
                     </div>
@@ -164,14 +174,25 @@ export default function Home() {
                     <div class="image-zoom" data-dsn="parallax">
                       <a
                         class="single-image"
-                        href="assets/img/project/project9/4.jpg"
+                        href="assets/img/tequila/2.jpg"
                       >
-                        <img src="assets/img/project/project9/4.jpg" alt="" />
+                        <img src="assets/img/tequila/2.jpg" alt="" />
                       </a>
                       <div class="caption">Sef McCullough</div>
                     </div>
                   </div>
                 </div>
+
+                <div class="link-custom">
+                  <a
+                    class="image-zoom effect-ajax"
+                    href="Shop"
+                    data-dsn="parallax"
+                  >
+                    <span>VISIT SHOP</span>
+                  </a>
+                </div>
+
               </div>
             </section>
 
@@ -212,6 +233,7 @@ export default function Home() {
                   </div>
                   <div class="col-lg-4">
                     <div class="services-item">
+
                       <h4 class="subtitle">GLOBAL SPIRITS</h4>
                       <p>
                         After tasting hundreds of tequilas, this tequila is by
@@ -237,19 +259,21 @@ export default function Home() {
                 <div class="pro-text">
                   <h3>
                     {" "}
-                    How is your
-                    <br /> visual identity?
+                    Etéreo is the synergy of an American
+                    <br /> & French vision rooted in the London nightlife
                   </h3>
                   <p>
-                    With a rich and flavorful taste paired with an exceptionally
-                    smooth finish across the range, we are bringing the product
-                    up to levels of high end Champagne, Whisky/Cognac & Perfume
-                    while retaining a more relaxed and upper casual feel.{" "}
+                    Etéreo, which is Spanish for “ethereal” in English,
+                    means “out of this world or heavenly.”
+                    This is the perfect description to capture those
+                    unforgettable moments and memories that define your
+                    unique lifestyle, and it is the perfect description
+                    when you take a sip of Etéreo—a true out-of-body experience..{" "}
                   </p>
                   <div class="link-custom">
                     <a
                       class="image-zoom effect-ajax"
-                      href="project-2.html"
+                      href="AboutUs"
                       data-dsn="parallax"
                     >
                       <span>Learn More</span>
@@ -434,10 +458,10 @@ export default function Home() {
                         lifestyle portrayed by these masters.
                       </p>
 
-                      <div class="link-custom" data-dsn-animate="up">
+                      <div class="link-custom">
                         <a
                           class="image-zoom effect-ajax"
-                          href="localhost:3000/LifeStyle"
+                          href="LifeStyle"
                           data-dsn="parallax"
                         >
                           <span>Learn More</span>
@@ -512,18 +536,55 @@ export default function Home() {
               </div>
             </section>
 
+            <div class=" box-gallery-vertical section-margin section-padding" data-dsn="color">
+              <div class="mask-bg"></div>
+              <div class="container">
+                <div class="row align-items-center h-100">
+                  <div class="col-lg-6 ">
+                    <div class="box-im" data-dsn-grid="move-up">
+                      <img class="has-top-bottom" src="assets/img/Lifestyle/event.jpeg" alt=""
+                        data-dsn-move="20%" />
+                    </div>
+                  </div>
+
+                  <div class="col-lg-6">
+
+
+                    <div class="box-info">
+
+                      <div class="vertical-title" data-dsn-animate="up">
+                        <h2>THE CHAMPION
+                          USMAN84</h2>
+                      </div>
+
+                      <h6 data-dsn-animate="up">Through our aromatic flavors, exclusive events, and culinary pairing experiences,
+                        be prepared for a complete journey that will awaken all of your senses.</h6>
+
+
+                      <div class="link-custom" data-dsn-animate="up">
+                        <a class="image-zoom effect-ajax" href="project-9.html" data-dsn="parallax">
+                          <span>Learn More</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
             <section class="brand-client section-margin">
               <div class="container">
                 <div class="one-title" data-dsn-animate="up">
                   <div class="title-sub-container">
-                    <p class="title-sub">Our clients</p>
+                    <p class="title-sub">OUR COLLECTION</p>
                   </div>
-                  <h2 class="title-main">Your successful, our reputation</h2>
+                  <h2 class="title-main"></h2>
                 </div>
 
                 <div class="wapper-client">
                   <div class="logo-box">
-                    <img src="assets/img/logo/etero.png" alt="" />
+                    <img src="assets/img/Lifestyle/sd.jpg" alt="" />
 
                     <div class="info">
                       <div class="content">
@@ -533,8 +594,8 @@ export default function Home() {
 
                         <div class="entry">
                           <div>
-                            <h5>Google</h5>
-                            <a href="#">www.google.com</a>
+                            <h5>Follow Us On Instagram</h5>
+                            <a href="http://www.instagram.com/etereolifestyle">étereoLifeStyle</a>
                           </div>
                         </div>
                       </div>
@@ -542,7 +603,7 @@ export default function Home() {
                   </div>
 
                   <div class="logo-box">
-                    <img src="assets/img/logo/etero.png" alt="" />
+                    <img src="assets/img/Lifestyle/l2.jpg" alt="" />
 
                     <div class="info">
                       <div class="content">
@@ -552,15 +613,15 @@ export default function Home() {
 
                         <div class="entry">
                           <div>
-                            <h5>Google</h5>
-                            <a href="#">www.google.com</a>
+                            <h5>Follow Us On Instagram</h5>
+                            <a href="http://www.instagram.com/etereolifestyle">étereoLifeStyle</a>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div class="logo-box">
-                    <img src="assets/img/logo/etero.png" alt="" />
+                    <img src="assets/img/Lifestyle/l4.jpg" alt="" />
 
                     <div class="info">
                       <div class="content">
@@ -570,27 +631,8 @@ export default function Home() {
 
                         <div class="entry">
                           <div>
-                            <h5>Google</h5>
-                            <a href="#">www.google.com</a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="logo-box">
-                    <img src="assets/img/logo/etero.png" alt="" />
-
-                    <div class="info">
-                      <div class="content">
-                        <div class="icon">
-                          <i class="fas fa-plus"></i>
-                        </div>
-
-                        <div class="entry">
-                          <div>
-                            <h5>Google</h5>
-                            <a href="#">www.google.com</a>
+                            <h5>Follow Us On Instagram</h5>
+                            <a href="http://www.instagram.com/etereolifestyle">étereoLifeStyle</a>
                           </div>
                         </div>
                       </div>
@@ -598,7 +640,7 @@ export default function Home() {
                   </div>
 
                   <div class="logo-box">
-                    <img src="assets/img/logo/etero.png" alt="" />
+                    <img src="assets/img/tequila/l5.jpg" alt="" />
 
                     <div class="info">
                       <div class="content">
@@ -608,8 +650,8 @@ export default function Home() {
 
                         <div class="entry">
                           <div>
-                            <h5>Google</h5>
-                            <a href="#">www.google.com</a>
+                            <h5>Follow Us On Instagram</h5>
+                            <a href="http://www.instagram.com/etereolifestyle">étereoLifeStyle</a>
                           </div>
                         </div>
                       </div>
@@ -617,7 +659,7 @@ export default function Home() {
                   </div>
 
                   <div class="logo-box">
-                    <img src="assets/img/logo/etero.png" alt="" />
+                    <img src="assets/img/tequila/l12.jpg" alt="" />
 
                     <div class="info">
                       <div class="content">
@@ -627,8 +669,27 @@ export default function Home() {
 
                         <div class="entry">
                           <div>
-                            <h5>Google</h5>
-                            <a href="#">www.google.com</a>
+                            <h5>Follow Us On Instagram</h5>
+                            <a href="http://www.instagram.com/etereolifestyle">étereoLifeStyle</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="logo-box">
+                    <img src="assets/img/tequila/l7.jpg" alt="" />
+
+                    <div class="info">
+                      <div class="content">
+                        <div class="icon">
+                          <i class="fas fa-plus"></i>
+                        </div>
+
+                        <div class="entry">
+                          <div>
+                            <h5>Follow Us On Instagram</h5>
+                            <a href="http://www.instagram.com/etereolifestyle">étereoLifeStyle</a>
                           </div>
                         </div>
                       </div>
@@ -637,6 +698,8 @@ export default function Home() {
                 </div>
               </div>
             </section>
+            <Footer />
+
           </div>
         </div>
       </div>
@@ -654,7 +717,6 @@ export default function Home() {
       </div>
 
 
-      <Footer />
 
     </div>
   );

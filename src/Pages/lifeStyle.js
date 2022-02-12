@@ -44,7 +44,7 @@ export default function LifeStyle() {
                             <div class="project-title" id="dsn-hero-parallax-title">
                                 <div class="title-text-header">
                                     <div class="cat">
-                                        <span>Brands</span>
+                                        <span>ETEREO</span>
                                     </div>
                                     <span class="title-text-header-inner">
                                         <span data-dsn-animate="ajax">LIFESTYLE</span>
@@ -52,14 +52,14 @@ export default function LifeStyle() {
                                 </div>
                                 <div class="sub-text-header" data-dsn-animate="ajax">
                                     <h5>We Are Not Selling Tequila,
-</h5>
-<br/>
+                                    </h5>
+                                    <br />
                                     <span>-We Are Purveying A
-LifeStyle</span>
+                                        LifeStyle</span>
                                 </div>
                             </div>
 
-                         
+
                         </div>
                     </header>
 
@@ -74,32 +74,22 @@ LifeStyle</span>
                                         data-dsn-duration="170%"
                                         data-dsn-move="0%"
                                     >
-                                        LifeStyle
+                                        L I F E S T Y L E
                                     </div>
                                     <div class="inner">
-                                        <h2 data-dsn-animate="text">LifeStyle</h2>
+                                        <h2 data-dsn-animate="text"> L I F E S T Y L E</h2>
                                         <p data-dsn-animate="up">
-                                        We found the perfect balance beteween the past and present clean,minimalist and timeless with a strong creative logo 
-                                        that embodies the true roots of our products. Our logo is defined by two distinct elements 
-                                        The toltec Cyclops symbol discovered in the ancient cave located in mexico.
-                                        The Eétreo agave plant Surounding our logo as a crown
-                                        /sun to enhance the importance of our tequila flavors
+                                            We are purveying a sophisticated lifestyle
+                                            fecting exclusivity, good vibes, and prestige. We di
+                                            ferentiate ourselves by o
+                                            fering
+                                            distinct
+                                            a unique , out-of-body experience with our
+                                            favor pro
+                                            fles and lifestyle
                                         </p>
 
-                                        <a
-                                            class="bottom-link"
-                                            data-dsn-animate="up"
-                                            href="https://etereolifestyle.com/life-style/"
-                                            target="_blank"
-                                        >
-                                            <span></span>
-                                            <span></span>
-                                            <div class="content">
-                                                <div class="inner">
-                                                    <p>VISIT SITE</p>
-                                                </div>
-                                            </div>
-                                        </a>
+
                                     </div>
                                 </div>
                             </div>
@@ -125,18 +115,19 @@ LifeStyle</span>
                                     </div>
                                 </div>
                             </div>
+
                             <div class="container-fluid gallery-col">
                                 <div class="row">
                                     <div class="col-md-4 box-im section-padding">
-                                        <div class="image-zoom" data-dsn="parallax"  
->
+                                        <div class="image-zoom" data-dsn="parallax"
+                                        >
                                             <a
                                                 class="single-image"
                                                 href="assets/img/Lifestyle/d.jpeg"
                                             >
-                                                <img src="assets/img/Lifestyle/d.jpeg" alt=""  
-                                                style={{ borderRadius: "20px" }}
-/>
+                                                <img src="assets/img/Lifestyle/d.jpeg" alt=""
+                                                    style={{ borderRadius: "20px" }}
+                                                />
                                             </a>
 
                                             {/* <div class="caption">Trevor Bittinger</div> */}
@@ -148,13 +139,13 @@ LifeStyle</span>
                                                 class="single-image"
                                                 href="assets/img/Lifestyle/l2.jpg"
                                             >
-                                                <img src="assets/img/Lifestyle/l2.jpg" alt="" 
-                                                 style={{ borderRadius: "20px" }}
+                                                <img src="assets/img/Lifestyle/l2.jpg" alt=""
+                                                    style={{ borderRadius: "20px" }}
                                                 />
                                             </a>
                                         </div>
 
-                                        
+
                                     </div>
                                     <div class="col-md-4 box-im section-padding">
                                         <div class="image-zoom" data-dsn="parallax">
@@ -162,46 +153,37 @@ LifeStyle</span>
                                                 class="single-image"
                                                 href="assets/img/Lifestyle/et4.jpg"
                                             >
-                                                <img src="assets/img/Lifestyle/et4.jpg" alt="" 
-                                                 style={{ borderRadius: "20px" }}
+                                                <img src="assets/img/Lifestyle/et4.jpg" alt=""
+                                                    style={{ borderRadius: "20px" }}
                                                 />
                                             </a>
                                         </div>
 
-                                        
+
                                     </div>
 
-        
+
                                 </div>
                             </div>
+
+
                             <div class="gallery-portfolio section-margin">
                                 <a
                                     class="link-pop"
-                                    href="assets/img/project/project9/6.jpg"
-                                    data-source="assets/img/project/project9/6.jpg"
+                                    href="assets/img/tequila/l1.jpg"
+                                    data-source="assets/img/tequila/l1.jpg"
                                 >
-                                    <img src="assets/img/project/project9/6.jpg" alt="" />
+                                    <img src="assets/img/tequila/l1.jpg" alt="" />
                                     <div class="cap">
                                     </div>
                                 </a>
 
                                 <a
                                     class="link-pop"
-                                    href="assets/img/project/project9/8.jpg"
-                                    data-source="assets/img/project/project9/8.jpg"
+                                    href="assets/img/tequila/l2.jpg"
+                                    data-source="assets/img/tequila/l2.jpg"
                                 >
-                                    <img src="assets/img/project/project9/8.jpg" alt="" />
-                                    <div class="cap">
-                                        <span>Web Design</span>
-                                    </div>
-                                </a>
-
-                                <a
-                                    class="link-pop"
-                                    href="assets/img/project/project9/9.jpg"
-                                    data-source="assets/img/project/project9/9.jpg"
-                                >
-                                    <img src="assets/img/project/project9/9.jpg" alt="" />
+                                    <img src="assets/img/tequila/l2.jpg" alt="" />
                                     <div class="cap">
                                         <span>Web Design</span>
                                     </div>
@@ -209,10 +191,10 @@ LifeStyle</span>
 
                                 <a
                                     class="link-pop"
-                                    href="assets/img/project/project9/10.jpg"
-                                    data-source="assets/img/project/project9/10.jpg"
+                                    href="assets/img/tequila/l3.jpg"
+                                    data-source="assets/img/tequila/l3.jpg"
                                 >
-                                    <img src="assets/img/project/project9/10.jpg" alt="" />
+                                    <img src="assets/img/tequila/l3.jpg" alt="" />
                                     <div class="cap">
                                         <span>Web Design</span>
                                     </div>
@@ -220,10 +202,10 @@ LifeStyle</span>
 
                                 <a
                                     class="link-pop"
-                                    href="assets/img/project/project9/11.jpg"
-                                    data-source="assets/img/project/project9/11.jpg"
+                                    href="assets/img/tequila/l4.jpg"
+                                    data-source="assets/img/tequila/l4.jpg"
                                 >
-                                    <img src="assets/img/project/project9/11.jpg" alt="" />
+                                    <img src="assets/img/tequila/l4.jpg" alt="" />
                                     <div class="cap">
                                         <span>Web Design</span>
                                     </div>
@@ -231,10 +213,21 @@ LifeStyle</span>
 
                                 <a
                                     class="link-pop"
-                                    href="assets/img/project/project9/12.jpg"
-                                    data-source="assets/img/project/project9/12.jpg"
+                                    href="assets/img/tequila/l6.jpg"
+                                    data-source="assets/img/tequila/l6.jpg"
                                 >
-                                    <img src="assets/img/project/project9/12.jpg" alt="" />
+                                    <img src="assets/img/tequila/l6.jpg" alt="" />
+                                    <div class="cap">
+                                        <span>Web Design</span>
+                                    </div>
+                                </a>
+
+                                <a
+                                    class="link-pop"
+                                    href="assets/img/tequila/l5.jpg"
+                                    data-source="assets/img/tequila/l5.jpg"
+                                >
+                                    <img src="assets/img/tequila/l5.jpg" alt="" />
                                     <div class="cap">
                                         <span>Web Design</span>
                                     </div>
@@ -248,7 +241,7 @@ LifeStyle</span>
                                             <div class="box-im" data-dsn-grid="move-up">
                                                 <img
                                                     class="has-top-bottom"
-                                                    src="assets/img/project/project9/5.jpg"
+                                                    src="assets/img/tequila/l7.jpg"
                                                     alt=""
                                                     data-dsn-move="20%"
                                                 />
@@ -262,16 +255,17 @@ LifeStyle</span>
                                                 </div>
 
                                                 <h6 data-dsn-animate="up">
-                                                    We set THE blue and gold standard, emblazoned it with a
-                                                    bear, and held it high. Then we watched our passion
-                                                    spread across the state.
+                                                    ETÉREO is taking a diferent turn
+                                                    on tequila’s traditional folkloric approach.
+                                                    ETÉREO is a perfectly balanced blend of Mexican
+                                                    heritage, European fair and Mediterranean lifestyle.
+                                                    It is the defnition of understated luxury
                                                 </h6>
 
                                                 <p data-dsn-animate="up">
-                                                    Challenging the status quo, driving forward, never
-                                                    backing down. The future of intelligence. The future of
-                                                    excellence. The future of defiance, innovation, and
-                                                    sport. This is where it all begins.
+                                                    With a rich and favorful taste paired with an exceptionally smooth fnish across the range,
+                                                    we are bringing the product up to levels of high end champagne, whiskys, and cognacs
+                                                    while retaining a more relaxed and upper casual feel.
                                                 </p>
 
                                                 <div class="link-custom" data-dsn-animate="up">
@@ -285,15 +279,15 @@ LifeStyle</span>
                                 </div>
                             </div>
 
-                         
 
-                         
 
-                        
+
+
+
                         </div>
 
-{/*  container 1 */}
-   {/* <div class="box-seat section-margin">
+                        {/*  container 1 */}
+                        {/* <div class="box-seat section-margin">
                                 <div class="container-fluid">
                                     <div class="inner-img" data-dsn-grid="move-up">
                                         <img src="assets/img/project/project9/13.jpg" alt="" />
@@ -312,7 +306,7 @@ LifeStyle</span>
                                     </div>
                                 </div>
                             </div>  */}
-{/* container 2*/}
+                        {/* container 2*/}
 
 
                         {/* <div class="next-project" data-dsn-footer="project">
@@ -370,7 +364,7 @@ LifeStyle</span>
                         </footer>
                     </div>
 
-                
+
                 </div>
             </div>
 
