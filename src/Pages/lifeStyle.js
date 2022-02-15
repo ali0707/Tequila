@@ -232,6 +232,106 @@ export default function LifeStyle() {
                                         <span>Web Design</span>
                                     </div>
                                 </a>
+                                <a
+                                    class="link-pop"
+                                    href="assets/img/tequila/l7.jpg"
+                                    data-source="assets/img/tequila/l7.jpg"
+                                >
+                                    <img src="assets/img/tequila/l7.jpg" alt="" />
+                                    <div class="cap">
+                                        <span>Web Design</span>
+                                    </div>
+                                </a>
+                                <a
+                                    class="link-pop"
+                                    href="assets/img/tequila/l8.jpg"
+                                    data-source="assets/img/tequila/l8.jpg"
+                                >
+                                    <img src="assets/img/tequila/l8.jpg" alt="" />
+                                    <div class="cap">
+                                        <span>Web Design</span>
+                                    </div>
+                                </a>
+                                <a
+                                    class="link-pop"
+                                    href="assets/img/tequila/l9.jpg"
+                                    data-source="assets/img/tequila/l9.jpg"
+                                >
+                                    <img src="assets/img/tequila/l9.jpg" alt="" />
+                                    <div class="cap">
+                                        <span>Web Design</span>
+                                    </div>
+                                </a>
+                                <a
+                                    class="link-pop"
+                                    href="assets/img/tequila/l10.jpg"
+                                    data-source="assets/img/tequila/l10.jpg"
+                                >
+                                    <img src="assets/img/tequila/l10.jpg" alt="" />
+                                    <div class="cap">
+                                        <span>Web Design</span>
+                                    </div>
+                                </a>
+                                <a
+                                    class="link-pop"
+                                    href="assets/img/tequila/l11.jpg"
+                                    data-source="assets/img/tequila/l11.jpg"
+                                >
+                                    <img src="assets/img/tequila/l11.jpg" alt="" />
+                                    <div class="cap">
+                                        <span>Web Design</span>
+                                    </div>
+                                </a>
+                                <a
+                                    class="link-pop"
+                                    href="assets/img/tequila/l12.jpg"
+                                    data-source="assets/img/tequila/l12.jpg"
+                                >
+                                    <img src="assets/img/tequila/l12.jpg" alt="" />
+                                    <div class="cap">
+                                        <span>Web Design</span>
+                                    </div>
+                                </a>
+                                <a
+                                    class="link-pop"
+                                    href="assets/img/tequila/l13.jpg"
+                                    data-source="assets/img/tequila/l13.jpg"
+                                >
+                                    <img src="assets/img/tequila/l13.jpg" alt="" />
+                                    <div class="cap">
+                                        <span>Web Design</span>
+                                    </div>
+                                </a>
+                                <a
+                                    class="link-pop"
+                                    href="assets/img/tequila/l14.jpg"
+                                    data-source="assets/img/tequila/l14.jpg"
+                                >
+                                    <img src="assets/img/tequila/l14.jpg" alt="" />
+                                    <div class="cap">
+                                        <span>Web Design</span>
+                                    </div>
+                                </a>
+                                <a
+                                    class="link-pop"
+                                    href="assets/img/tequila/l15.jpg"
+                                    data-source="assets/img/tequila/l15.jpg"
+                                >
+                                    <img src="assets/img/tequila/l15.jpg" alt="" />
+                                    <div class="cap">
+                                        <span>Web Design</span>
+                                    </div>
+                                </a>
+                                <a
+                                    class="link-pop"
+                                    href="assets/img/tequila/l16.jpg"
+                                    data-source="assets/img/tequila/l16.jpg"
+                                >
+                                    <img src="assets/img/tequila/l16.jpg" alt="" />
+                                    <div class="cap">
+                                        <span>Web Design</span>
+                                    </div>
+                                </a>
                             </div>
                             <div class="box-gallery-vertical section-margin section-padding">
                                 <div class="mask-bg"></div>
