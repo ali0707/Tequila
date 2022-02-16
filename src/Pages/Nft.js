@@ -42,7 +42,7 @@ export default function Nft() {
                                 <p data-dsn-animate="up">
                                     Etereo can undoubtedly be ranked amongst the best Tequilas on the market, but our sole
                                     purpose besides providing you with the finest beverages has always been to purvey an exclusive
-                                    lifestyle to all our clients.
+                                    lifestyle to all our clients.<br />
 
                                     This ultimate goal will very soon be achieved through the launch of our NFT collection.
                                 </p>
@@ -92,14 +92,14 @@ export default function Nft() {
 
                                 <div style={{ marginTop: "50px", marginBottom: "50px" }} class="container-fluid gallery-col">
                                     <div class="row">
-                                        <div class="col-md-4 box-im section-padding">
+                                        <div class="col-md-4 box-im section-padding" style={{ paddingLeft: "10px", paddingRight: "10px" }} >
                                             <div class="image-zoom" data-dsn="parallax"
                                             >
                                                 <a
                                                     class="single-image"
-                                                    href="assets/img/Lifestyle/d.jpeg"
+                                                    href="assets/img/NFT/1.png"
                                                 >
-                                                    <img src="assets/img/Lifestyle/d.jpeg" alt=""
+                                                    <img src="assets/img/NFT/1.png" alt=""
                                                         style={{ borderRadius: "20px" }}
                                                     />
                                                 </a>
@@ -107,43 +107,69 @@ export default function Nft() {
                                                 {/* <div class="caption">Trevor Bittinger</div> */}
                                             </div>
                                         </div>
-                                        <div class="col-md-4 box-im section-padding">
+                                        <div class="col-md-4 box-im section-padding" style={{ paddingLeft: "10px", paddingRight: "10px" }}>
                                             <div class="image-zoom" data-dsn="parallax">
                                                 <a
                                                     class="single-image"
-                                                    href="assets/img/Lifestyle/l2.jpg"
+                                                    href="assets/img/NFT/2.png"
                                                 >
-                                                    <img src="assets/img/Lifestyle/l2.jpg" alt=""
+                                                    <img src="assets/img/NFT/2.png" alt=""
                                                         style={{ borderRadius: "20px" }}
                                                     />
                                                 </a>
                                             </div>
-
-
                                         </div>
-                                        <div class="col-md-4 box-im section-padding">
+                                        <div class="col-md-4 box-im section-padding" style={{ paddingLeft: "10px", paddingRight: "10px" }}>
                                             <div class="image-zoom" data-dsn="parallax">
                                                 <a
                                                     class="single-image"
-                                                    href="assets/img/Lifestyle/et4.jpg"
+                                                    href="assets/img/NFT/3.png"
                                                 >
-                                                    <img src="assets/img/Lifestyle/et4.jpg" alt=""
+                                                    <img src="assets/img/NFT/3.png" alt=""
                                                         style={{ borderRadius: "20px" }}
                                                     />
                                                 </a>
                                             </div>
-
-
                                         </div>
 
 
                                     </div>
                                 </div>
 
-                                <div class="box-title" data-dsn-title="cover">
-                                    <h2 class="title-cover" data-dsn-grid="move-section" data-dsn-move="-70">Explore Collections
-                                    </h2>
+                                <div className="intro-text text-center">
+
+                                    <div class='ctrl'>
+                                        <div class='ctrl__button ctrl__button--decrement'>-</div>
+                                        <div class='ctrl__counter'>
+                                            <input class='ctrl__counter-input' maxlength='10' type='text' value='0'></input>
+                                            <div class='ctrl__counter-num'>0</div>
+                                        </div>
+                                        <div class='ctrl__button ctrl__button--increment'>+</div>
+                                        <div class='ctrl__button mint'>MINT</div>
+                                    </div>
                                 </div>
+
+
+                                <div style={{ marginTop: "100px" }} class="container intro-project section-margin">
+                                    <div class="intro-text text-center">
+
+                                        <div class="inner">
+                                            <h4 data-dsn-animate="text">Available on March 26, 2022</h4>
+                                            <p data-dsn-animate="up">
+                                                Explication du mint système<br />
+                                                Indeed and for the first time in NFT history each and every digital piece of art issued will
+                                                instantly and permanently give access to real life benefits for all our holders to enjoy.s
+                                            </p>
+                                            <div class="box-title" data-dsn-title="cover">
+                                                <h2 class="title-cover" data-dsn-grid="move-section" data-dsn-move="-70">Explore Collections
+                                                </h2>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+
 
                                 <div class="projects-list gallery">
                                     <div class="item Monkey">
@@ -155,7 +181,8 @@ export default function Nft() {
 
                                                 <span><span>Ever dreamed of all inclusive trips to
                                                     Etereo events worldwide as prime guests ?
-                                                    Number</span></span>
+                                                </span> </span>
+                                                <h6>Number</h6>
                                             </div>
                                         </a>
                                     </div>
@@ -167,8 +194,9 @@ export default function Nft() {
                                             <div class="item-border"></div>
                                             <div class="item-info">
 
-                                                <span><span>Ever dreamed of all inclusive trips to
-                                                    Etereo events worldwide as prime guests ?
+                                                <span><span>Ever dreamed of a unique trip to Mexico’s finest
+                                                    and most genuine tequila distillery ?
+
                                                     Number</span></span>
                                             </div>
                                         </a>
@@ -180,8 +208,8 @@ export default function Nft() {
                                             <div class="item-border"></div>
                                             <div class="item-info">
 
-                                                <span><span>Ever dreamed of all inclusive trips to
-                                                    Etereo events worldwide as prime guests ?
+                                                <span><span>Ever dreamed of unlimited supply of
+                                                    the finest Tequila and Caviar ?
                                                     Number</span></span>
                                             </div>
                                         </a>
@@ -195,8 +223,8 @@ export default function Nft() {
                                             <div class="item-border"></div>
                                             <div class="item-info">
 
-                                                <span><span>Ever dreamed of all inclusive trips to
-                                                    Etereo events worldwide as prime guests ?
+                                                <span><span>Ever dreamed of being a VIP at every
+                                                    nightclub you go to ?
                                                     Number</span></span>
                                             </div>
                                         </a>
@@ -209,8 +237,7 @@ export default function Nft() {
                                             <div class="item-info">
                                                 {/* <h5 class="cat">3D</h5>
                                                 <h4>Sleep Walker</h4> */}
-                                                <span><span>Ever dreamed of all inclusive trips to
-                                                    Etereo events worldwide as prime guests ?
+                                                <span><span>Yacth day
                                                     Number</span></span>
                                             </div>
                                         </a>
@@ -222,8 +249,8 @@ export default function Nft() {
                                             <div class="item-border"></div>
                                             <div class="item-info">
 
-                                                <span><span>Ever dreamed of all inclusive trips to
-                                                    Etereo events worldwide as prime guests ?
+                                                <span><span>Ever dreamed of sitting front row at every UFC
+                                                    fight before partying with the champion ?
                                                     Number</span></span>
                                             </div>
                                         </a>
@@ -235,50 +262,46 @@ export default function Nft() {
                                             <div class="item-border"></div>
                                             <div class="item-info">
 
-                                                <span><span>Ever dreamed of all inclusive trips to
-                                                    Etereo events worldwide as prime guests ?
+                                                <span><span>Valise / Porte carte / pochette lunette ?
                                                     Number</span></span>
                                             </div>
                                         </a>
                                     </div>
 
-                                    <div class="item person ">
-                                        <a href="project-5.html" data-dsn-grid="move-up">
-                                            <img class="has-top-bottom" src="assets/img/project/project5/1.jpg" alt="" />
-                                            <div class="item-border"></div>
-                                            <div class="item-info">
-
-                                                <span><span>Ever dreamed of all inclusive trips to
-                                                    Etereo events worldwide as prime guests ?
-                                                    Number</span></span>
-                                            </div>
-                                        </a>
-                                    </div>
                                 </div>
                             </div>
                         </div>
 
                         <section class="contact-up section-margin section-padding">
                             <div class="container">
-                                <div class="c-wapp">
-                                    <a class="effect-ajax">
-                                        <span class="hiring">
-                                            Sign up for our NEWLETTERS !
-                                        </span>
-                                        <span class="career">
-                                            <label>
-                                                YOUR Email:
-                                                <input type="text" name="EMAIL" />
-                                            </label>
-                                            <input type="submit" value="SEND" />
-                                        </span>
-                                    </a>
+                                <div style={{ marginTop: "100px" }} class="container intro-project section-margin">
+                                    <div class="intro-text text-center">
+
+                                        <div class="inner">
+                                            <p data-dsn-animate="up">
+                                                Well thanks to Etereo, making all these dreams your reality has never been simpler.<br />
+
+                                                2200 NFTs will be available for mint on our platform all of which will provide unique real life experiences.<br />
+
+                                                Just like we were not only creating a Tequila…<br />
+                                                We are not only creating NFTs…<br />
+
+                                                We are purveying a lifestyle.<br />
+
+                                                The only question is, are you truly ready for this lifestyle?<br />
+                                            </p>
+                                            <br />
+                                            <br />
+                                            <br />
+                                            <h4 data-dsn-animate="text">Rejoindre la communauté discord</h4>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </section>
-
+                        <Footer />
                     </div>
-                    <Footer />
+
                 </div>
             </div>
 
@@ -307,3 +330,5 @@ export default function Nft() {
         </div>
     );
 }
+
+

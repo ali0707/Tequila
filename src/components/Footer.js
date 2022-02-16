@@ -3,7 +3,7 @@ import React from "react";
 export default function Footer() {
   return (
     <div>
-      <div className="footer">
+      <div className="footer" style={{ paddingBottom: '100px', paddingTop: '-20px' }}>
         <div className="container">
           <div className="footer-links p-relative">
             <div className="row">
@@ -16,23 +16,11 @@ export default function Footer() {
                   </div>
 
                   <div className="footer-social">
-                    <ul>
-                      <li>
-                        <a href="#">
-                          <i className="fab fa-facebook-f"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i className="fab fa-behance"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="https://www.instagram.com/etereolifestyle/">
-                          <i className="fab fa-instagram"></i>
-                        </a>
-                      </li>
-                    </ul>
+
+                    <a href="https://www.instagram.com/etereolifestyle/">
+                      <i className="fab fa-instagram"></i>
+                    </a>
+
                   </div>
                 </div>
               </div>
@@ -43,16 +31,22 @@ export default function Footer() {
                   <nav>
                     <ul>
                       <li>
-                        <a href="#">Portfolio</a>
+                        <a href="AboutUs">About</a>
                       </li>
                       <li>
-                        <a href="#">About</a>
+                        <a href="LifeStyle">LifeStyle</a>
                       </li>
                       <li>
-                        <a href="#">News</a>
+                        <a href="Shop">Shop</a>
                       </li>
                       <li>
-                        <a href="#">Contact</a>
+                        <a href="Nft">NFT</a>
+                      </li>
+                      <li>
+                        <a href="our-process">Our Process</a>
+                      </li>
+                      <li>
+                        <a href="contact">Contact</a>
                       </li>
                     </ul>
                   </nav>
