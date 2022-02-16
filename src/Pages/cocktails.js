@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../components/Footer";
 import Header2 from "../components/Header2";
 
 export default function Cocktails() {
@@ -612,6 +613,8 @@ export default function Cocktails() {
                     </div>
                     <div class="nav-work-img-box" data-overlay="5"></div>
                 </div>
+
+                <Footer />
 
                 <div class="wait-loader">
                     <div class="loader-inner">

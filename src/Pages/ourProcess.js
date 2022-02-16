@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Header2 from "../components/Header2";
 
@@ -700,6 +701,31 @@ export default function Process() {
           </div>
           <div class="nav-work-img-box" data-overlay="5"></div>
         </div>
+
+        <div class="box-seat">
+          <div class="dsn-v-text">
+            <div class="container-fluid">
+              <div class="box-middle-text">
+                <a href="https://vimeo.com/175353205" class="vid">
+                  <div class="play-button">
+                    <div class="play-btn">
+                      <i class="fas fa-play"></i>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="inner-img" data-dsn-grid="move-up">
+                <img
+                  class="has-top-bottom"
+                  src="assets/img/project/project9/7.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <Footer />
 
         <div class="wait-loader">
           <div class="loader-inner">

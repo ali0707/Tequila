@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "../components/Header";
+import Footer from "../components/Footer"
 
 export default function Contact() {
   return (
@@ -30,8 +31,8 @@ export default function Contact() {
               <div class="row">
                 <div class="col-lg-6">
                   <div class="contenet-hero">
-                    <h5>Lat's Tock</h5>
-                    <h1>Contact</h1>
+                    <h5>Let's Get</h5>
+                    <h1>In Touch</h1>
                   </div>
                 </div>
               </div>
@@ -44,7 +45,7 @@ export default function Contact() {
                 <div
                   class="map-custom"
                   id="map"
-                  data-dsn-lat="00000000"
+                  data-dsn-lat="27.255698"
                   data-dsn-len="31.258553"
                   data-dsn-zoom="14"
                 ></div>
@@ -55,14 +56,15 @@ export default function Contact() {
                   <div class="col-lg-6">
                     <div class="box-info-contact">
                       <h3>
-                        WE ARE CREATING MORE THAN A TEQUILA, WE ARE PURVIVING A
-                        LIFESTYLE.?
+                        WE ARE CREATING MORE THAN TEQUILA, WE ARE PURVIVING A
+                        LIFESTYLE "
                       </h3>
 
                       <ul>
                         <li>
-                          <span>Email</span>
+                          <span>Email</span><br />
                           <a href="#">JAMES@ETEREOLIFESTYLE.COM</a>
+                          <br />
                           <a href="#">HAMADE@ETEREOLIFESTYLE.COM</a>
                         </li>
                         <li>
@@ -144,32 +146,7 @@ export default function Contact() {
               </div>
             </div>
 
-            <footer>
-              <div class="info">
-                <div class="contact-footer">
-                  <a
-                    href="tel:010"
-                    class="phone image-zoom"
-                    data-dsn="parallax"
-                  >
-                    012.345.6789
-                  </a>
-                  <a href="#" class="email image-zoom" data-dsn="parallax">
-                    info@dsngrid
-                  </a>
-                </div>
-                <div class="copyright-social">
-                  <p>© 2019 Design Grid</p>
-                  <ul>
-                    <li class="image-zoom" data-dsn="parallax">
-                      <a href="#" target="_blank">
-                        Instagram
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </footer>
+            <Footer />
           </div>
         </div>
       </div>

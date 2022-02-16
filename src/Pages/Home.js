@@ -578,8 +578,9 @@ export default function Home() {
                 <div class="one-title" data-dsn-animate="up">
                   <div class="title-sub-container">
                     <p class="title-sub">OUR COLLECTION</p>
+
                   </div>
-                  <h2 class="title-main"></h2>
+                  <h2 class="title-main">FOLLOW US ON INSTAGRAM</h2>
                 </div>
 
                 <div class="wapper-client">
