@@ -46,6 +46,9 @@ export default function Footer() {
                         <a href="our-process">Our Process</a>
                       </li>
                       <li>
+                        <a href="Events">Events</a>
+                      </li>
+                      <li>
                         <a href="contact">Contact</a>
                       </li>
                     </ul>

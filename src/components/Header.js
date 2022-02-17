@@ -47,6 +47,9 @@ export default function Header() {
                 <a href="Nft">NFT</a>
               </li>
               <li>
+                <a href="Events">EVENTS</a>
+              </li>
+              <li>
                 <a href="contact">CONTACT</a>
               </li>
             </ul>

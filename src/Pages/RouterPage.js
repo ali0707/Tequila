@@ -9,6 +9,7 @@ import Shop from "./Shop";
 import LifeStyle from "./lifeStyle"
 import Cocktails from "./cocktails";
 import Process from "./ourProcess";
+import Events from "./events";
 
 export default function RouterPage() {
   return (
@@ -24,6 +25,7 @@ export default function RouterPage() {
           <Route path="/AboutUs" element={<AboutUs />} />
           <Route path="/Nft" element={<Nft />} />
           <Route path="/Cocktails" element={<Cocktails />} />
+          <Route path="/Events" element={<Events />} />
 
 
 

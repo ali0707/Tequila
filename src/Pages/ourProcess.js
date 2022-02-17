@@ -83,7 +83,7 @@ export default function Process() {
                       <div class="slide-content-inner">
                         <div class="project-metas">
                           <div class="project-meta-box project-work cat">
-                            <span>step 1</span>
+                            <span>STEP 1</span>
                           </div>
                         </div>
 
@@ -127,7 +127,7 @@ export default function Process() {
                       <div class="slide-content-inner">
                         <div class="project-metas">
                           <div class="project-meta-box project-work cat">
-                            <span>Brands</span>
+                            <span>STEP 2</span>
                           </div>
                         </div>
 
@@ -166,12 +166,13 @@ export default function Process() {
                     </div>
                   </div>
 
+
                   <div class="slide-item swiper-slide">
                     <div class="slide-content">
                       <div class="slide-content-inner">
                         <div class="project-metas">
                           <div class="project-meta-box project-work cat">
-                            <span>Photography</span>
+                            <span>STEP 3</span>
                           </div>
                         </div>
 
@@ -182,49 +183,36 @@ export default function Process() {
                               class="effect-ajax"
                               data-dsn-ajax="slider"
                             >
-                              Toast 2019 Reelx
+                              EXTRACTION{" "}
                             </a>
                           </div>
                         </div>
 
                         <p>
-                          We are thrilled to share our new reel with you all!
-                          Special thanks to all of our talented friends.
+                          Once cooked, the agave heads are transported to a milling area for sugar extraction. The cooked piñas are crushed in order to release the juice, or “aguamiel,” that will be fermented. The traditional method is to crush the piñas with a “tahona,” a giant grinding wheel operated by mules, oxen or tractors within a circular pit. Modern distilleries now use a mechanical crusher to separate the fiber from the juices. Once the piñas are minced they are washed with water and strained to remove the juices.
                         </p>
 
 
                       </div>
                     </div>
-
                     <div class="image-container">
                       <div
-                        class="cover-bg hidden"
-                        data-image-src="assets/img/steps/4.jpeg"
+                        class="image-bg cover-bg"
+                        data-image-src="assets/img/steps/3.jpeg"
                         data-overlay="2"
                       >
                         <img src="assets/img/steps/3.jpeg" alt="" />
                       </div>
-
-                      <div class=" " data-dsn="video" data-overlay="4">
-                        <div class="image-container">
-                          <div
-                            class="image-bg cover-bg"
-                            data-image-src="assets/img/steps/3.jpeg"
-                            data-overlay="0"
-                          >
-                            <img src="assets/img/steps/3.jpeg" alt="" />
-                          </div>
-                        </div>
-                      </div>
                     </div>
                   </div>
+
 
                   <div class="slide-item swiper-slide">
                     <div class="slide-content">
                       <div class="slide-content-inner">
                         <div class="project-metas">
                           <div class="project-meta-box project-work cat">
-                            <span>Photography</span>
+                            <span>STEP 4</span>
                           </div>
                         </div>
 
@@ -235,7 +223,7 @@ export default function Process() {
                               class="effect-ajax"
                               data-dsn-ajax="slider"
                             >
-                              Fermentation{" "}
+                              FERMENTATION{" "}
                             </a>
                           </div>
                         </div>
@@ -245,6 +233,44 @@ export default function Process() {
                           transformed into alcohol within large wooden vats or
                           stainless steel tanks. Yeast may be added to
                           accelerate and control the fermentation.
+                        </p>
+
+
+                      </div>
+                    </div>
+                    <div class="image-container">
+                      <div
+                        class="image-bg cover-bg"
+                        data-image-src="assets/img/steps/4.jpeg"
+                        data-overlay="2"
+                      >
+                        <img src="assets/img/steps/4.jpeg" alt="" />
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="slide-item swiper-slide">
+                    <div class="slide-content">
+                      <div class="slide-content-inner">
+                        <div class="project-metas">
+                          <div class="project-meta-box project-work cat">
+                            <span>STEP 5</span>
+                          </div>
+                        </div>
+                        <div class="title-text-header">
+                          <div class="title-text-header-inner">
+                            <a
+
+                              class="effect-ajax"
+                              data-dsn-ajax="slider"
+                            >
+                              DISTILLATION
+                            </a>
+                          </div>
+                        </div>
+
+                        <p>
+                          The fifth step of creating tequila is distillation, in which ferments are separated by heat and steam pressure within stainless steel pot stills or distillation towers. While some tequilas are distilled three times, the majority are only distilled twice, including IZKALI Tequila. The first distillation, also known as “deztrozamiento” or “smashing,” takes a couple hours and yields a liquid with an alcohol level of about 20% known as “ordinario.” The second distillation, known as “rectification,” takes three to four hours and yields a liquid with an alcohol level near 55%. After the second distillation the tequila is considered silver, or “blanco,” tequila.
                         </p>
 
 
@@ -264,6 +290,11 @@ export default function Process() {
                   <div class="slide-item swiper-slide">
                     <div class="slide-content">
                       <div class="slide-content-inner">
+                        <div class="project-metas">
+                          <div class="project-meta-box project-work cat">
+                            <span>STEP 6</span>
+                          </div>
+                        </div>
                         <div class="title-text-header">
                           <div class="title-text-header-inner">
                             <a
@@ -271,17 +302,21 @@ export default function Process() {
                               class="effect-ajax"
                               data-dsn-ajax="slider"
                             >
-                              AGING
-                            </a>
+                              AGING</a>
                           </div>
                         </div>
 
                         <p>
-                          Almost all containers used in tequila aging are French
-                          or American white oak barrels that have previously
-                          been used to age bourbon. Reposados are aged between
-                          two and twelve months
-                        </p>
+                          Almost all containers used in tequila aging
+                          are French or American white oak barrels that
+                          have previously been used to age bourbon.
+                          Reposados are aged between two and twelve months,
+                          Añejos are aged between one and three years and Extra Añejos
+                          are aged for over three years. The longer the tequila ages,
+                          the more color and tannins the final product will have.
+                          The condition of the barrels (such as their age,
+                          previous use and if their interiors have been burnt or toasted)
+                          will also affect the tequila’s taste. </p>
 
 
                       </div>
@@ -300,6 +335,11 @@ export default function Process() {
                   <div class="slide-item swiper-slide">
                     <div class="slide-content">
                       <div class="slide-content-inner">
+                        <div class="project-metas">
+                          <div class="project-meta-box project-work cat">
+                            <span>STEP 7</span>
+                          </div>
+                        </div>
                         <div class="title-text-header">
                           <div class="title-text-header-inner">
                             <a
@@ -335,46 +375,6 @@ export default function Process() {
                     </div>
                   </div>
 
-                  <div class="slide-item swiper-slide">
-                    <div class="slide-content">
-                      <div class="slide-content-inner">
-                        <div class="project-metas">
-                          <div class="project-meta-box project-work cat">
-                            <span>Photography</span>
-                          </div>
-                        </div>
-
-                        <div class="title-text-header">
-                          <div class="title-text-header-inner">
-                            <a
-
-                              class="effect-ajax"
-                              data-dsn-ajax="slider"
-                            >
-                              Bastian Bux
-                            </a>
-                          </div>
-                        </div>
-
-                        <p>
-                          Bastian bux is the consequence of reducing everything
-                          surrounding a dj and producer to its essential
-                          element: the music.
-                        </p>
-
-
-                      </div>
-                    </div>
-                    <div class="image-container">
-                      <div
-                        class="image-bg cover-bg"
-                        data-image-src="assets/img/steps/7.jpg"
-                        data-overlay="0"
-                      >
-                        <img src="assets/img/steps/7.jpg" alt="" />
-                      </div>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
