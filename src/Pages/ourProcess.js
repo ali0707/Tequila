@@ -702,11 +702,40 @@ export default function Process() {
           <div class="nav-work-img-box" data-overlay="5"></div>
         </div>
 
+        <div style={{ marginTop: "100px" }} class="container intro-project section-margin">
+          <div class="intro-text text-center">
+            <div
+              class="title-cover"
+              data-dsn-grid="move-section"
+              data-dsn-opacity="0.1"
+              data-dsn-duration="170%"
+              data-dsn-move="0%"
+            >
+              P R O C E S S
+            </div>
+            <div class="inner">
+              <h2 data-dsn-animate="text">THIS IS HOW WE MAKE OUR TEQUILA</h2>
+              <p data-dsn-animate="up">
+                Our tequilas come from the lowlands of Jalisco, where
+                volcanic minerals have fertilized the soil and generated
+                optimal conditions for our blue weber agave resulting in our
+                exceptional and unique flavor profiles.<br />
+
+                With a rich and favorful taste paired with an exceptionally smooth fnish across the range,
+                we are bringing the product up to levels of high end champagne, whiskys, and cognacs
+                while retaining a more relaxed and upper casual feel.                                </p>
+
+
+            </div>
+          </div>
+        </div>
+
+
         <div class="box-seat">
           <div class="dsn-v-text">
             <div class="container-fluid">
               <div class="box-middle-text">
-                <a href="https://vimeo.com/175353205" class="vid">
+                <a href="https://vimeo.com/495196950" class="vid">
                   <div class="play-button">
                     <div class="play-btn">
                       <i class="fas fa-play"></i>
@@ -717,7 +746,7 @@ export default function Process() {
               <div class="inner-img" data-dsn-grid="move-up">
                 <img
                   class="has-top-bottom"
-                  src="assets/img/project/project9/7.jpg"
+                  src="assets/videos/makin-etereo.png"
                   alt=""
                 />
               </div>

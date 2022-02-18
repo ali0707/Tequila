@@ -583,8 +583,8 @@ export default function Home() {
                   <h2 class="title-main">FOLLOW US ON INSTAGRAM</h2>
                 </div>
 
-                <div class="wapper-client">
-                  <div class="logo-box">
+                <div class="wapper-client" >
+                  <div class="logo-box" style={{ padding: -30 }}>
                     <img src="assets/img/Lifestyle/sd.jpg" alt="" />
 
                     <div class="info">
@@ -603,7 +603,7 @@ export default function Home() {
                     </div>
                   </div>
 
-                  <div class="logo-box">
+                  <div class="logo-box" style={{ padding: -30 }}>
                     <img src="assets/img/Lifestyle/l2.jpg" alt="" />
 
                     <div class="info">
@@ -621,7 +621,7 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
-                  <div class="logo-box">
+                  <div class="logo-box" style={{ padding: -30 }}>
                     <img src="assets/img/Lifestyle/l4.jpg" alt="" />
 
                     <div class="info">
@@ -640,7 +640,7 @@ export default function Home() {
                     </div>
                   </div>
 
-                  <div class="logo-box">
+                  <div class="logo-box" style={{ padding: -30 }}>
                     <img src="assets/img/tequila/l5.jpg" alt="" />
 
                     <div class="info">
@@ -659,7 +659,7 @@ export default function Home() {
                     </div>
                   </div>
 
-                  <div class="logo-box">
+                  <div class="logo-box" style={{ padding: -30 }}>
                     <img src="assets/img/tequila/l12.jpg" alt="" />
 
                     <div class="info">
@@ -678,7 +678,7 @@ export default function Home() {
                     </div>
                   </div>
 
-                  <div class="logo-box">
+                  <div class="logo-box" style={{ padding: -30 }}>
                     <img src="assets/img/tequila/l7.jpg" alt="" />
 
                     <div class="info">

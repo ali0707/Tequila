@@ -92,7 +92,7 @@ export default function Nft() {
 
                                 <div style={{ marginTop: "50px", marginBottom: "50px" }} class="container-fluid gallery-col">
                                     <div class="row">
-                                        <div class="col-md-4 box-im section-padding" style={{ paddingLeft: "10px", paddingRight: "10px" }} >
+                                        <div class="col-md-4 box-im section-padding" style={{ padding: 10 }} >
                                             <div class="image-zoom" data-dsn="parallax"
                                             >
                                                 <a
@@ -107,7 +107,7 @@ export default function Nft() {
                                                 {/* <div class="caption">Trevor Bittinger</div> */}
                                             </div>
                                         </div>
-                                        <div class="col-md-4 box-im section-padding" style={{ paddingLeft: "10px", paddingRight: "10px" }}>
+                                        <div class="col-md-4 box-im section-padding" style={{ padding: 10 }}>
                                             <div class="image-zoom" data-dsn="parallax">
                                                 <a
                                                     class="single-image"
@@ -119,7 +119,7 @@ export default function Nft() {
                                                 </a>
                                             </div>
                                         </div>
-                                        <div class="col-md-4 box-im section-padding" style={{ paddingLeft: "10px", paddingRight: "10px" }}>
+                                        <div class="col-md-4 box-im section-padding" style={{ padding: 10 }}>
                                             <div class="image-zoom" data-dsn="parallax">
                                                 <a
                                                     class="single-image"
