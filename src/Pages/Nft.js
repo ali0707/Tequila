@@ -66,7 +66,7 @@ export default function Nft() {
                                 <div class="inner-img" data-dsn-grid="move-up">
                                     <img
                                         class="has-top-bottom"
-                                        src="assets/img/project/project9/7.jpg"
+                                        src="./Assets/videos/Nft1.369.png"
                                         alt=""
                                     />
                                 </div>
@@ -175,7 +175,7 @@ export default function Nft() {
                                     <div class="item Monkey">
                                         <a href="project-9.html" class="effect-ajax" data-dsn-ajax="work"
                                             data-dsn-grid="move-up">
-                                            <img class="has-top-bottom" src="assets/img/project/project9/1.jpg" alt="" />
+                                            <img class="has-top-bottom" src="./Assets/img/353.png" alt="" />
                                             <div class="item-border"></div>
                                             <div class="item-info">
 
@@ -190,7 +190,7 @@ export default function Nft() {
                                     <div class="item Monkey">
                                         <a href="project-4.html" class="effect-ajax" data-dsn-ajax="work"
                                             data-dsn-grid="move-up">
-                                            <img class="has-top-bottom" src="assets/img/project/project4/2.jpg" alt="" />
+                                            <img class="has-top-bottom" src="./Assets/img/356.png" alt="" />
                                             <div class="item-border"></div>
                                             <div class="item-info">
 
@@ -204,7 +204,7 @@ export default function Nft() {
 
                                     <div class="item 3D">
                                         <a href="project-3.html" data-dsn-grid="move-up">
-                                            <img class="has-top-bottom" src="assets/img/project/project3/1.jpg" alt="" />
+                                            <img class="has-top-bottom" src="./Assets/img/353.png" alt="" />
                                             <div class="item-border"></div>
                                             <div class="item-info">
 
@@ -219,7 +219,7 @@ export default function Nft() {
 
                                     <div class="item 3D">
                                         <a href="project-7.html" data-dsn-grid="move-up">
-                                            <img class="has-top-bottom" src="assets/img/project/project7/1.jpg" alt="" />
+                                            <img class="has-top-bottom" src="./Assets/img/Montre.png" alt="" />
                                             <div class="item-border"></div>
                                             <div class="item-info">
 
@@ -232,7 +232,8 @@ export default function Nft() {
 
                                     <div class="item 3D">
                                         <a data-dsn-grid="move-up">
-                                            <img class="has-top-bottom" src="assets/img/project/project6/1.jpg" alt="" />
+                                        <img src="./Assets/img/Accessoires/Caviar.png" alt=""
+ />
                                             <div class="item-border"></div>
                                             <div class="item-info">
                                                 {/* <h5 class="cat">3D</h5>
@@ -245,7 +246,7 @@ export default function Nft() {
 
                                     <div class="item Monkey">
                                         <a href="project-1.html" data-dsn-grid="move-up">
-                                            <img class="has-top-bottom" src="assets/img/project/project1/1.jpg" alt="" />
+                                            <img class="has-top-bottom" src="./Assets/img/349.png" alt="" />
                                             <div class="item-border"></div>
                                             <div class="item-info">
 

@@ -126,7 +126,7 @@ export default function Allprosses() {
                         class="single-image"
                         href="assets/img/project/project9/2.jpg"
                       >
-                        <img src="assets/img/project/project9/2.jpg" alt="" />
+                        <img src="./Assets/img/project/project9/2.jpg" alt=""/>
                       </a>
 
                       <div class="caption">Trevor Bittinger</div>

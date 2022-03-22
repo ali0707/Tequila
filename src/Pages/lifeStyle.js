@@ -109,7 +109,7 @@ export default function LifeStyle() {
                                         <div class="inner-img" data-dsn-grid="move-up">
                                             <img
                                                 class="has-top-bottom"
-                                                src="assets/img/project/project9/7.jpg"
+                                                src="./Assets/videos/Nft1.369.png"
                                                 alt=""
                                             />
                                         </div>
@@ -280,17 +280,7 @@ export default function LifeStyle() {
                                 >
                                     <img src="assets/img/tequila/l11.jpg" alt="" />
                                     <div class="cap">
-                                        <span>Web Design</span>
-                                    </div>
-                                </a>
-                                <a
-                                    class="link-pop"
-                                    href="assets/img/tequila/l12.jpg"
-                                    data-source="assets/img/tequila/l12.jpg"
-                                >
-                                    <img src="assets/img/tequila/l12.jpg" alt="" />
-                                    <div class="cap">
-                                        <span>Web Design</span>
+                                        <span>Etéreo</span>
                                     </div>
                                 </a>
                                 <a

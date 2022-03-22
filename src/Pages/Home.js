@@ -37,7 +37,7 @@ export default function Home() {
                   <video class=" dsn-video" controls autoplay loop playsinline>
                     <source
                       autoplay
-                      src="assets/videos/homevideo.mp4"
+                      src="./Assets/videos/Home1.mp4"
                       type="video/mp4"
                     />
                     Your browser does not support HTML5 video.
