@@ -21,14 +21,14 @@ export default function Allprosses() {
       </div>
       <Header2 />
       <main class="main-root">
-        <div id="dsn-scrollbar">
+        <div >
           <header>
             <div class="headefr-fexid" data-dsn-header="project">
               <div class="bg" id="dsn-hero-parallax-img" data-dsn-ajax="img">
                 <div
                   class="bg-image  cover-bg"
                   data-overlay="0"
-                  data-image-src="assets/img/project/project9/1.jpg"
+                  data-image-src="./Assets/img/project/project9/1.jpg"
                 ></div>
               </div>
 
@@ -124,7 +124,7 @@ export default function Allprosses() {
                     <div class="image-zoom" data-dsn="parallax">
                       <a
                         class="single-image"
-                        href="assets/img/project/project9/2.jpg"
+                        href="./Assets/img/project/project9/2.jpg"
                       >
                         <img src="./Assets/img/project/project9/2.jpg" alt=""/>
                       </a>
@@ -137,9 +137,9 @@ export default function Allprosses() {
                     <div class="image-zoom" data-dsn="parallax">
                       <a
                         class="single-image"
-                        href="assets/img/project/project9/3.jpg"
+                        href="./Assets/img/project/project9/3.jpg"
                       >
-                        <img src="assets/img/project/project9/3.jpg" alt="" />
+                        <img src="./Assets/img/project/project9/3.jpg" alt="" />
                       </a>
                       <div class="caption">Sef McCullough</div>
                     </div>
@@ -149,9 +149,9 @@ export default function Allprosses() {
                     <div class="image-zoom" data-dsn="parallax">
                       <a
                         class="single-image"
-                        href="assets/img/project/project9/4.jpg"
+                        href="./Assets/img/project/project9/4.jpg"
                       >
-                        <img src="assets/img/project/project9/4.jpg" alt="" />
+                        <img src="./Assets/img/project/project9/4.jpg" alt="" />
                       </a>
                       <div class="caption">Sef McCullough</div>
                     </div>
@@ -167,7 +167,7 @@ export default function Allprosses() {
                       <div class="box-im" data-dsn-grid="move-up">
                         <img
                           class="has-top-bottom"
-                          src="assets/img/project/project9/5.jpg"
+                          src="./Assets/img/project/project9/5.jpg"
                           alt=""
                           data-dsn-move="20%"
                         />
@@ -219,7 +219,7 @@ export default function Allprosses() {
                     <div class="inner-img" data-dsn-grid="move-up">
                       <img
                         class="has-top-bottom"
-                        src="assets/img/project/project9/7.jpg"
+                        src="./Assets/img/project/project9/7.jpg"
                         alt=""
                       />
                     </div>
@@ -230,7 +230,7 @@ export default function Allprosses() {
               <div class="box-seat section-margin">
                 <div class="container-fluid">
                   <div class="inner-img" data-dsn-grid="move-up">
-                    <img src="assets/img/project/project9/13.jpg" alt="" />
+                    <img src="./Assets/img/project/project9/13.jpg" alt="" />
                   </div>
                   <div class="pro-text" data-dsn-grid="move-section">
                     <h3 data-dsn-animate="text">
@@ -249,10 +249,10 @@ export default function Allprosses() {
               <div class="gallery-portfolio section-margin">
                 <a
                   class="link-pop"
-                  href="assets/img/project/project9/6.jpg"
-                  data-source="assets/img/project/project9/6.jpg"
+                  href="./Assets/img/project/project9/6.jpg"
+                  data-source="./Assets/img/project/project9/6.jpg"
                 >
-                  <img src="assets/img/project/project9/6.jpg" alt="" />
+                  <img src="./Assets/img/project/project9/6.jpg" alt="" />
                   <div class="cap">
                     <span>Web Design</span>
                   </div>
@@ -260,10 +260,10 @@ export default function Allprosses() {
 
                 <a
                   class="link-pop"
-                  href="assets/img/project/project9/8.jpg"
-                  data-source="assets/img/project/project9/8.jpg"
+                  href="./Assets/img/project/project9/8.jpg"
+                  data-source="./Assets/img/project/project9/8.jpg"
                 >
-                  <img src="assets/img/project/project9/8.jpg" alt="" />
+                  <img src="./Assets/img/project/project9/8.jpg" alt="" />
                   <div class="cap">
                     <span>Web Design</span>
                   </div>
@@ -271,10 +271,10 @@ export default function Allprosses() {
 
                 <a
                   class="link-pop"
-                  href="assets/img/project/project9/9.jpg"
-                  data-source="assets/img/project/project9/9.jpg"
+                  href="./Assets/img/project/project9/9.jpg"
+                  data-source="./Assets/img/project/project9/9.jpg"
                 >
-                  <img src="assets/img/project/project9/9.jpg" alt="" />
+                  <img src="./Assets/img/project/project9/9.jpg" alt="" />
                   <div class="cap">
                     <span>Web Design</span>
                   </div>
@@ -282,10 +282,10 @@ export default function Allprosses() {
 
                 <a
                   class="link-pop"
-                  href="assets/img/project/project9/10.jpg"
-                  data-source="assets/img/project/project9/10.jpg"
+                  href="./Assets/img/project/project9/10.jpg"
+                  data-source="./Assets/img/project/project9/10.jpg"
                 >
-                  <img src="assets/img/project/project9/10.jpg" alt="" />
+                  <img src="./Assets/img/project/project9/10.jpg" alt="" />
                   <div class="cap">
                     <span>Web Design</span>
                   </div>
@@ -293,10 +293,10 @@ export default function Allprosses() {
 
                 <a
                   class="link-pop"
-                  href="assets/img/project/project9/11.jpg"
-                  data-source="assets/img/project/project9/11.jpg"
+                  href="./Assets/img/project/project9/11.jpg"
+                  data-source="./Assets/img/project/project9/11.jpg"
                 >
-                  <img src="assets/img/project/project9/11.jpg" alt="" />
+                  <img src="./Assets/img/project/project9/11.jpg" alt="" />
                   <div class="cap">
                     <span>Web Design</span>
                   </div>
@@ -304,10 +304,10 @@ export default function Allprosses() {
 
                 <a
                   class="link-pop"
-                  href="assets/img/project/project9/12.jpg"
-                  data-source="assets/img/project/project9/12.jpg"
+                  href="./Assets/img/project/project9/12.jpg"
+                  data-source="./Assets/img/project/project9/12.jpg"
                 >
-                  <img src="assets/img/project/project9/12.jpg" alt="" />
+                  <img src="./Assets/img/project/project9/12.jpg" alt="" />
                   <div class="cap">
                     <span>Web Design</span>
                   </div>
@@ -320,7 +320,7 @@ export default function Allprosses() {
                 <div
                   class="bg-image cover-bg"
                   data-overlay="4"
-                  data-image-src="assets/img/project/project1/1.jpg"
+                  data-image-src="./Assets/img/project/project1/1.jpg"
                 ></div>
               </div>
 

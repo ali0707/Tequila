@@ -11,7 +11,7 @@ export default function Footer() {
                 <div className="footer-block">
                   <div className="footer-logo">
                     <a href="">
-                      <img src="assets/img/logo/etero.png" alt="" />
+                      <img src="./Assets/img/logo/etero.png" alt="" />
                     </a>
                   </div>
 
@@ -69,7 +69,7 @@ export default function Footer() {
                   <h4 className="footer-title">Address</h4>
 
                   <p>
-                    Etereo Spirits LLC , Irvine, California 92606 – USA <br />
+                  Etéreo Spirits LLC , Irvine, California 92606 – USA <br />
                     1776 Damietta
                     <br />
                     2855 Michelle Drive Suite 280

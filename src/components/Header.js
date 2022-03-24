@@ -10,14 +10,14 @@ export default function Header() {
               <a href="/">
                 <img
                   className="dark-logo"
-                  src="assets/img/logo/etero.png"
+                  src="./Assets/img/logo/etero.png"
                   style={{ height: "76px" }}
                   alt=""
                   alt=""
                 />
                 <img
                   className="light-logo"
-                  src="assets/img/logo/etero.png"
+                  src="./Assets/img/logo/etero.png"
                   alt=""
                 />
               </a>
@@ -62,12 +62,12 @@ export default function Header() {
             <a href="/">
               <img
                 className="dark-logo"
-                src="assets/img/logo/etero.png"
+                src="./Assets/img/logo/etero.png"
                 alt=""
               />
               <img
                 className="light-logo"
-                src="assets/img/logo/etero.png"
+                src="./Assets/img/logo/etero.png"
                 alt=""
               />
             </a>
@@ -97,7 +97,7 @@ export default function Header() {
             <div className="inner-content">
               <address class="v-middle">
                 <span> California 92606 – USA</span>
-                <span>Etereo Spirits LLC 2855 Michelle Drive Suite 280 , Irvine,</span>
+                <span>Etéreo Spirits LLC 2855 Michelle Drive Suite 280 , Irvine,</span>
               </address>
             </div>
           </div>

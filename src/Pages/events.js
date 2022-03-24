@@ -13,9 +13,7 @@ export default function Events() {
                 <div class="preloader-block">
                     <div class="title">étereo </div>
                     <div class="percent">0</div>
-                    <div class="loading">
-                        <iframe src="https://embed.lottiefiles.com/animation/29783"></iframe>
-                    </div>
+               
                 </div>
                 <div class="preloader-bar">
                     <div class="preloader-progress"></div>
@@ -25,12 +23,14 @@ export default function Events() {
             <Header />
 
             <main class="main-root">
-                <div id="dsn-scrollbar">
+            {/* <div id="dsn-scrollbar"> */}
+
+                <div >
                     <header>
                         <div class="headefr-fexid" data-dsn-header="project">
                             <div class="bg" id="dsn-hero-parallax-img" data-dsn-ajax="img">
                                 <div class="bg-image  cover-bg" data-overlay="2"
-                                    data-image-src="assets/img/Lifestyle/l5.jpeg"></div>
+                                    data-image-src="./Assets/img/Lifestyle/l5.jpeg"></div>
                             </div>
 
                             <div class="scroll" data-dsn-animate="ajax">
@@ -54,19 +54,7 @@ export default function Events() {
                                 </div>
                             </div>
 
-                            <div class="project-page__inner">
-                                <div class="h-100">
-                                    <div class="row justify-content-center align-items-end h-100">
-                                        <div id="descover-holder" class="col-lg-12 project-meta__content">
-                                            <div class="link">
-                                                <a target="_blank"
-                                                    href="https://www.behance.net/gallery/57437111/Under-Armour-Cal?tracking_source=search%7CPhotography">
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                         
                         </div>
                     </header>
 
@@ -79,7 +67,7 @@ export default function Events() {
                                         ETÉREO
                                     </div>
                                     <div class="inner">
-                                        <h2 data-dsn-animate="text">{"e’te,re,o"}</h2>
+                                        <h2 data-dsn-animate="text">ETÉREO</h2>
                                         <p data-dsn-animate="up">The Spanish translation for ethereal in English means:</p>
                                         <ul class="mt-20" data-dsn-animate="up">
                                             <h3>"OUT OF THIS WORLD"</h3>
@@ -93,8 +81,8 @@ export default function Events() {
 
                                     <div class="col-md-4 box-im section-padding" style={{ padding: 10 }}>
                                         <div class="image-zoom" data-dsn="parallax">
-                                            <a class="single-image" href="assets/img/events/e8.jpg">
-                                                <img src="assets/img/events/e8.jpg" alt="" />
+                                            <a class="single-image" href="./Assets/img/events/e8.jpg">
+                                                <img src="./Assets/img/events/e8.jpg" alt="" />
                                             </a>
 
                                             <div class="caption"></div>
@@ -103,8 +91,8 @@ export default function Events() {
 
                                     <div class="col-md-4 box-im section-padding" style={{ padding: 10 }}>
                                         <div class="image-zoom" data-dsn="parallax">
-                                            <a class="single-image" href="assets/img/events/e16.jpg">
-                                                <img src="assets/img/events/e16.jpg" alt="" />
+                                            <a class="single-image" href="./Assets/img/events/e16.jpg">
+                                                <img src="./Assets/img/events/e16.jpg" alt="" />
                                             </a>
                                             <div class="caption"></div>
                                         </div>
@@ -112,8 +100,8 @@ export default function Events() {
 
                                     <div class="col-md-4 box-im section-padding" style={{ padding: 10 }}>
                                         <div class="image-zoom" data-dsn="parallax">
-                                            <a class="single-image" href="assets/img/events/e10.jpg">
-                                                <img src="assets/img/events/e10.jpg" alt="" />
+                                            <a class="single-image" href="./Assets/img/events/e10.jpg">
+                                                <img src="./Assets/img/events/e10.jpg" alt="" />
                                             </a>
                                             <div class="caption"></div>
                                         </div>
@@ -128,7 +116,7 @@ export default function Events() {
                                     <div class="row align-items-center h-100">
                                         <div class="col-lg-6 ">
                                             <div class="box-im" data-dsn-grid="move-up">
-                                                <img class="has-top-bottom" src="assets/img/events/e14.jpg" alt=""
+                                                <img class="has-top-bottom" src="./Assets/img/events/e14.jpg" alt=""
                                                     data-dsn-move="20%" />
                                             </div>
                                         </div>
@@ -164,86 +152,86 @@ export default function Events() {
 
 
                             <div class="gallery-portfolio section-margin">
-                                <a class="link-pop" href="assets/img/events/e1.jpg"
-                                    data-source="assets/img/events/e1.jpg">
-                                    <img src="assets/img/events/e1.jpg" alt="" />
+                                <a class="link-pop" href="./Assets/img/events/e1.jpg"
+                                    data-source="./Assets/img/events/e1.jpg">
+                                    <img src="./Assets/img/events/e1.jpg" alt="" />
                                     <div class="cap">
                                         <span></span>
                                     </div>
                                 </a>
-                                <a class="link-pop" href="assets/img/events/e2.jpg"
-                                    data-source="assets/img/events/e2.jpg">
-                                    <img src="assets/img/events/e2.jpg" alt="" />
+                                <a class="link-pop" href="./Assets/img/events/e2.jpg"
+                                    data-source="./Assets/img/events/e2.jpg">
+                                    <img src="./Assets/img/events/e2.jpg" alt="" />
+                                    <div class="cap">
+                                        <span>ETÉREO</span>
+                                    </div>
+                                </a>
+
+                                <a class="link-pop" href="./Assets/img/events/e3.jpg"
+                                    data-source="./Assets/img/events/e3.jpg">
+                                    <img src="./Assets/img/events/e3.jpg" alt="" />
                                     <div class="cap">
                                         <span>étereo</span>
                                     </div>
                                 </a>
 
-                                <a class="link-pop" href="assets/img/events/e3.jpg"
-                                    data-source="assets/img/events/e3.jpg">
-                                    <img src="assets/img/events/e3.jpg" alt="" />
+                                <a class="link-pop" href="./Assets/img/events/e4.jpg"
+                                    data-source="./Assets/img/events/e4.jpg">
+                                    <img src="./Assets/img/events/e4.jpg" alt="" />
                                     <div class="cap">
                                         <span>étereo</span>
                                     </div>
                                 </a>
 
-                                <a class="link-pop" href="assets/img/events/e4.jpg"
-                                    data-source="assets/img/events/e4.jpg">
-                                    <img src="assets/img/events/e4.jpg" alt="" />
+                                <a class="link-pop" href="./Assets/img/events/e5.jpg"
+                                    data-source="./Assets/img/events/e5.jpg">
+                                    <img src="./Assets/img/events/e5.jpg" alt="" />
                                     <div class="cap">
                                         <span>étereo</span>
                                     </div>
                                 </a>
 
-                                <a class="link-pop" href="assets/img/events/e5.jpg"
-                                    data-source="assets/img/events/e5.jpg">
-                                    <img src="assets/img/events/e5.jpg" alt="" />
+                                <a class="link-pop" href="./Assets/img/events/e6.jpg"
+                                    data-source="./Assets/img/events/e6.jpg">
+                                    <img src="./Assets/img/events/e6.jpg" alt="" />
                                     <div class="cap">
                                         <span>étereo</span>
                                     </div>
                                 </a>
 
-                                <a class="link-pop" href="assets/img/events/e6.jpg"
-                                    data-source="assets/img/events/e6.jpg">
-                                    <img src="assets/img/events/e6.jpg" alt="" />
-                                    <div class="cap">
-                                        <span>étereo</span>
-                                    </div>
-                                </a>
-
-                                <a class="link-pop" href="assets/img/events/e7.jpg"
-                                    data-source="assets/img/events/e7.jpg">
-                                    <img src="assets/img/events/e7.jpg" alt="" />
-                                    <div class="cap">
-                                        <span>étereo</span>
-                                    </div>
-                                </a>
-
-
-
-
-
-                                <a class="link-pop" href="assets/img/events/e11.jpg"
-                                    data-source="assets/img/events/e11.jpg">
-                                    <img src="assets/img/events/e11.jpg" alt="" />
+                                <a class="link-pop" href="./Assets/img/events/e7.jpg"
+                                    data-source="./Assets/img/events/e7.jpg">
+                                    <img src="./Assets/img/events/e7.jpg" alt="" />
                                     <div class="cap">
                                         <span>étereo</span>
                                     </div>
                                 </a>
 
 
-                                <a class="link-pop" href="assets/img/events/e12.jpg"
-                                    data-source="assets/img/events/e12.jpg">
-                                    <img src="assets/img/events/e12.jpg" alt="" />
+
+
+
+                                <a class="link-pop" href="./Assets/img/events/e11.jpg"
+                                    data-source="./Assets/img/events/e11.jpg">
+                                    <img src="./Assets/img/events/e11.jpg" alt="" />
                                     <div class="cap">
                                         <span>étereo</span>
                                     </div>
                                 </a>
 
 
-                                <a class="link-pop" href="assets/img/events/e17.jpg"
-                                    data-source="assets/img/events/e17.jpg">
-                                    <img src="assets/img/events/e17.jpg" alt="" />
+                                <a class="link-pop" href="./Assets/img/events/e12.jpg"
+                                    data-source="./Assets/img/events/e12.jpg">
+                                    <img src="./Assets/img/events/e12.jpg" alt="" />
+                                    <div class="cap">
+                                        <span>étereo</span>
+                                    </div>
+                                </a>
+
+
+                                <a class="link-pop" href="./Assets/img/events/e17.jpg"
+                                    data-source="./Assets/img/events/e17.jpg">
+                                    <img src="./Assets/img/events/e17.jpg" alt="" />
                                     <div class="cap">
                                         <span>étereo</span>
                                     </div>
@@ -256,7 +244,7 @@ export default function Events() {
                         <div class="next-project" data-dsn-footer="project">
                             <div id="dsn-next-parallax-img" class="bg">
                                 <div class="bg-image cover-bg" data-overlay="4"
-                                    data-image-src="assets/img/events/e9.jpg"></div>
+                                    data-image-src="./Assets/img/events/e9.jpg"></div>
                             </div>
 
                             <div id="dsn-next-parallax-title" class="project-title">

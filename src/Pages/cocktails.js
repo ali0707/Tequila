@@ -12,7 +12,7 @@ export default function Cocktails() {
                 <div class="preloader-after"></div>
                 <div class="preloader-before"></div>
                 <div class="preloader-block">
-                    <div class="title">Etereo</div>
+                    <div class="title">Etéreo</div>
                     <div class="percent">0</div>
                     <div class="loading">loading...</div>
                 </div>
@@ -28,12 +28,12 @@ export default function Cocktails() {
                             <a href="index.html">
                                 <img
                                     class="dark-logo"
-                                    src="assets/img/logo/eterologo-blanc.png"
+                                    src="./Assets/img/logo/eterologo-blanc.png"
                                     alt=""
                                 />
                                 <img
                                     class="light-logo"
-                                    src="assets/img/logo/eterologo-blanc.png"
+                                    src="./Assets/img/logo/eterologo-blanc.png"
                                     alt=""
                                 />
                             </a>
@@ -63,7 +63,7 @@ export default function Cocktails() {
                             <div class="inner-content">
                                 <address class="v-middle">
                                     <span> California 92606 – USA</span>
-                                    <span>Etereo Spirits LLC 2855 Michelle Drive Suite 280 , Irvine,</span>
+                                    <span>Etéreo Spirits LLC 2855 Michelle Drive Suite 280 , Irvine,</span>
                                 </address>
                             </div>
                         </div>
@@ -111,10 +111,10 @@ export default function Cocktails() {
                                         <div class="image-container">
                                             <div
                                                 class="image-bg cover-bg"
-                                                data-image-src="assets/img/cocktails/00.jpg"
+                                                data-image-src="./Assets/img/cocktails/00.jpg"
                                                 data-overlay="4"
                                             >
-                                                <img src="assets/img/cocktails/00.jpg" alt="" />
+                                                <img src="./Assets/img/cocktails/00.jpg" alt="" />
                                             </div>
                                         </div>
                                     </div>
@@ -155,10 +155,10 @@ export default function Cocktails() {
                                         <div class="image-container">
                                             <div
                                                 class="image-bg cover-bg"
-                                                data-image-src="assets/img/cocktails/1.png"
+                                                data-image-src="./Assets/img/cocktails/1.png"
                                                 data-overlay="0"
                                             >
-                                                <img src="assets/img/cocktails/1.png" alt="" />
+                                                <img src="./Assets/img/cocktails/1.png" alt="" />
                                             </div>
                                         </div>
                                     </div>
@@ -198,10 +198,10 @@ export default function Cocktails() {
                                         <div class="image-container">
                                             <div
                                                 class="image-bg cover-bg"
-                                                data-image-src="assets/img/cocktails/2.png"
+                                                data-image-src="./Assets/img/cocktails/2.png"
                                                 data-overlay="4"
                                             >
-                                                <img src="assets/img/cocktails/2.png" alt="" />
+                                                <img src="./Assets/img/cocktails/2.png" alt="" />
                                             </div>
                                         </div>
                                     </div>
@@ -245,20 +245,20 @@ export default function Cocktails() {
                                         <div class="image-container">
                                             <div
                                                 class="cover-bg hidden"
-                                                data-image-src="assets/img/cocktails/3.png"
+                                                data-image-src="./Assets/img/cocktails/3.png"
                                                 data-overlay="2"
                                             >
-                                                <img src="assets/img/cocktails/3.png" alt="" />
+                                                <img src="./Assets/img/cocktails/3.png" alt="" />
                                             </div>
 
                                             <div class=" " data-dsn="video" data-overlay="4">
                                                 <div class="image-container">
                                                     <div
                                                         class="image-bg cover-bg"
-                                                        data-image-src="assets/img/cocktails/3.png"
+                                                        data-image-src="./Assets/img/cocktails/3.png"
                                                         data-overlay="0"
                                                     >
-                                                        <img src="assets/img/cocktails/3.png" alt="" />
+                                                        <img src="./Assets/img/cocktails/3.png" alt="" />
                                                     </div>
                                                 </div>
                                             </div>
@@ -300,10 +300,10 @@ export default function Cocktails() {
                                         <div class="image-container">
                                             <div
                                                 class="image-bg cover-bg"
-                                                data-image-src="assets/img/cocktails/4.png"
+                                                data-image-src="./Assets/img/cocktails/4.png"
                                                 data-overlay="2"
                                             >
-                                                <img src="assets/img/cocktails/4.png" alt="" />
+                                                <img src="./Assets/img/cocktails/4.png" alt="" />
                                             </div>
                                         </div>
                                     </div>
@@ -342,10 +342,10 @@ export default function Cocktails() {
                                         <div class="image-container">
                                             <div
                                                 class="image-bg cover-bg"
-                                                data-image-src="assets/img/cocktails/5.png"
+                                                data-image-src="./Assets/img/cocktails/5.png"
                                                 data-overlay="2"
                                             >
-                                                <img src="assets/img/cocktails/5.png" alt="" />
+                                                <img src="./Assets/img/cocktails/5.png" alt="" />
                                             </div>
                                         </div>
                                     </div>
@@ -364,7 +364,7 @@ export default function Cocktails() {
                                     <div class="image-container">
                                         <div
                                             class="image-bg cover-bg"
-                                            data-image-src="assets/img/cocktails/00.jpg"
+                                            data-image-src="./Assets/img/cocktails/00.jpg"
                                             data-overlay="2"
                                         ></div>
                                     </div>
@@ -377,7 +377,7 @@ export default function Cocktails() {
                                     <div class="image-container">
                                         <div
                                             class="image-bg cover-bg"
-                                            data-image-src="assets/img/cocktails/1.png"
+                                            data-image-src="./Assets/img/cocktails/1.png"
                                             data-overlay="2"
                                         ></div>
                                     </div>
@@ -390,7 +390,7 @@ export default function Cocktails() {
                                     <div class="image-container">
                                         <div
                                             class="image-bg cover-bg"
-                                            data-image-src="assets/img/cocktails/2.png"
+                                            data-image-src="./Assets/img/cocktails/2.png"
                                             data-overlay="2"
                                         ></div>
                                     </div>
@@ -403,7 +403,7 @@ export default function Cocktails() {
                                     <div class="image-container">
                                         <div
                                             class="image-bg cover-bg"
-                                            data-image-src="assets/img/cocktails/3.png"
+                                            data-image-src="./Assets/img/cocktails/3.png"
                                             data-overlay="2"
                                         ></div>
                                     </div>
@@ -416,7 +416,7 @@ export default function Cocktails() {
                                     <div class="image-container">
                                         <div
                                             class="image-bg cover-bg"
-                                            data-image-src="assets/img/cocktails/4.png"
+                                            data-image-src="./Assets/img/cocktails/4.png"
                                             data-overlay="2"
                                         ></div>
                                     </div>
@@ -429,7 +429,7 @@ export default function Cocktails() {
                                     <div class="image-container">
                                         <div
                                             class="image-bg cover-bg"
-                                            data-image-src="assets/img/cocktails/5.png"
+                                            data-image-src="./Assets/img/cocktails/5.png"
                                             data-overlay="2"
                                         ></div>
                                     </div>
@@ -517,7 +517,7 @@ export default function Cocktails() {
                                 <li class="work-item dsn-active">
                                     <img
                                         class="dsn-animate-webgl"
-                                        src="assets/img/cocktails/1.png"
+                                        src="./Assets/img/cocktails/1.png"
                                         alt=""
                                     />
                                     <a
@@ -535,7 +535,7 @@ export default function Cocktails() {
                                 <li class="work-item ">
                                     <img
                                         class="dsn-animate-webgl"
-                                        src="assets/img/cocktails/2.png"
+                                        src="./Assets/img/cocktails/2.png"
                                         alt=""
                                     />
                                     <a
@@ -552,7 +552,7 @@ export default function Cocktails() {
                                 <li class="work-item">
                                     <img
                                         class="dsn-animate-webgl"
-                                        src="assets/img/cocktails/3.png"
+                                        src="./Assets/img/cocktails/3.png"
                                         alt=""
                                     />
 
@@ -571,7 +571,7 @@ export default function Cocktails() {
                                 <li class="work-item">
                                     <img
                                         class="dsn-animate-webgl"
-                                        src="assets/img/cocktails/4.png"
+                                        src="./Assets/img/cocktails/4.png"
                                         alt=""
                                     />
 
@@ -591,7 +591,7 @@ export default function Cocktails() {
                                 <li class="work-item">
                                     <img
                                         class="dsn-animate-webgl"
-                                        src="assets/img/cocktails/5.png"
+                                        src="./Assets/img/cocktails/5.png"
                                         alt=""
                                     />
 

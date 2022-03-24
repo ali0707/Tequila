@@ -41,15 +41,7 @@ export default function Contact() {
 
           <div class="wrapper">
             <div class="root-contact">
-              <div class="container-fluid ">
-                <div
-                  class="map-custom"
-                  id="map"
-                  data-dsn-lat="27.255698"
-                  data-dsn-len="31.258553"
-                  data-dsn-zoom="14"
-                ></div>
-              </div>
+           
 
               <div class="container section-margin">
                 <div class="row">
@@ -70,7 +62,7 @@ export default function Contact() {
                         <li>
                           <span>Address</span>
                           <a href="#">
-                            Etereo Spirits LLC 2855 Michelle Drive Suite 280 ,
+                          Etéreo Spirits LLC 2855 Michelle Drive Suite 280 ,
                             Irvine, California 92606 – USA
                           </a>
                         </li>

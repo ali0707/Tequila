@@ -17,15 +17,15 @@ export default function RouterPage() {
       <Router>
         <Routes>
           <Route exact path="/" element={<Home />} />
-          <Route exact path="/our-process" element={<Process />} />
-          <Route path="/Detail_Prosses" element={<Allprosses />} />
-          <Route path="/LifeStyle" element={<LifeStyle />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/Shop" element={<Shop />} />
-          <Route path="/AboutUs" element={<AboutUs />} />
-          <Route path="/Nft" element={<Nft />} />
-          <Route path="/Cocktails" element={<Cocktails />} />
-          <Route path="/Events" element={<Events />} />
+          <Route exact path="our-process" element={<Process />} />
+          <Route path="Detail_Prosses" element={<Allprosses />} />
+          <Route path="LifeStyle" element={<LifeStyle />} />
+          <Route path="contact" element={<Contact />} />
+          <Route path="Shop" element={<Shop />} />
+          <Route path="AboutUs" element={<AboutUs />} />
+          <Route path="Nft" element={<Nft />} />
+          <Route path="Cocktails" element={<Cocktails />} />
+          <Route path="Events" element={<Events />} />
 
 
 

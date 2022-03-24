@@ -11,11 +11,9 @@ export default function About() {
                 <div class="preloader-after"></div>
                 <div class="preloader-before"></div>
                 <div class="preloader-block">
-                    <div class="title">étereo </div>
+                    <div class="title">Etéreo </div>
                     <div class="percent">0</div>
-                    <div class="loading">
-                        <iframe src="https://embed.lottiefiles.com/animation/29783"></iframe>
-                    </div>
+                 
                 </div>
                 <div class="preloader-bar">
                     <div class="preloader-progress"></div>
@@ -25,7 +23,7 @@ export default function About() {
             <Header />
 
             <main class="main-root">
-                <div id="dsn-scrollbar">
+                <div >
                     <div>
                         <div class="header-hero header-hero-2 ">
                             <div class="container h-100">
@@ -35,7 +33,7 @@ export default function About() {
                                             <h1>Discover Who We Are & What We Do</h1>
 
                                             <a href="#" class="view-case scroll-down scroll-to">Scroll Down <img
-                                                src="assets/img/arrow-right-wight.png" alt="" /></a>
+                                                src="./Assets/img/arrow-right-wight.png" alt="" /></a>
                                         </div>
                                     </div>
                                 </div>
@@ -48,7 +46,7 @@ export default function About() {
                             <div class="box-seat box-seat-full">
                                 <div class="container-fluid">
                                     <div class="inner-img" data-dsn-grid="move-up">
-                                        <img src="assets/img/wow.png" alt="" data-dsn-y="30%" data-dsn-scale="1" />
+                                        <img src="./Assets/img/wow.png" alt="" data-dsn-y="30%" data-dsn-scale="1" />
                                     </div>
                                     <div class="pro-text">
                                         <h4 data-dsn-animate="up">
@@ -73,7 +71,7 @@ export default function About() {
                                     <div class="row align-items-center h-100">
                                         <div class="col-lg-6">
                                             <div class="box-im">
-                                                <div class="cover-bg" data-image-src="assets/img/skills.jpg"></div>
+                                                <div class="cover-bg" data-image-src="./Assets/img/skills.jpg"></div>
                                             </div>
                                         </div>
                                         <div class="col-lg-5 offset-lg-1">
@@ -108,7 +106,7 @@ export default function About() {
                                         <div class="col-md-6">
                                             <div class="services-item">
                                                 <div class="line-before"></div>
-                                                <h4 class="subtitle">Etereto</h4>
+                                                <h4 class="subtitle">Etéreo</h4>
                                                 <p> We found the perfect balance beteween the past and present clean,minimalist and timeless with a strong creative logo
                                                     that embodies the true roots of our products. Our logo is defined by two distinct elements
                                                     The toltec Cyclops symbol discovered in the ancient cave located in mexico.
@@ -160,7 +158,7 @@ export default function About() {
                                         <div class="slick-slider">
                                             <div class="team-item slick-slide" >
                                                 <div class="box-img" style={{ borderRadius: "25px" }}>
-                                                    <img src="assets/img/one.jpeg" alt="" />
+                                                    <img src="./Assets/img/one.jpeg" alt="" />
                                                 </div>
 
                                                 <div class="box-content">
@@ -171,7 +169,7 @@ export default function About() {
 
                                             <div class="team-item slick-slide">
                                                 <div class="box-img" style={{ borderRadius: "25px" }}>
-                                                    <img src="assets/img/two.jpeg" alt="" />
+                                                    <img src="./Assets/img/two.jpeg" alt="" />
                                                 </div>
 
                                                 <div class="box-content">
@@ -246,7 +244,7 @@ export default function About() {
             </div>
 
 
-            <div class="cursor">
+            {/* <div class="cursor">
 
                 <div class="cursor-helper cursor-view">
                     <span>VIEW</span>
@@ -257,7 +255,7 @@ export default function About() {
                 </div>
 
                 <div class="cursor-helper cursor-link"></div>
-            </div>
+            </div> */}
         </div>
     </div>
 

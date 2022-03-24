@@ -5,30 +5,28 @@ import Header from "../components/Header";
 export default function Home() {
   return (
     <div class="dsn-effect-scroll dsn-ajax" data-dsn-mousemove="true">
-      <div class="preloader">
+      {/* <div class="preloader">
         <div class="preloader-after"></div>
         <div class="preloader-before"></div>
         <div class="preloader-block">
           <div class="title">étereo </div>
           <div class="percent">0</div>
-          <div class="loading">
-            <iframe src="https://embed.lottiefiles.com/animation/29783"></iframe>
-          </div>
+     
         </div>
         <div class="preloader-bar">
           <div class="preloader-progress"></div>
         </div>
-      </div>
+      </div> */}
       <Header />
 
       <div class="main-root">
-        <div id="dsn-scrollbar">
+        <div >
           <header>
             <div
               class="headefr-fexid headefr-fexid-onepage"
               data-dsn-header="project"
             >
-              <div
+        <div 
                 class="bg has-top-bottom"
                 id="dsn-hero-parallax-img"
                 data-dsn-ajax="img"
@@ -49,15 +47,7 @@ export default function Home() {
                 <div class="h-100">
                   <div class="row justify-content-center align-items-center h-100">
                     <div class="project-title" id="dsn-hero-parallax-title">
-                      {/* <div class="sub-text-header">
-                        <h5 class="arrow-left">We make digital products and services.</h5>
-                      </div> */}
-                      {/*
-                      <div class="title-text-header">
-                        <span class="title-text-header-inner">
-                          <span class="arrow-left" >We are digital agency.</span>
-                        </span>
-                      </div> */}
+              
                     </div>
                   </div>
                 </div>
@@ -89,7 +79,6 @@ export default function Home() {
                         complete journey that will awaken all of your senses.
                       </p>
 
-                      {/* <h6 data-dsn-animate="text">SALVADOR DALI</h6> */}
                       <small data-dsn-animate="text">About Us</small>
 
                       <div class="exper">
@@ -123,7 +112,7 @@ export default function Home() {
                       <img
                         style={{ borderRadius: "30px 0px 0px 30px" }}
                         data-dsn-y="50%"
-                        src="assets/img/Lifestyle/d.jpeg"
+                        src="./Assets/img/Lifestyle/d.jpeg"
                         alt=""
                       />
                     </div>
@@ -149,12 +138,12 @@ export default function Home() {
                     <div class="image-zoom" data-dsn="parallax">
                       <a
                         class="single-image"
-                        href="assets/img/tequila/1.jpg"
+                        href="./Assets/img/tequila/1.jpg"
                       >
-                        <img src="assets/img/tequila/1.jpg" alt="" />
+                        <img src="./Assets/img/tequila/1.jpg" alt="" />
                       </a>
 
-                      <div class="caption">Trevor Bittinger</div>
+                      <div class="caption">The finest </div>
                     </div>
                   </div>
 
@@ -162,11 +151,11 @@ export default function Home() {
                     <div class="image-zoom" data-dsn="parallax">
                       <a
                         class="single-image"
-                        href="assets/img/tequila/3.jpg"
+                        href="./Assets/img/tequila/3.jpg"
                       >
-                        <img src="assets/img/tequila/3.jpg" alt="" />
+                        <img src="./Assets/img/tequila/3.jpg" alt="" />
                       </a>
-                      <div class="caption">Sef McCullough</div>
+                      <div class="caption">Under Armour</div>
                     </div>
                   </div>
 
@@ -174,11 +163,11 @@ export default function Home() {
                     <div class="image-zoom" data-dsn="parallax">
                       <a
                         class="single-image"
-                        href="assets/img/tequila/2.jpg"
+                        href="./Assets/img/tequila/2.jpg"
                       >
-                        <img src="assets/img/tequila/2.jpg" alt="" />
+                        <img src="./Assets/img/tequila/2.jpg" alt="" />
                       </a>
-                      <div class="caption">Sef McCullough</div>
+                      <div class="caption">Re Styling</div>
                     </div>
                   </div>
                 </div>
@@ -211,7 +200,7 @@ export default function Home() {
                       <div class="line-before"></div>
                       <h4 class="subtitle">TEQUILA AND SPIRITS</h4>
                       <p>
-                        We can say with confidence that Etereo's products stand
+                        We can say with confidence that Etéreo's products stand
                         out among the competition. Each flavor--the blanco,
                         reposado, and extra anejo--take you on a complete
                         journey that is exactly what its name represents--out of
@@ -252,7 +241,7 @@ export default function Home() {
                 <div class="inner-img" data-dsn-grid="move-up">
                   <img
                     data-dsn-y="30%"
-                    src="assets/img/Lifestyle/woow.jpg"
+                    src="./Assets/img/Lifestyle/woow.jpg"
                     alt=""
                   />
                 </div>
@@ -303,7 +292,7 @@ export default function Home() {
                         <div class="work-item slick-slide">
                           <img
                             class="has-top-bottom"
-                            src="assets/img/cocktails/1.png"
+                            src="./Assets/img/cocktails/1.png"
                             alt=""
                           />
                           <div class="item-border"></div>
@@ -325,7 +314,7 @@ export default function Home() {
                         <div class="work-item slick-slide">
                           <img
                             class="has-top-bottom"
-                            src="assets/img/cocktails/2.png"
+                            src="./Assets/img/cocktails/2.png"
                             alt=""
                           />
                           <div class="item-border"></div>
@@ -347,7 +336,7 @@ export default function Home() {
                         <div class="work-item slick-slide">
                           <img
                             class="has-top-bottom"
-                            src="assets/img/cocktails/3.png"
+                            src="./Assets/img/cocktails/3.png"
                             alt=""
                           />
                           <div class="item-border"></div>
@@ -369,7 +358,7 @@ export default function Home() {
                         <div class="work-item slick-slide">
                           <img
                             class="has-top-bottom"
-                            src="assets/img/cocktails/4.png"
+                            src="./Assets/img/cocktails/4.png"
                             alt=""
                           />
                           <div class="item-border"></div>
@@ -391,7 +380,7 @@ export default function Home() {
                         <div class="work-item slick-slide">
                           <img
                             class="has-top-bottom"
-                            src="assets/img/cocktails/5.png"
+                            src="./Assets/img/cocktails/5.png"
                             alt=""
                           />
                           <div class="item-border"></div>
@@ -428,7 +417,7 @@ export default function Home() {
                     >
                       <img
                         class="has-top-bottom"
-                        src="assets/img/tequila/etlf.jpg"
+                        src="./Assets/img/tequila/etlf.jpg"
                         alt=""
                         data-dsn-move="20%"
                       />
@@ -487,7 +476,7 @@ export default function Home() {
                   <div class="slick-slider">
                     <div class="item-new slick-slide">
                       <div class="image" data-overlay="1" style={{ borderRadius: "20px" }}>
-                        <img src="assets/img/fond/x.jpg" alt="" />
+                        <img src="./Assets/img/fond/x.jpg" alt="" />
                       </div>
                       <div class="content"  >
                         <div class="background" style={{ borderRadius: "20px" }}></div>
@@ -502,7 +491,7 @@ export default function Home() {
 
                     <div class="item-new slick-slide">
                       <div class="image" data-overlay="1" style={{ borderRadius: "20px" }}>
-                        <img src="assets/img/fond/et4.jpg" alt="" />
+                        <img src="./Assets/img/fond/et4.jpg" alt="" />
                       </div>
                       <div class="content"  >
                         <div class="background" style={{ borderRadius: "20px" }}></div>
@@ -517,7 +506,7 @@ export default function Home() {
 
                     <div class="item-new slick-slide">
                       <div class="image" data-overlay="1" style={{ borderRadius: "20px" }}>
-                        <img src="assets/img/fond/g.jpeg" alt="" />
+                        <img src="./Assets/img/fond/g.jpeg" alt="" />
                       </div>
                       <div class="content"  >
                         <div class="background" style={{ borderRadius: "20px" }} ></div>
@@ -542,7 +531,7 @@ export default function Home() {
                 <div class="row align-items-center h-100">
                   <div class="col-lg-6 ">
                     <div class="box-im" data-dsn-grid="move-up">
-                      <img class="has-top-bottom" src="assets/img/Lifestyle/event.jpeg" alt=""
+                      <img class="has-top-bottom" src="./Assets/img/Lifestyle/event.jpeg" alt=""
                         data-dsn-move="20%" />
                     </div>
                   </div>
@@ -580,12 +569,12 @@ export default function Home() {
                     <p class="title-sub">OUR COLLECTION</p>
 
                   </div>
-                  <h2 class="title-main">FOLLOW US ON INSTAGRAM</h2>
+                  <h2 class="title-main">LOGO </h2>
                 </div>
 
                 <div class="wapper-client" >
                   <div class="logo-box" style={{ padding: -30 }}>
-                    <img src="assets/img/Lifestyle/sd.jpg" alt="" />
+                    <img src="./Assets/img/cutL.jpg" alt="" />
 
                     <div class="info">
                       <div class="content">
@@ -604,7 +593,7 @@ export default function Home() {
                   </div>
 
                   <div class="logo-box" style={{ padding: -30 }}>
-                    <img src="assets/img/Lifestyle/l2.jpg" alt="" />
+                    <img src="./Assets/img/logo.jpg" alt="" />
 
                     <div class="info">
                       <div class="content">
@@ -621,81 +610,7 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
-                  <div class="logo-box" style={{ padding: -30 }}>
-                    <img src="assets/img/Lifestyle/l4.jpg" alt="" />
-
-                    <div class="info">
-                      <div class="content">
-                        <div class="icon">
-                          <i class="fas fa-plus"></i>
-                        </div>
-
-                        <div class="entry">
-                          <div>
-                            <h5>Follow Us On Instagram</h5>
-                            <a href="http://www.instagram.com/etereolifestyle">étereoLifeStyle</a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="logo-box" style={{ padding: -30 }}>
-                    <img src="assets/img/tequila/l5.jpg" alt="" />
-
-                    <div class="info">
-                      <div class="content">
-                        <div class="icon">
-                          <i class="fas fa-plus"></i>
-                        </div>
-
-                        <div class="entry">
-                          <div>
-                            <h5>Follow Us On Instagram</h5>
-                            <a href="http://www.instagram.com/etereolifestyle">étereoLifeStyle</a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="logo-box" style={{ padding: -30 }}>
-                    <img src="assets/img/tequila/l12.jpg" alt="" />
-
-                    <div class="info">
-                      <div class="content">
-                        <div class="icon">
-                          <i class="fas fa-plus"></i>
-                        </div>
-
-                        <div class="entry">
-                          <div>
-                            <h5>Follow Us On Instagram</h5>
-                            <a href="http://www.instagram.com/etereolifestyle">étereoLifeStyle</a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="logo-box" style={{ padding: -30 }}>
-                    <img src="assets/img/tequila/l7.jpg" alt="" />
-
-                    <div class="info">
-                      <div class="content">
-                        <div class="icon">
-                          <i class="fas fa-plus"></i>
-                        </div>
-
-                        <div class="entry">
-                          <div>
-                            <h5>Follow Us On Instagram</h5>
-                            <a href="http://www.instagram.com/etereolifestyle">étereoLifeStyle</a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+            
                 </div>
               </div>
             </section>

@@ -9,7 +9,7 @@ export default function LifeStyle() {
             class="hamburger-menu dsn-effect-scroll dsn-ajax"
             data-dsn-mousemove="true"
         >
-            <div class="preloader">
+            {/* <div class="preloader">
                 <div class="preloader-after"></div>
                 <div class="preloader-before"></div>
                 <div class="preloader-block">
@@ -22,19 +22,19 @@ export default function LifeStyle() {
                 <div class="preloader-bar">
                     <div class="preloader-progress"></div>
                 </div>
-            </div>
+            </div> */}
             <Header />
 
 
             <div class="main-root">
-                <div id="dsn-scrollbar">
+                <div >
                     <header>
                         <div class="headefr-fexid" data-dsn-header="project">
                             <div class="bg" id="dsn-hero-parallax-img" data-dsn-ajax="img">
                                 <div
                                     class="bg-image cover-bg"
                                     data-overlay="0"
-                                    data-image-src="assets/img/Lifestyle/14.png"
+                                    data-image-src="./Assets/img/Lifestyle/14.png"
                                 ></div>
                             </div>
 
@@ -45,7 +45,7 @@ export default function LifeStyle() {
                             <div class="project-title" id="dsn-hero-parallax-title">
                                 <div class="title-text-header">
                                     <div class="cat">
-                                        <span>ETEREO</span>
+                                        <span>Etéreo</span>
                                     </div>
                                     <span class="title-text-header-inner">
                                         <span data-dsn-animate="ajax">LIFESTYLE</span>
@@ -94,28 +94,37 @@ export default function LifeStyle() {
                                     </div>
                                 </div>
                             </div>
-                            <div class="box-seat">
-                                <div class="dsn-v-text">
-                                    <div class="container-fluid">
-                                        <div class="box-middle-text">
-                                            <a href="https://vimeo.com/175353205" class="vid">
-                                                <div class="play-button">
-                                                    <div class="play-btn">
-                                                        <i class="fas fa-play"></i>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="inner-img" data-dsn-grid="move-up">
-                                            <img
-                                                class="has-top-bottom"
-                                                src="./Assets/videos/Nft1.369.png"
-                                                alt=""
-                                            />
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            <div
+              class="headefr-fexid headefr-fexid-onepage"
+              data-dsn-header="project"
+            >
+        <div 
+                class="bg has-top-bottom"
+                id="dsn-hero-parallax-img"
+                data-dsn-ajax="img"
+              >
+                <div class=" " data-dsn="video" data-overlay="4">
+                  <video class=" dsn-video" controls autoplay loop playsinline>
+                    <source
+                      autoplay
+                      src="./Assets/videos/Home1.mp4"
+                      type="video/mp4"
+                    />
+                    Your browser does not support HTML5 video.
+                  </video>
+                </div>
+              </div>
+
+              <div class="project-page__inner">
+                <div class="h-100">
+                  <div class="row justify-content-center align-items-center h-100">
+                    <div class="project-title" id="dsn-hero-parallax-title">
+              
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
 
                             <div class="container-fluid gallery-col">
                                 <div class="row">
@@ -124,9 +133,9 @@ export default function LifeStyle() {
                                         >
                                             <a
                                                 class="single-image"
-                                                href="assets/img/Lifestyle/d.jpeg"
+                                                href="./Assets/img/Lifestyle/d.jpeg"
                                             >
-                                                <img src="assets/img/Lifestyle/d.jpeg" alt=""
+                                                <img src="./Assets/img/Lifestyle/d.jpeg" alt=""
                                                     style={{ borderRadius: "20px" }}
                                                 />
                                             </a>
@@ -138,9 +147,9 @@ export default function LifeStyle() {
                                         <div class="image-zoom" data-dsn="parallax">
                                             <a
                                                 class="single-image"
-                                                href="assets/img/Lifestyle/l2.jpg"
+                                                href="./Assets/img/Lifestyle/l2.jpg"
                                             >
-                                                <img src="assets/img/Lifestyle/l2.jpg" alt=""
+                                                <img src="./Assets/img/Lifestyle/l2.jpg" alt=""
                                                     style={{ borderRadius: "20px" }}
                                                 />
                                             </a>
@@ -152,9 +161,9 @@ export default function LifeStyle() {
                                         <div class="image-zoom" data-dsn="parallax">
                                             <a
                                                 class="single-image"
-                                                href="assets/img/Lifestyle/et4.jpg"
+                                                href="./Assets/img/Lifestyle/et4.jpg"
                                             >
-                                                <img src="assets/img/Lifestyle/et4.jpg" alt=""
+                                                <img src="./Assets/img/Lifestyle/et4.jpg" alt=""
                                                     style={{ borderRadius: "20px" }}
                                                 />
                                             </a>
@@ -171,156 +180,167 @@ export default function LifeStyle() {
                             <div class="gallery-portfolio section-margin">
                                 <a
                                     class="link-pop"
-                                    href="assets/img/tequila/l1.jpg"
-                                    data-source="assets/img/tequila/l1.jpg"
+                                    href="./Assets/img/tequila/l1.jpg"
+                                    data-source="./Assets/img/tequila/l1.jpg"
                                 >
-                                    <img src="assets/img/tequila/l1.jpg" alt="" />
+                                    <img src="./Assets/img/tequila/l1.jpg" alt="" />
                                     <div class="cap">
                                     </div>
                                 </a>
 
                                 <a
                                     class="link-pop"
-                                    href="assets/img/tequila/l2.jpg"
-                                    data-source="assets/img/tequila/l2.jpg"
+                                    href="./Assets/img/tequila/l2.jpg"
+                                    data-source="./Assets/img/tequila/l2.jpg"
                                 >
-                                    <img src="assets/img/tequila/l2.jpg" alt="" />
+                                    <img src="./Assets/img/tequila/l2.jpg" alt="" />
                                     <div class="cap">
-                                        <span>Web Design</span>
+                                        <span>etéreolifestyle</span>
                                     </div>
                                 </a>
 
                                 <a
                                     class="link-pop"
-                                    href="assets/img/tequila/l3.jpg"
-                                    data-source="assets/img/tequila/l3.jpg"
+                                    href="./Assets/img/tequila/capt.png"
+                                    data-source="./Assets/img/tequila/capt.png"
                                 >
-                                    <img src="assets/img/tequila/l3.jpg" alt="" />
+                                    <img src="./Assets/img/tequila/capt.png" alt="" />
                                     <div class="cap">
-                                        <span>Web Design</span>
+                                        <span>etéreolifestyle</span>
                                     </div>
                                 </a>
 
                                 <a
                                     class="link-pop"
-                                    href="assets/img/tequila/l4.jpg"
-                                    data-source="assets/img/tequila/l4.jpg"
+                                    href="./Assets/img/tequila/l3.jpg"
+                                    data-source="./Assets/img/tequila/l3.jpg"
                                 >
-                                    <img src="assets/img/tequila/l4.jpg" alt="" />
+                                    <img src="./Assets/img/tequila/l3.jpg" alt="" />
                                     <div class="cap">
-                                        <span>Web Design</span>
+                                        <span>etéreolifestyle</span>
                                     </div>
                                 </a>
 
                                 <a
                                     class="link-pop"
-                                    href="assets/img/tequila/l6.jpg"
-                                    data-source="assets/img/tequila/l6.jpg"
+                                    href="./Assets/img/tequila/l4.jpg"
+                                    data-source="./Assets/img/tequila/l4.jpg"
                                 >
-                                    <img src="assets/img/tequila/l6.jpg" alt="" />
+                                    <img src="./Assets/img/tequila/l4.jpg" alt="" />
                                     <div class="cap">
-                                        <span>Web Design</span>
+                                        <span>etéreolifestyle</span>
                                     </div>
                                 </a>
 
                                 <a
                                     class="link-pop"
-                                    href="assets/img/tequila/l5.jpg"
-                                    data-source="assets/img/tequila/l5.jpg"
+                                    href="./Assets/img/tequila/l6.jpg"
+                                    data-source="./Assets/img/tequila/l6.jpg"
                                 >
-                                    <img src="assets/img/tequila/l5.jpg" alt="" />
+                                    <img src="./Assets/img/tequila/l6.jpg" alt="" />
                                     <div class="cap">
-                                        <span>Web Design</span>
+                                        <span>etéreolifestyle</span>
+                                    </div>
+                                </a>
+
+                                <a
+                                    class="link-pop"
+                                    href="./Assets/img/tequila/l5.jpg"
+                                    data-source="./Assets/img/tequila/l5.jpg"
+                                >
+                                    <img src="./Assets/img/tequila/l5.jpg" alt="" />
+                                    <div class="cap">
+                                        <span>etéreolifestyle</span>
                                     </div>
                                 </a>
                                 <a
                                     class="link-pop"
-                                    href="assets/img/tequila/l7.jpg"
-                                    data-source="assets/img/tequila/l7.jpg"
+                                    href="./Assets/img/tequila/l7.jpg"
+                                    data-source="./Assets/img/tequila/l7.jpg"
                                 >
-                                    <img src="assets/img/tequila/l7.jpg" alt="" />
+                                    <img src="./Assets/img/tequila/l7.jpg" alt="" />
                                     <div class="cap">
-                                        <span>Web Design</span>
+                                        <span>etéreolifestyle</span>
                                     </div>
                                 </a>
                                 <a
                                     class="link-pop"
-                                    href="assets/img/tequila/l8.jpg"
-                                    data-source="assets/img/tequila/l8.jpg"
+                                    href="./Assets/img/tequila/l8.jpg"
+                                    data-source="./Assets/img/tequila/l8.jpg"
                                 >
-                                    <img src="assets/img/tequila/l8.jpg" alt="" />
+                                    <img src="./Assets/img/tequila/l8.jpg" alt="" />
                                     <div class="cap">
-                                        <span>Web Design</span>
+                                        <span>etéreolifestyle</span>
                                     </div>
                                 </a>
                                 <a
                                     class="link-pop"
-                                    href="assets/img/tequila/l9.jpg"
-                                    data-source="assets/img/tequila/l9.jpg"
+                                    href="./Assets/img/tequila/l9.jpg"
+                                    data-source="./Assets/img/tequila/l9.jpg"
                                 >
-                                    <img src="assets/img/tequila/l9.jpg" alt="" />
+                                    <img src="./Assets/img/tequila/l9.jpg" alt="" />
                                     <div class="cap">
-                                        <span>Web Design</span>
+                                        <span>etéreolifestyle</span>
                                     </div>
                                 </a>
                                 <a
                                     class="link-pop"
-                                    href="assets/img/tequila/l10.jpg"
-                                    data-source="assets/img/tequila/l10.jpg"
+                                    href="./Assets/img/tequila/l10.jpg"
+                                    data-source="./Assets/img/tequila/l10.jpg"
                                 >
-                                    <img src="assets/img/tequila/l10.jpg" alt="" />
+                                    <img src="./Assets/img/tequila/l10.jpg" alt="" />
                                     <div class="cap">
-                                        <span>Web Design</span>
+                                        <span>etéreolifestyle</span>
                                     </div>
                                 </a>
                                 <a
                                     class="link-pop"
-                                    href="assets/img/tequila/l11.jpg"
-                                    data-source="assets/img/tequila/l11.jpg"
+                                    href="./Assets/img/tequila/l11.jpg"
+                                    data-source="./Assets/img/tequila/l11.jpg"
                                 >
-                                    <img src="assets/img/tequila/l11.jpg" alt="" />
+                                    <img src="./Assets/img/tequila/l11.jpg" alt="" />
                                     <div class="cap">
                                         <span>Etéreo</span>
                                     </div>
                                 </a>
                                 <a
                                     class="link-pop"
-                                    href="assets/img/tequila/l13.jpg"
-                                    data-source="assets/img/tequila/l13.jpg"
+                                    href="./Assets/img/tequila/l13.jpg"
+                                    data-source="./Assets/img/tequila/l13.jpg"
                                 >
-                                    <img src="assets/img/tequila/l13.jpg" alt="" />
+                                    <img src="./Assets/img/tequila/l13.jpg" alt="" />
                                     <div class="cap">
-                                        <span>Web Design</span>
+                                        <span>etéreolifestyle</span>
                                     </div>
                                 </a>
                                 <a
                                     class="link-pop"
-                                    href="assets/img/tequila/l14.jpg"
-                                    data-source="assets/img/tequila/l14.jpg"
+                                    href="./Assets/img/tequila/l14.jpg"
+                                    data-source="./Assets/img/tequila/l14.jpg"
                                 >
-                                    <img src="assets/img/tequila/l14.jpg" alt="" />
+                                    <img src="./Assets/img/tequila/l14.jpg" alt="" />
                                     <div class="cap">
-                                        <span>Web Design</span>
+                                        <span>etéreolifestyle</span>
                                     </div>
                                 </a>
                                 <a
                                     class="link-pop"
-                                    href="assets/img/tequila/l15.jpg"
-                                    data-source="assets/img/tequila/l15.jpg"
+                                    href="./Assets/img/tequila/l15.jpg"
+                                    data-source="./Assets/img/tequila/l15.jpg"
                                 >
-                                    <img src="assets/img/tequila/l15.jpg" alt="" />
+                                    <img src="./Assets/img/tequila/l15.jpg" alt="" />
                                     <div class="cap">
-                                        <span>Web Design</span>
+                                        <span>etéreolifestyle</span>
                                     </div>
                                 </a>
                                 <a
                                     class="link-pop"
-                                    href="assets/img/tequila/l16.jpg"
-                                    data-source="assets/img/tequila/l16.jpg"
+                                    href="./Assets/img/tequila/l16.jpg"
+                                    data-source="./Assets/img/tequila/l16.jpg"
                                 >
-                                    <img src="assets/img/tequila/l16.jpg" alt="" />
+                                    <img src="./Assets/img/tequila/l16.jpg" alt="" />
                                     <div class="cap">
-                                        <span>Web Design</span>
+                                        <span>etéreolifestyle</span>
                                     </div>
                                 </a>
                             </div>
@@ -332,7 +352,7 @@ export default function LifeStyle() {
                                             <div class="box-im" data-dsn-grid="move-up">
                                                 <img
                                                     class="has-top-bottom"
-                                                    src="assets/img/tequila/l7.jpg"
+                                                    src="./Assets/img/tequila/l7.jpg"
                                                     alt=""
                                                     data-dsn-move="20%"
                                                 />
@@ -381,7 +401,7 @@ export default function LifeStyle() {
                         {/* <div class="box-seat section-margin">
                                 <div class="container-fluid">
                                     <div class="inner-img" data-dsn-grid="move-up">
-                                        <img src="assets/img/project/project9/13.jpg" alt="" />
+                                        <img src="./Assets/img/project/project9/13.jpg" alt="" />
                                     </div>
                                     <div class="pro-text" data-dsn-grid="move-section">
                                         <h3 data-dsn-animate="text">
@@ -405,7 +425,7 @@ export default function LifeStyle() {
                                 <div
                                     class="bg-image cover-bg"
                                     data-overlay="4"
-                                    data-image-src="assets/img/project/project1/1.jpg"
+                                    data-image-src="./Assets/img/project/project1/1.jpg"
                                 ></div>
                             </div>
 

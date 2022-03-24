@@ -7,7 +7,7 @@ export default function Shop() {
     return (
         <div class="hamburger-menu dsn-effect-scroll dsn-ajax" data-dsn-mousemove="true">
 
-            <div class="preloader">
+            {/* <div class="preloader">
                 <div class="preloader-after"></div>
                 <div class="preloader-before"></div>
                 <div class="preloader-block">
@@ -20,7 +20,7 @@ export default function Shop() {
                 <div class="preloader-bar">
                     <div class="preloader-progress"></div>
                 </div>
-            </div>
+            </div> */}
 
             <Header />
 
@@ -45,8 +45,7 @@ export default function Shop() {
                                 <div class="box-title" data-dsn-title="cover">
                                     <h2 class="title-cover" data-dsn-grid="move-section" data-dsn-move="-70">Shop</h2>
                                 </div>
-
-                                <div class="filterings">
+                                        <div class="filterings">
                                     <div class="filtering-wrap">
                                         <div class="filtering">
                                             <div class="selector"></div>
@@ -65,12 +64,11 @@ export default function Shop() {
                                     <div class="item Tequila">
                                         <a href="project-9.html" class="effect-ajax" data-dsn-ajax="work"
                                             data-dsn-grid="move-up">
-                                            <img class="has-top-bottom" src="assets/img/tequila/1.jpg" alt="" />
+                                            <img class="has-top-bottom" src="./Assets/img/tequila/1.jpg" alt="" />
                                             <div class="item-border"></div>
                                             <div class="item-info">
                                                 <h5 class="cat">Tequila</h5>
                                                 <h4>The Finest</h4>
-                                                <span><span>Veiw Product</span></span>
                                             </div>
                                         </a>
                                     </div>
@@ -78,89 +76,29 @@ export default function Shop() {
                                     <div class="item Tequila">
                                         <a href="project-4.html" class="effect-ajax" data-dsn-ajax="work"
                                             data-dsn-grid="move-up">
-                                            <img class="has-top-bottom" src="assets/img/tequila/2.jpg" alt="" />
+                                            <img class="has-top-bottom" src="./Assets/img/tequila/2.jpg" alt="" />
                                             <div class="item-border"></div>
                                             <div class="item-info">
                                                 <h5 class="cat">Tequila</h5>
                                                 <h4>Under Armour</h4>
-                                                <span><span>Veiw Project</span></span>
-                                            </div>
-                                        </a>
-                                    </div>
-
-                                    <div class="item Hats">
-                                        <a href="project-3.html" data-dsn-grid="move-up">
-                                            <img class="has-top-bottom" src="assets/img/tequila/3.jpg" alt="" />
-                                            <div class="item-border"></div>
-                                            <div class="item-info">
-                                                <h5 class="cat">Hats</h5>
-                                                <h4>Re Styling</h4>
-                                                <span><span>Veiw Project</span></span>
-                                            </div>
-                                        </a>
-                                    </div>
-
-
-
-                                    <div class="item Hats">
-                                        <a href="project-7.html" data-dsn-grid="move-up">
-                                            <img class="has-top-bottom" src="assets/img/project/project7/1.jpg" alt="" />
-                                            <div class="item-border"></div>
-                                            <div class="item-info">
-                                                <h5 class="cat">Hats</h5>
-                                                <h4>Nile - Kabutha</h4>
-                                                <span><span>Veiw Project</span></span>
-                                            </div>
-                                        </a>
-                                    </div>
-
-                                    <div class="item Hats">
-                                        <a data-dsn-grid="move-up">
-                                            <img class="has-top-bottom" src="assets/img/project/project6/1.jpg" alt="" />
-                                            <div class="item-border"></div>
-                                            <div class="item-info">
-                                                <h5 class="cat">Hats</h5>
-                                                <h4>Sleep Walker</h4>
-                                                <span><span>Veiw Project</span></span>
                                             </div>
                                         </a>
                                     </div>
 
                                     <div class="item Tequila">
-                                        <a href="project-1.html" data-dsn-grid="move-up">
-                                            <img class="has-top-bottom" src="assets/img/project/project1/1.jpg" alt="" />
+                                        <a href="project-3.html" data-dsn-grid="move-up">
+                                            <img class="has-top-bottom" src="./Assets/img/tequila/3.jpg" alt="" />
                                             <div class="item-border"></div>
                                             <div class="item-info">
                                                 <h5 class="cat">Tequila</h5>
-                                                <h4>Magista</h4>
-                                                <span><span>Veiw Project</span></span>
+                                                <h4>Re Styling</h4>
                                             </div>
                                         </a>
                                     </div>
 
-                                    <div class="item Hats">
-                                        <a href="project-2.html" data-dsn-grid="move-up">
-                                            <img class="has-top-bottom" src="assets/img/project/project2/1.jpg" alt="" />
-                                            <div class="item-border"></div>
-                                            <div class="item-info">
-                                                <h5 class="cat">Hats</h5>
-                                                <h4>Bastian Bux</h4>
-                                                <span><span>Veiw Project</span></span>
-                                            </div>
-                                        </a>
-                                    </div>
 
-                                    <div class="item hoodies ">
-                                        <a href="project-5.html" data-dsn-grid="move-up">
-                                            <img class="has-top-bottom" src="assets/img/project/project5/1.jpg" alt="" />
-                                            <div class="item-border"></div>
-                                            <div class="item-info">
-                                                <h5 class="cat">hoodies </h5>
-                                                <h4>Novara Conic</h4>
-                                                <span><span>Veiw Project</span></span>
-                                            </div>
-                                        </a>
-                                    </div>
+
+
                                 </div>
                             </div>
                         </div>

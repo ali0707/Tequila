@@ -13,7 +13,7 @@ export default function Process() {
         <div class="preloader-after"></div>
         <div class="preloader-before"></div>
         <div class="preloader-block">
-          <div class="title">Etereo</div>
+          <div class="title">Etéreo</div>
           <div class="percent">0</div>
           <div class="loading">loading...</div>
         </div>
@@ -29,12 +29,12 @@ export default function Process() {
               <a href="index.html">
                 <img
                   class="dark-logo"
-                  src="assets/img/logo/eterologo-blanc.png"
+                  src="./Assets/img/logo/eterologo-blanc.png"
                   alt=""
                 />
                 <img
                   class="light-logo"
-                  src="assets/img/logo/eterologo-blanc.png"
+                  src="./Assets/img/logo/eterologo-blanc.png"
                   alt=""
                 />
               </a>
@@ -64,7 +64,7 @@ export default function Process() {
               <div class="inner-content">
                 <address class="v-middle">
                   <span> California 92606 – USA</span>
-                  <span>Etereo Spirits LLC 2855 Michelle Drive Suite 280 , Irvine,</span>
+                  <span>Etéreo Spirits LLC 2855 Michelle Drive Suite 280 , Irvine,</span>
                 </address>
               </div>
             </div>
@@ -103,7 +103,7 @@ export default function Process() {
                           weber agave plant remains a manual effort that relies
                           on centuries-old know-how that has been passed down
                           from generation to generation. The agave used in
-                          Etereo's tequila is grown in the distillery’s own
+                          Etéreo's tequila is grown in the distillery’s own
                           fields in the lowlands which have been cultivated for
                           three generations.
                         </p>
@@ -114,10 +114,10 @@ export default function Process() {
                     <div class="image-container">
                       <div
                         class="image-bg cover-bg"
-                        data-image-src="assets/img/steps/1.jpg"
+                        data-image-src="./Assets/img/steps/1.jpg"
                         data-overlay="0"
                       >
-                        <img src="assets/img/steps/1.jpg" alt="" />
+                        <img src="./Assets/img/steps/1.jpg" alt="" />
                       </div>
                     </div>
                   </div>
@@ -158,10 +158,10 @@ export default function Process() {
                     <div class="image-container">
                       <div
                         class="image-bg cover-bg"
-                        data-image-src="assets/img/steps/2.jpeg"
+                        data-image-src="./Assets/img/steps/2.jpeg"
                         data-overlay="4"
                       >
-                        <img src="assets/img/steps/2.jpeg" alt="" />
+                        <img src="./Assets/img/steps/2.jpeg" alt="" />
                       </div>
                     </div>
                   </div>
@@ -198,10 +198,10 @@ export default function Process() {
                     <div class="image-container">
                       <div
                         class="image-bg cover-bg"
-                        data-image-src="assets/img/steps/3.jpeg"
+                        data-image-src="./Assets/img/steps/3.jpeg"
                         data-overlay="2"
                       >
-                        <img src="assets/img/steps/3.jpeg" alt="" />
+                        <img src="./Assets/img/steps/3.jpeg" alt="" />
                       </div>
                     </div>
                   </div>
@@ -241,10 +241,10 @@ export default function Process() {
                     <div class="image-container">
                       <div
                         class="image-bg cover-bg"
-                        data-image-src="assets/img/steps/4.jpeg"
+                        data-image-src="./Assets/img/steps/4.jpeg"
                         data-overlay="2"
                       >
-                        <img src="assets/img/steps/4.jpeg" alt="" />
+                        <img src="./Assets/img/steps/4.jpeg" alt="" />
                       </div>
                     </div>
                   </div>
@@ -279,10 +279,10 @@ export default function Process() {
                     <div class="image-container">
                       <div
                         class="image-bg cover-bg"
-                        data-image-src="assets/img/steps/5.jpg"
+                        data-image-src="./Assets/img/steps/5.jpg"
                         data-overlay="2"
                       >
-                        <img src="assets/img/steps/5.jpg" alt="" />
+                        <img src="./Assets/img/steps/5.jpg" alt="" />
                       </div>
                     </div>
                   </div>
@@ -324,10 +324,10 @@ export default function Process() {
                     <div class="image-container">
                       <div
                         class="image-bg cover-bg"
-                        data-image-src="assets/img/steps/6.jpeg"
+                        data-image-src="./Assets/img/steps/6.jpeg"
                         data-overlay="2"
                       >
-                        <img src="assets/img/steps/6.jpeg" alt="" />
+                        <img src="./Assets/img/steps/6.jpeg" alt="" />
                       </div>
                     </div>
                   </div>
@@ -367,10 +367,10 @@ export default function Process() {
                     <div class="image-container">
                       <div
                         class="image-bg cover-bg"
-                        data-image-src="assets/img/steps/7.jpg"
+                        data-image-src="./Assets/img/steps/7.jpg"
                         data-overlay="2"
                       >
-                        <img src="assets/img/steps/7.jpg" alt="" />
+                        <img src="./Assets/img/steps/7.jpg" alt="" />
                       </div>
                     </div>
                   </div>
@@ -387,7 +387,7 @@ export default function Process() {
                   <div class="image-container">
                     <div
                       class="image-bg cover-bg"
-                      data-image-src="assets/img/steps/1.jpg"
+                      data-image-src="./Assets/img/steps/1.jpg"
                       data-overlay="2"
                     ></div>
                   </div>
@@ -399,7 +399,7 @@ export default function Process() {
                   <div class="image-container">
                     <div
                       class="image-bg cover-bg"
-                      data-image-src="assets/img/steps/2.jpeg"
+                      data-image-src="./Assets/img/steps/2.jpeg"
                       data-overlay="2"
                     ></div>
                   </div>
@@ -412,7 +412,7 @@ export default function Process() {
                   <div class="image-container">
                     <div
                       class="image-bg cover-bg"
-                      data-image-src="assets/img/steps/3.jpeg"
+                      data-image-src="./Assets/img/steps/3.jpeg"
                       data-overlay="2"
                     ></div>
                   </div>
@@ -425,7 +425,7 @@ export default function Process() {
                   <div class="image-container">
                     <div
                       class="image-bg cover-bg"
-                      data-image-src="assets/img/steps/4.jpeg"
+                      data-image-src="./Assets/img/steps/4.jpeg"
                       data-overlay="2"
                     ></div>
                   </div>
@@ -438,7 +438,7 @@ export default function Process() {
                   <div class="image-container">
                     <div
                       class="image-bg cover-bg"
-                      data-image-src="assets/img/steps/5.jpg"
+                      data-image-src="./Assets/img/steps/5.jpg"
                       data-overlay="2"
                     ></div>
                   </div>
@@ -450,7 +450,7 @@ export default function Process() {
                   <div class="image-container">
                     <div
                       class="image-bg cover-bg"
-                      data-image-src="assets/img/steps/6.jpeg"
+                      data-image-src="./Assets/img/steps/6.jpeg"
                       data-overlay="2"
                     ></div>
                   </div>
@@ -462,7 +462,7 @@ export default function Process() {
                   <div class="image-container">
                     <div
                       class="image-bg cover-bg"
-                      data-image-src="assets/img/steps/7.jpg"
+                      data-image-src="./Assets/img/steps/7.jpg"
                       data-overlay="2"
                     ></div>
                   </div>
@@ -562,7 +562,7 @@ export default function Process() {
                 <li class="work-item dsn-active">
                   <img
                     class="dsn-animate-webgl"
-                    src="assets/img/steps/1.jpg"
+                    src="./Assets/img/steps/1.jpg"
                     alt=""
                   />
                   <a
@@ -580,7 +580,7 @@ export default function Process() {
                 <li class="work-item ">
                   <img
                     class="dsn-animate-webgl"
-                    src="assets/img/steps/2.jpeg"
+                    src="./Assets/img/steps/2.jpeg"
                     alt=""
                   />
                   <a
@@ -597,7 +597,7 @@ export default function Process() {
                 <li class="work-item">
                   <img
                     class="dsn-animate-webgl"
-                    src="assets/img/steps/3.jpeg"
+                    src="./Assets/img/steps/3.jpeg"
                     alt=""
                   />
 
@@ -616,7 +616,7 @@ export default function Process() {
                 <li class="work-item">
                   <img
                     class="dsn-animate-webgl"
-                    src="assets/img/steps/3.jpeg"
+                    src="./Assets/img/steps/3.jpeg"
                     alt=""
                   />
 
@@ -635,7 +635,7 @@ export default function Process() {
                 <li class="work-item">
                   <img
                     class="dsn-animate-webgl"
-                    src="assets/img/steps/5.jpg"
+                    src="./Assets/img/steps/5.jpg"
                     alt=""
                   />
 
@@ -654,7 +654,7 @@ export default function Process() {
                 <li class="work-item">
                   <img
                     class="dsn-animate-webgl"
-                    src="assets/img/steps/6.jpeg"
+                    src="./Assets/img/steps/6.jpeg"
                     alt=""
                   />
 
@@ -673,7 +673,7 @@ export default function Process() {
                 <li class="work-item">
                   <img
                     class="dsn-animate-webgl"
-                    src="assets/img/steps/7.jpg"
+                    src="./Assets/img/steps/7.jpg"
                     alt=""
                   />
 
@@ -692,7 +692,7 @@ export default function Process() {
                 <li class="work-item">
                   <img
                     class="dsn-animate-webgl"
-                    src="assets/img/steps/7.jpg"
+                    src="./Assets/img/steps/7.jpg"
                     alt=""
                   />
                 </li>
@@ -746,7 +746,7 @@ export default function Process() {
               <div class="inner-img" data-dsn-grid="move-up">
                 <img
                   class="has-top-bottom"
-                  src="assets/videos/makin-etereo.png"
+                  src="./Assets/videos/makin-etereo.png"
                   alt=""
                 />
               </div>
