@@ -5,54 +5,283 @@ import Header from "../components/Header";
 export default function Home() {
   return (
     <div class="dsn-effect-scroll dsn-ajax" data-dsn-mousemove="true">
-      {/* <div class="preloader">
+      <div class="preloader">
         <div class="preloader-after"></div>
         <div class="preloader-before"></div>
         <div class="preloader-block">
           <div class="title">étereo </div>
           <div class="percent">0</div>
-     
+          <div class="loading">
+            <iframe src="https://embed.lottiefiles.com/animation/29783"></iframe>
+          </div>
         </div>
         <div class="preloader-bar">
           <div class="preloader-progress"></div>
         </div>
-      </div> */}
+      </div>
       <Header />
 
       <div class="main-root">
-        <div >
+        <div id="dsn-scrollbar">
           <header>
-            <div
-              class="headefr-fexid headefr-fexid-onepage"
-              data-dsn-header="project"
-            >
-        <div 
-                class="bg has-top-bottom"
-                id="dsn-hero-parallax-img"
-                data-dsn-ajax="img"
-              >
-                <div class=" " data-dsn="video" data-overlay="4">
-                  <video class=" dsn-video" controls autoplay loop playsinline>
-                    <source
-                      autoplay
-                      src="./Assets/videos/Home1.mp4"
-                      type="video/mp4"
-                    />
-                    Your browser does not support HTML5 video.
-                  </video>
-                </div>
-              </div>
+            <div id="dsn-scrollbar">
+              <div class="dsn-slider">
+                <div class="dsn-root-slider">
+                  <div class="slide-inner">
+                    <div class="swiper-wrapper">
+                      <div class="slide-item swiper-slide">
+                        <div class="slide-content">
+                          <div class="slide-content-inner">
+                            <div class="project-metas">
+                              <div class="project-meta-box project-work cat">
+                                <span></span>
+                              </div>
+                            </div>
 
-              <div class="project-page__inner">
-                <div class="h-100">
-                  <div class="row justify-content-center align-items-center h-100">
-                    <div class="project-title" id="dsn-hero-parallax-title">
-              
+                            <div class="title-text-header">
+                              <div class="title-text-header-inner">
+                                <a
+                                  class="effect-ajax"
+                                  data-dsn-ajax="slider"
+                                >
+                                  LIFESTYLE
+                                </a>
+                              </div>
+                            </div>
+
+                            <p>
+                              We Are Not Selling Tequila,
+
+                              We Are Purveying A
+                              LifeStyle"
+                            </p>
+
+
+                          </div>
+                        </div>
+                        <div class="image-container">
+                          <div
+                            class="image-bg cover-bg"
+                            data-image-src="assets/img/lifestyle/luca.jpg"
+                            data-overlay="0"
+                          >
+                            <img src="assets/img/lifestyle/luca.jpg" alt="" />
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="slide-item swiper-slide">
+                        <div class="slide-content">
+                          <div class="slide-content-inner">
+                            <div class="project-metas">
+                              <div class="project-meta-box project-work cat">
+                                <span></span>
+                              </div>
+                            </div>
+
+                            <div class="title-text-header">
+                              <div class="title-text-header-inner">
+                                <a
+
+                                  class="effect-ajax"
+                                  data-dsn-ajax="slider"
+                                >
+                                  NFT
+                                </a>
+                              </div>
+                            </div>
+
+                            <p>
+                              Etereo is now officially “out of this world” to the metaverse in order to bring you the very first NFT
+                              project to link all of its NFTs to real life luxurious and exclusive utilities.
+
+                            </p>
+
+
+                          </div>
+                        </div>
+                        <div class="image-container">
+                          <div
+                            class="image-bg cover-bg"
+                            data-image-src="assets/img/NFT/diamond.jpeg"
+                            data-overlay="4"
+                          >
+                            <img src="assets/img/NFT/diamond.jpeg" alt="" />
+                          </div>
+                        </div>
+                      </div>
+
+
+                      <div class="slide-item swiper-slide">
+                        <div class="slide-content">
+                          <div class="slide-content-inner">
+                            <div class="project-metas">
+                              <div class="project-meta-box project-work cat">
+                                <span></span>
+                              </div>
+                            </div>
+
+                            <div class="title-text-header">
+                              <div class="title-text-header-inner">
+                                <a
+
+                                  class="effect-ajax"
+                                  data-dsn-ajax="slider"
+                                >
+                                  EVENTS{" "}
+                                </a>
+                              </div>
+                            </div>
+
+                            <p>
+                              The essence of Etéreo is that our tequila is made without
+                              compromise from the field to bottle using ancestral methods
+                              that ensures our flavors are distinctly “out of this world.”                            </p>
+
+
+                          </div>
+                        </div>
+                        <div class="image-container">
+                          <div
+                            class="image-bg cover-bg"
+                            data-image-src="assets/img/events/events.jpeg"
+                            data-overlay="2"
+                          >
+                            <img src="assets/img/events/events.jpeg" alt="" />
+                          </div>
+                        </div>
+                      </div>
+
+
+
                     </div>
                   </div>
                 </div>
+
+                <div class="dsn-slider-content"></div>
+
+                <div class="nav-slider">
+                  <div class="swiper-wrapper" role="navigation">
+                    <div class="swiper-slide">
+                      <div class="image-container">
+                        <div
+                          class="image-bg cover-bg"
+                          data-image-src="assets/img/steps/1.jpg"
+                          data-overlay="2"
+                        ></div>
+                      </div>
+                      <div class="content">
+                        <p>01</p>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="image-container">
+                        <div
+                          class="image-bg cover-bg"
+                          data-image-src="assets/img/steps/2.jpeg"
+                          data-overlay="2"
+                        ></div>
+                      </div>
+                      <div class="content">
+                        <p>02</p>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="image-container">
+                        <div
+                          class="image-bg cover-bg"
+                          data-image-src="assets/img/steps/3.jpeg"
+                          data-overlay="2"
+                        ></div>
+                      </div>
+                      <div class="content">
+                        <p>03</p>
+                      </div>
+                    </div>
+
+
+                  </div>
+                </div>
+
               </div>
             </div>
+
+            <div class="view-all image-zoom" data-dsn="parallax">
+              <div class="view-all-container">
+                <div class="icon ">
+                  <div class="line-1"></div>
+                  <div class="line-2"></div>
+                </div>
+                <div class="text">EXPLORE</div>
+              </div>
+            </div>
+
+            <div class="dsn-all-work">
+              <div class="nav-work-box dsn-work-scrollbar">
+                <div class="list-content">
+                  <ul class="list-main">
+                    <li class="work-item dsn-active">
+                      <img
+                        class="dsn-animate-webgl"
+                        src="assets/img/lifestyle/luca.jpg"
+                        alt=""
+                      />
+                      <a
+
+                        class="effect-ajax"
+                        data-dsn-ajax="list"
+                      >
+                        <div class="num">
+                          <small>01</small>
+                        </div>
+                        <h3>LIFESTYLE</h3>
+                      </a>
+                    </li>
+
+                    <li class="work-item ">
+                      <img
+                        class="dsn-animate-webgl"
+                        src="assets/img/NFT/diamond.jpeg"
+                        alt=""
+                      />
+                      <a
+
+                        class="effect-ajax"
+                        data-dsn-ajax="list"
+                      >
+                        <div class="num">
+                          <small>02</small>
+                        </div>
+                        <h3>NFT COLLECTION</h3>
+                      </a>
+                    </li>
+                    <li class="work-item">
+                      <img
+                        class="dsn-animate-webgl"
+                        src="assets/img/steps/3.jpeg"
+                        alt=""
+                      />
+
+                      <a
+
+                        class="effect-ajax"
+                        data-dsn-ajax="list"
+                      >
+                        <div class="num">
+                          <small>03</small>
+                        </div>
+                        <h3>EVENTS</h3>
+                      </a>
+                    </li>
+
+
+                  </ul>
+                </div>
+              </div>
+              <div class="nav-work-img-box" data-overlay="5"></div>
+            </div>
+
           </header>
 
           <div class="wrapper">
@@ -79,6 +308,7 @@ export default function Home() {
                         complete journey that will awaken all of your senses.
                       </p>
 
+                      {/* <h6 data-dsn-animate="text">SALVADOR DALI</h6> */}
                       <small data-dsn-animate="text">About Us</small>
 
                       <div class="exper">
@@ -112,7 +342,7 @@ export default function Home() {
                       <img
                         style={{ borderRadius: "30px 0px 0px 30px" }}
                         data-dsn-y="50%"
-                        src="./Assets/img/Lifestyle/d.jpeg"
+                        src="assets/img/Lifestyle/d.jpeg"
                         alt=""
                       />
                     </div>
@@ -135,46 +365,46 @@ export default function Home() {
               <div class="container-fluid gallery-col">
                 <div class="row">
                   <div class="col-md-4 box-im section-padding">
-                    <div class="image-zoom" data-dsn="parallax">
+                    <div data-dsn="parallax">
                       <a
                         class="single-image"
-                        href="./Assets/img/tequila/1.jpg"
+                        href="Shop"
                       >
-                        <img src="./Assets/img/tequila/1.jpg" alt="" />
+                        <img src="assets/img/tequila/1.jpg" alt="" />
                       </a>
 
-                      <div class="caption">The finest </div>
+                      <div class="caption">ETEREO TEQUILA EXTRA ANEJO</div>
                     </div>
                   </div>
 
                   <div class="col-md-4 box-im section-padding">
-                    <div class="image-zoom" data-dsn="parallax">
+                    <div data-dsn="parallax">
                       <a
                         class="single-image"
-                        href="./Assets/img/tequila/3.jpg"
+                        href="Shop"
                       >
-                        <img src="./Assets/img/tequila/3.jpg" alt="" />
+                        <img src="assets/img/tequila/3.jpg" alt="" />
                       </a>
-                      <div class="caption">Under Armour</div>
+                      <div class="caption">ETEREO TEQUILA LICOR DE CAFE </div>
                     </div>
                   </div>
 
                   <div class="col-md-4 box-im section-padding">
-                    <div class="image-zoom" data-dsn="parallax">
+                    <div data-dsn="parallax">
                       <a
                         class="single-image"
-                        href="./Assets/img/tequila/2.jpg"
+                        href="Shop"
                       >
-                        <img src="./Assets/img/tequila/2.jpg" alt="" />
+                        <img src="assets/img/tequila/2.jpg" alt="" />
                       </a>
-                      <div class="caption">Re Styling</div>
+                      <div class="caption">ETEREO TEQUILA PLATA</div>
                     </div>
                   </div>
                 </div>
 
                 <div class="link-custom">
                   <a
-                    class="image-zoom effect-ajax"
+
                     href="Shop"
                     data-dsn="parallax"
                   >
@@ -200,7 +430,7 @@ export default function Home() {
                       <div class="line-before"></div>
                       <h4 class="subtitle">TEQUILA AND SPIRITS</h4>
                       <p>
-                        We can say with confidence that Etéreo's products stand
+                        We can say with confidence that Etereo's products stand
                         out among the competition. Each flavor--the blanco,
                         reposado, and extra anejo--take you on a complete
                         journey that is exactly what its name represents--out of
@@ -241,7 +471,7 @@ export default function Home() {
                 <div class="inner-img" data-dsn-grid="move-up">
                   <img
                     data-dsn-y="30%"
-                    src="./Assets/img/Lifestyle/woow.jpg"
+                    src="assets/img/Lifestyle/woow.jpg"
                     alt=""
                   />
                 </div>
@@ -261,7 +491,7 @@ export default function Home() {
                   </p>
                   <div class="link-custom">
                     <a
-                      class="image-zoom effect-ajax"
+
                       href="AboutUs"
                       data-dsn="parallax"
                     >
@@ -292,15 +522,15 @@ export default function Home() {
                         <div class="work-item slick-slide">
                           <img
                             class="has-top-bottom"
-                            src="./Assets/img/cocktails/1.png"
+                            src="assets/img/cocktails/1.png"
                             alt=""
                           />
                           <div class="item-border"></div>
                           <div class="item-info">
                             <a
-                              href="project-7.html"
+                              href="Cocktails"
                               data-dsn-grid="move-up"
-                              class="effect-ajax"
+
                             >
                               <h5 class="cat">DELICIOUS </h5>
                               <h4>PINA JALAPEÑO</h4>
@@ -314,15 +544,15 @@ export default function Home() {
                         <div class="work-item slick-slide">
                           <img
                             class="has-top-bottom"
-                            src="./Assets/img/cocktails/2.png"
+                            src="assets/img/cocktails/2.png"
                             alt=""
                           />
                           <div class="item-border"></div>
                           <div class="item-info">
                             <a
-                              href="project-6.html"
+                              href="Cocktails"
                               data-dsn-grid="move-up"
-                              class="effect-ajax"
+
                             >
                               <h5 class="cat">THE PERFECT TASTE </h5>
                               <h4>MEXICAN NEGRONI</h4>
@@ -336,15 +566,15 @@ export default function Home() {
                         <div class="work-item slick-slide">
                           <img
                             class="has-top-bottom"
-                            src="./Assets/img/cocktails/3.png"
+                            src="assets/img/cocktails/3.png"
                             alt=""
                           />
                           <div class="item-border"></div>
                           <div class="item-info">
                             <a
-                              href="project-6.html"
+                              href="Cocktails"
                               data-dsn-grid="move-up"
-                              class="effect-ajax"
+
                             >
                               <h5 class="cat">THE PERFECT MIX</h5>
                               <h4>WATERMELON JALAPEÑO MARGUERITA</h4>
@@ -358,15 +588,14 @@ export default function Home() {
                         <div class="work-item slick-slide">
                           <img
                             class="has-top-bottom"
-                            src="./Assets/img/cocktails/4.png"
+                            src="assets/img/cocktails/4.png"
                             alt=""
                           />
                           <div class="item-border"></div>
                           <div class="item-info">
                             <a
-                              href="project-5.html"
+                              href="Cocktails"
                               data-dsn-grid="move-up"
-                              class="effect-ajax"
                             >
                               <h5 class="cat">OLD & GOLD</h5>
                               <h4>ETÉREO OLD FASHIONED</h4>
@@ -380,15 +609,14 @@ export default function Home() {
                         <div class="work-item slick-slide">
                           <img
                             class="has-top-bottom"
-                            src="./Assets/img/cocktails/5.png"
+                            src="assets/img/cocktails/5.png"
                             alt=""
                           />
                           <div class="item-border"></div>
                           <div class="item-info">
                             <a
-                              href="project-5.html"
+                              href="Cocktails"
                               data-dsn-grid="move-up"
-                              class="effect-ajax"
                             >
                               <h5 class="cat">THE BEST TASTE</h5>
                               <h4> MARGUERITA COCKTAIL</h4>
@@ -417,7 +645,7 @@ export default function Home() {
                     >
                       <img
                         class="has-top-bottom"
-                        src="./Assets/img/tequila/etlf.jpg"
+                        src="assets/img/tequila/etlf.jpg"
                         alt=""
                         data-dsn-move="20%"
                       />
@@ -449,7 +677,6 @@ export default function Home() {
 
                       <div class="link-custom">
                         <a
-                          class="image-zoom effect-ajax"
                           href="LifeStyle"
                           data-dsn="parallax"
                         >
@@ -468,22 +695,22 @@ export default function Home() {
               <div class="container">
                 <div class="one-title" data-dsn-animate="up">
                   <div class="title-sub-container">
-                    <p class="title-sub">Latest News</p>
+                    <p class="title-sub">LATEST NEWS</p>
                   </div>
-                  <h2 class="title-main">Latest and greatest post</h2>
+                  <h2 class="title-main">Latest And Greatest Events</h2>
                 </div>
                 <div class="custom-container">
                   <div class="slick-slider">
                     <div class="item-new slick-slide">
                       <div class="image" data-overlay="1" style={{ borderRadius: "20px" }}>
-                        <img src="./Assets/img/fond/x.jpg" alt="" />
+                        <img src="assets/img/lifestyle/smoker.jpeg" alt="" />
                       </div>
                       <div class="content"  >
                         <div class="background" style={{ borderRadius: "20px" }}></div>
-                        <h5>LifeStyle</h5>
+                        <h5>LIFESTYLE</h5>
 
                         <div class="cta">
-                          <a href="LifeStyle">Learn More</a>
+                          <a href="LifeStyle">MORE THAN TEQUILA</a>
                         </div>
 
                       </div>
@@ -491,14 +718,14 @@ export default function Home() {
 
                     <div class="item-new slick-slide">
                       <div class="image" data-overlay="1" style={{ borderRadius: "20px" }}>
-                        <img src="./Assets/img/fond/et4.jpg" alt="" />
+                        <img src="assets/img/events/party2.jpeg" alt="" />
                       </div>
                       <div class="content"  >
                         <div class="background" style={{ borderRadius: "20px" }}></div>
-                        <h5>Our Process</h5>
+                        <h5>EVENTS</h5>
 
                         <div class="cta">
-                          <a href="Prosses">Learn More</a>
+                          <a href="LifeStyle">OUT OF THIS WORLD</a>
                         </div>
 
                       </div>
@@ -506,20 +733,55 @@ export default function Home() {
 
                     <div class="item-new slick-slide">
                       <div class="image" data-overlay="1" style={{ borderRadius: "20px" }}>
-                        <img src="./Assets/img/fond/g.jpeg" alt="" />
+                        <img src="assets/img/process.jpeg" alt="" />
+                      </div>
+                      <div class="content"  >
+                        <div class="background" style={{ borderRadius: "20px" }}></div>
+                        <h5>OUR PROCESS</h5>
+
+                        <div class="cta">
+                          <a href="our-process">How We Make Tequila</a>
+                        </div>
+
+                      </div>
+                    </div>
+
+                    <div class="item-new slick-slide">
+                      <div class="image" data-overlay="1" style={{ borderRadius: "20px" }}>
+                        <img src="assets/img/nft.jpeg" alt="" />
                       </div>
                       <div class="content"  >
                         <div class="background" style={{ borderRadius: "20px" }} ></div>
-                        <h5>LifeStyle</h5>
+                        <h5>NFT</h5>
 
                         <div class="cta">
-                          <a href="Shop">hoodies and hats</a>
+                          <a href="NFT">DISCOVER OUR COLLECTION</a>
 
                         </div>
 
 
                       </div>
                     </div>
+
+
+                    <div class="item-new slick-slide">
+                      <div class="image" data-overlay="1" style={{ borderRadius: "20px" }}>
+                        <img src="assets/img/events/osman2.jpeg" alt="" />
+                      </div>
+                      <div class="content"  >
+                        <div class="background" style={{ borderRadius: "20px" }} ></div>
+                        <h5>THE CHAMPION USMAN KAMARU</h5>
+
+                        <div class="cta">
+                          <a href="NFT">LEARN MORE </a>
+
+                        </div>
+
+
+                      </div>
+                    </div>
+
+
                   </div>
                 </div>
               </div>
@@ -531,7 +793,7 @@ export default function Home() {
                 <div class="row align-items-center h-100">
                   <div class="col-lg-6 ">
                     <div class="box-im" data-dsn-grid="move-up">
-                      <img class="has-top-bottom" src="./Assets/img/Lifestyle/event.jpeg" alt=""
+                      <img class="has-top-bottom" src="assets/img/Lifestyle/event.jpeg" alt=""
                         data-dsn-move="20%" />
                     </div>
                   </div>
@@ -551,7 +813,7 @@ export default function Home() {
 
 
                       <div class="link-custom" data-dsn-animate="up">
-                        <a class="image-zoom effect-ajax" href="project-9.html" data-dsn="parallax">
+                        <a href="Events" data-dsn="parallax">
                           <span>Learn More</span>
                         </a>
                       </div>
@@ -566,59 +828,56 @@ export default function Home() {
               <div class="container">
                 <div class="one-title" data-dsn-animate="up">
                   <div class="title-sub-container">
-                    <p class="title-sub">OUR COLLECTION</p>
+                    <p class="title-sub"></p>
 
                   </div>
-                  <h2 class="title-main">LOGO </h2>
+                  <h2 class="title-main">MEET OUR PARTNERS</h2>
                 </div>
 
                 <div class="wapper-client" >
                   <div class="logo-box" style={{ padding: -30 }}>
-                    <img src="./Assets/img/cutL.jpg" alt="" />
+                    <img src="assets/img/partners/p1.jpeg" alt="" />
 
-                    <div class="info">
-                      <div class="content">
-                        <div class="icon">
-                          <i class="fas fa-plus"></i>
-                        </div>
 
-                        <div class="entry">
-                          <div>
-                            <h5>Follow Us On Instagram</h5>
-                            <a href="http://www.instagram.com/etereolifestyle">étereoLifeStyle</a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
                   </div>
 
                   <div class="logo-box" style={{ padding: -30 }}>
-                    <img src="./Assets/img/logo.jpg" alt="" />
-
-                    <div class="info">
-                      <div class="content">
-                        <div class="icon">
-                          <i class="fas fa-plus"></i>
-                        </div>
-
-                        <div class="entry">
-                          <div>
-                            <h5>Follow Us On Instagram</h5>
-                            <a href="http://www.instagram.com/etereolifestyle">étereoLifeStyle</a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+                    <img src="assets/img/partners/p2.jpeg" alt="" />
                   </div>
-            
+                  <div class="logo-box" style={{ padding: -30 }}>
+                    <img src="assets/img/partners/p3.jpeg" alt="" />
+
+
+                  </div>
+
+                  <div class="logo-box" style={{ padding: -30 }}>
+                    <img src="assets/img/partners/p4.png" alt="" />
+
+
+                  </div>
+
+                  <div class="logo-box" style={{ padding: -30 }}>
+                    <img src="assets/img/partners/p5.jpg" alt="" />
+
+                  </div>
+
+                  <div class="logo-box" style={{ padding: -30 }}>
+                    <img src="assets/img/partners/p6.jpeg" alt="" />
+
+                  </div>
                 </div>
               </div>
             </section>
-            <Footer />
+
 
           </div>
+
+          <Footer />
         </div>
+
       </div>
+
+
 
       <div class="cursor">
         <div class="cursor-helper cursor-view">

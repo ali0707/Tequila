@@ -45,16 +45,13 @@ export default function Shop() {
                                 <div class="box-title" data-dsn-title="cover">
                                     <h2 class="title-cover" data-dsn-grid="move-section" data-dsn-move="-70">Shop</h2>
                                 </div>
-                                        <div class="filterings">
+                                <div class="filterings">
                                     <div class="filtering-wrap">
                                         <div class="filtering">
                                             <div class="selector"></div>
-                                            <button type="button" data-filter="*" class="active">
-                                                All
-                                            </button>
+
                                             <button type="button" data-filter=".Tequila">Tequila</button>
-                                            <button type="button" data-filter=".Hats">Hats</button>
-                                            <button type="button" data-filter=".hoodies ">hoodies </button>
+
 
                                         </div>
                                     </div>
@@ -62,7 +59,7 @@ export default function Shop() {
 
                                 <div class="projects-list gallery">
                                     <div class="item Tequila">
-                                        <a href="project-9.html" class="effect-ajax" data-dsn-ajax="work"
+                                        <a href="https://www.drinkwithsasha.com/products/etereo-tequila-extra-anejo" data-dsn-ajax="work"
                                             data-dsn-grid="move-up">
                                             <img class="has-top-bottom" src="./Assets/img/tequila/1.jpg" alt="" />
                                             <div class="item-border"></div>
@@ -74,7 +71,7 @@ export default function Shop() {
                                     </div>
 
                                     <div class="item Tequila">
-                                        <a href="project-4.html" class="effect-ajax" data-dsn-ajax="work"
+                                        <a href="https://www.drinkwithsasha.com/products/etereo-tequila-licor-de-cafe?_pos=3&_sid=027c0a987&_ss=r" data-dsn-ajax="work"
                                             data-dsn-grid="move-up">
                                             <img class="has-top-bottom" src="./Assets/img/tequila/2.jpg" alt="" />
                                             <div class="item-border"></div>
@@ -95,7 +92,6 @@ export default function Shop() {
                                             </div>
                                         </a>
                                     </div>
-
 
 
 

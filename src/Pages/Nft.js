@@ -38,7 +38,7 @@ export default function Nft() {
                             <div class="inner">
                                 <h2 data-dsn-animate="text">NFT COLLECTION</h2>
                                 <p data-dsn-animate="up">
-                                Etéreo can undoubtedly be ranked amongst the best Tequilas on the market, but our sole
+                                    Etéreo can undoubtedly be ranked amongst the best Tequilas on the market, but our sole
                                     purpose besides providing you with the finest beverages has always been to purvey an exclusive
                                     lifestyle to all our clients.<br />
 
@@ -49,30 +49,8 @@ export default function Nft() {
                             </div>
                         </div>
                     </div>
-                    <div class="box-seat">
-                                <div class="dsn-v-text">
-                                    <div class="container-fluid">
-                                        <div class="box-middle-text">
 
-                                            <a href="./Assets/videos/ring2.mp4"
- class="vid">
-                                                <div class="play-button">
-                                                    <div class="play-btn">
-                                                        <i class="fas fa-play"></i>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="inner-img" data-dsn-grid="move-up">
-                                            <img
-                                                class="has-top-bottom"
-                                                src="./Assets/img/capt.png"
-                                                alt=""
-                                            />
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+
                     <div class="wrapper">
                         <div class="root-work">
                             <div class="container">
@@ -81,7 +59,7 @@ export default function Nft() {
                                 <div class="inner" style={{ marginTop: "50px", marginBottom: "100px" }}>
 
                                     <p data-dsn-animate="up">
-                                    Etéreo is now officially “out of this world” to the metaverse in order to bring you the very first NFT
+                                        Etéreo is now officially “out of this world” to the metaverse in order to bring you the very first NFT
                                         project to link all of its NFTs to real life luxurious and exclusive utilities.
                                     </p>
 
@@ -112,9 +90,9 @@ export default function Nft() {
                                                     class="single-image"
                                                     href="./Assets/img/NFT/2.png"
                                                 >
-                                                   <img src="./Assets/img/Montre.png" alt=""
+                                                    <img src="./Assets/img/Montre.png" alt=""
                                                         style={{ borderRadius: "20px" }}
-                                                    
+
                                                     />
                                                 </a>
                                             </div>
@@ -138,7 +116,7 @@ export default function Nft() {
 
                                 <div className="intro-text text-center">
 
-                                    <div class='ctrl' style={{justifyContent: "center"}}>
+                                    <div class='ctrl' style={{ justifyContent: "center" }}>
                                         <div class='ctrl__button ctrl__button--decrement'>-</div>
                                         <div class='ctrl__counter'>
                                             <input class='ctrl__counter-input' maxlength='10' type='text' value='0'></input>
@@ -156,11 +134,11 @@ export default function Nft() {
                                         <div class="inner">
                                             <h4 data-dsn-animate="text">Available Soon..</h4>
                                             <p data-dsn-animate="up">
-                                            2200 NFTs will be available for mint on our platform all of which will provide unique 
-Real life experiences.
+                                                2200 NFTs will be available for mint on our platform all of which will provide unique
+                                                Real life experiences.
 
-Indeed and for the first time in NFT history each and every digital piece of art issued will 
-instantly and permanently give access to real life benefits for all our holders to enjoy.
+                                                Indeed and for the first time in NFT history each and every digital piece of art issued will
+                                                instantly and permanently give access to real life benefits for all our holders to enjoy.
                                             </p>
                                             <div class="box-title" data-dsn-title="cover">
                                                 <h2 class="title-cover" data-dsn-grid="move-section" data-dsn-move="-70">Explore Collections
@@ -172,258 +150,286 @@ instantly and permanently give access to real life benefits for all our holders 
                                 </div>
 
                                 <article>
-    <div class="text">
-    <img style={{borderRadius:"20px"}} class="has-top-bottom" src="./Assets/img/nft02.jpeg" alt="" />
-    <div style={{marginTop:"10px" }}>Etéreo EVENTS</div>
-    </div>
-    <div class="image" 
-    style={{textAlign: "center",
-    verticalAlign: "middle",
-    position: "relative",
-    top: "50%"}}
-    >
-        
-        Ever dreamed of all-inclusive trips to Etéreo
-events worldwide as prime guests ?
-        
-    </div>
-    <div class="text">
-    <img style={{borderRadius:"20px"}} class="has-top-bottom" src="./Assets/img/nft01.jpeg" alt="" />
-    <div style={{marginTop:"10px" }}>COACHELLA VIP ACCESS</div>
+                                    <div class="text">
+                                        <img style={{ borderRadius: "20px" }} class="has-top-bottom" src="./Assets/img/nft02.jpeg" alt="" />
+                                        <div style={{ marginTop: "10px" }}>Etéreo EVENTS</div>
+                                    </div>
+                                    <div class="image"
+                                        style={{
+                                            textAlign: "center",
+                                            verticalAlign: "middle",
+                                            position: "relative",
+                                            top: "50%"
+                                        }}
+                                    >
 
-    </div>
-    <div class="image"
-    style={{textAlign: "center",
-    verticalAlign: "middle",
-    position: "relative",
-    top: "50%"}}
-    >
-        Ever dreamed of flying a private jet to
-Coachella and partying with all the world’s
-celebrities ?
-    </div>
-    <div class="text">
-    <img style={{borderRadius:"20px"}} class="has-top-bottom" src="./Assets/img/nft0.jpeg" alt="" />
-    <div style={{marginTop:"10px" }}>RANGE ROVER</div>
+                                        Ever dreamed of all-inclusive trips to Etéreo
+                                        events worldwide as prime guests ?
 
-    </div>
-    <div class="image"
-    style={{textAlign: "center",
-    verticalAlign: "middle",
-    position: "relative",
-    top: "50%"}}
-    >
-        Ever dreamed of being gifted a SUV from a brand 
-that represents the pinnacle of English craftsmanship
-and luxury  ?
-    </div>
-    
+                                    </div>
+                                    <div class="text">
+                                        <img style={{ borderRadius: "20px" }} class="has-top-bottom" src="./Assets/img/nft01.jpeg" alt="" />
+                                        <div style={{ marginTop: "10px" }}>COACHELLA VIP ACCESS</div>
 
-    
-    
-</article>
-<article>
-       <div class="image"
-       style={{textAlign: "center",
-       verticalAlign: "middle",
-       position: "relative",
-       top: "50%"}}
-       >
-           Ever dreamed of spending a summer with
-your friends on a Super Yacht sailing across
-the Adriatic Sea ?
-    </div>
- 
-        <div class="text">
-        <img style={{borderRadius:"20px"}} class="has-top-bottom" src="./Assets/img/nft1.jpeg" alt="" />
-        <div style={{marginTop:"10px" }}>YACHT</div>
+                                    </div>
+                                    <div class="image"
+                                        style={{
+                                            textAlign: "center",
+                                            verticalAlign: "middle",
+                                            position: "relative",
+                                            top: "50%"
+                                        }}
+                                    >
+                                        Ever dreamed of flying a private jet to
+                                        Coachella and partying with all the world’s
+                                        celebrities ?
+                                    </div>
+                                    <div class="text">
+                                        <img style={{ borderRadius: "20px" }} class="has-top-bottom" src="./Assets/img/nft0.jpeg" alt="" />
+                                        <div style={{ marginTop: "10px" }}>RANGE ROVER</div>
 
-    </div>
-    <div class="text"
-    style={{textAlign: "center",
-    verticalAlign: "middle",
-    position: "relative",
-    top: "50%"}}
-    >
-        Ever dreamed of being gifted the most exquisite 
-diamonds and rings from one of London’s finest 
-jeweller ?
-    </div>
-     <div class="text">
+                                    </div>
+                                    <div class="image"
+                                        style={{
+                                            textAlign: "center",
+                                            verticalAlign: "middle",
+                                            position: "relative",
+                                            top: "50%"
+                                        }}
+                                    >
+                                        Ever dreamed of being gifted a SUV from a brand
+                                        that represents the pinnacle of English craftsmanship
+                                        and luxury  ?
+                                    </div>
 
-     <div class="box-seat">
-                                <div class="dsn-v-text" >
-                                    <div class="container-fluid" >
-                                        <div class="box-middle-text">
-                                            <a
-                                            
-                                            href="./Assets/videos/zoom1.mp4" class="vid">
-                                                <div class="play-button">
-                                                    <div class="play-btn">
-                                                        <i class="fas fa-play"></i>
+
+
+
+                                </article>
+                                <article>
+                                    <div class="image"
+                                        style={{
+                                            textAlign: "center",
+                                            verticalAlign: "middle",
+                                            position: "relative",
+                                            top: "50%"
+                                        }}
+                                    >
+                                        Ever dreamed of spending a summer with
+                                        your friends on a Super Yacht sailing across
+                                        the Adriatic Sea ?
+                                    </div>
+
+                                    <div class="text">
+                                        <img style={{ borderRadius: "20px" }} class="has-top-bottom" src="./Assets/img/nft1.jpeg" alt="" />
+                                        <div style={{ marginTop: "10px" }}>YACHT</div>
+
+                                    </div>
+                                    <div class="text"
+                                        style={{
+                                            textAlign: "center",
+                                            verticalAlign: "middle",
+                                            position: "relative",
+                                            top: "50%"
+                                        }}
+                                    >
+                                        Ever dreamed of being gifted the most exquisite
+                                        diamonds and rings from one of London’s finest
+                                        jeweller ?
+                                    </div>
+                                    <div class="text">
+
+                                        <div class="box-seat">
+                                            <div class="dsn-v-text" >
+                                                <div class="container-fluid" >
+                                                    <div class="box-middle-text">
+                                                        <a
+
+                                                            href="./Assets/videos/zoom1.mp4" class="vid">
+                                                            <div class="play-button">
+                                                                <div class="play-btn">
+                                                                    <i class="fas fa-play"></i>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                    <div class="" data-dsn-grid="move-up" style={{ borderRadius: "20px" }}>
+                                                        <img
+
+                                                            src="./Assets/img/videch.png"
+                                                            alt=""
+                                                        />
                                                     </div>
                                                 </div>
-                                            </a>
-                                        </div>
-                                        <div class="" data-dsn-grid="move-up" style={{borderRadius:"20px"}}>
-                                            <img
-                                            
-                                                src="./Assets/img/videch.png"
-                                                alt=""
-                                            />
-                                        </div>
+                                            </div>
+                                        </div>     <div style={{ marginTop: "10px" }}>CADARO LONDON</div>
+
                                     </div>
-                                </div>
-                            </div>     <div style={{marginTop:"10px" }}>CADARO LONDON</div>
+                                    <div class="image"
 
-    </div>
-       <div class="image"
-       
-       style={{textAlign: "center",
-    verticalAlign: "middle",
-    position: "relative",
-    top: "50%"}}>
-           
-           Ever dreamed of being gifted the most iconique 
-watches from the two best watchmakers to ever
-be ?
-    </div>
+                                        style={{
+                                            textAlign: "center",
+                                            verticalAlign: "middle",
+                                            position: "relative",
+                                            top: "50%"
+                                        }}>
 
-    <div class="text">
-    
-    <img style={{borderRadius:"20px"}} class="has-top-bottom" src="./Assets/img/nft2.jpeg" alt="" />
+                                        Ever dreamed of being gifted the most iconique
+                                        watches from the two best watchmakers to ever
+                                        be ?
+                                    </div>
 
-    <div style={{marginTop:"10px" }}>ROLEX & AUDEMART PIGUET</div>
+                                    <div class="text">
 
-   
-    </div>
-    
-    
+                                        <img style={{ borderRadius: "20px" }} class="has-top-bottom" src="./Assets/img/nft2.jpeg" alt="" />
+
+                                        <div style={{ marginTop: "10px" }}>ROLEX & AUDEMART PIGUET</div>
 
 
-  
-</article>
+                                    </div>
 
-    <article>
-    <div class="text">
-    <img style={{borderRadius:"20px"}} class="has-top-bottom" src="./Assets/img/nft3.jpeg" alt="" />
-    
-    <div style={{marginTop:"10px" }}>UFC EXCLUSIVE ACCESS</div>
-    </div>
-    <div class="image"
-    style={{textAlign: "center",
-    verticalAlign: "middle",
-    position: "relative",
-    top: "50%"}}
-    >
-        Ever dreamed of sitting front row at every UFC
-fight before partying with the champion?
-    </div>
-    <div class="text">
-    <img style={{borderRadius:"20px"}} class="has-top-bottom" src="./Assets/img/nft4.jpeg" alt="" />
-    <div style={{marginTop:"10px" }}>Etéreo DISTILLERY</div>
 
-    </div>
-    <div class="image"
-    
-    style={{textAlign: "center",
-    verticalAlign: "middle",
-    position: "relative",
-    top: "50%"}}
-    data-dsn-animate="up">
-        Ever dreamed of a unique trip to Mexico’s 
-finest and most genuine tequila distillery ?
-    </div>
-    <div class="text">
-    <img style={{borderRadius:"20px"}} class="has-top-bottom" src="./Assets/img/nft5.jpeg" alt="" />
-    <div style={{marginTop:"10px" }}>SW Clinic</div>
 
-    </div>
-    <div class="image"
-    style={{textAlign: "center",
-    verticalAlign: "middle",
-    position: "relative",
-    top: "50%"}}
-    data-dsn-animate="up">
-        Ever dreamed of being offered all the plastic
-surgery you have wished for in the most high-end 
-cliniques ?
-    </div>
-</article>
 
-<article>
-    <div class="text"
-    style={{textAlign: "center",
-    verticalAlign: "middle",
-    position: "relative",
-    top: "50%"}}
-    data-dsn-animate="up">
-        Ever dreamed of free life-memberships to the
-most exclusive Yoga Center in London ?
-    </div>
-    <div class="image">
-    <img style={{borderRadius:"20px"}} class="has-top-bottom" src="./Assets/img/nft6.jpeg" alt="" />
-    <div style={{marginTop:"10px" }}>YOGA</div>
 
-    </div>
-    <div class="text"
-    style={{textAlign: "center",
-    verticalAlign: "middle",
-    position: "relative",
-    top: "50%"}}
-    data-dsn-animate="up">
-        Ever dreamed of unlimited supply of the finest
-Caviar ?
-    </div>
-    <div class="image">
-    <img style={{borderRadius:"20px"}} class="has-top-bottom" src="./Assets/img/nft7.jpeg" alt="" />
-    <div style={{marginTop:"10px" }}>Caviar</div>
+                                </article>
 
-    </div>
-    <div class="text" 
-    style={{textAlign: "center",
-    verticalAlign: "middle",
-    position: "relative",
-    top: "50%"}}
-    data-dsn-animate="up">
-        Ever dreamed of waking up one morning with
-a free 50 000 $ on your bank account ?
-    </div>
-    <div class="image">
-    <img style={{borderRadius:"20px"}} class="has-top-bottom" src="./Assets/img/nft8.jpeg" alt="" />
-    <div style={{marginTop:"10px" }}>50 000 $</div>
+                                <article>
+                                    <div class="text">
+                                        <img style={{ borderRadius: "20px" }} class="has-top-bottom" src="./Assets/img/nft3.jpeg" alt="" />
 
-    </div>
-    <div class="text">
-    <img style={{borderRadius:"20px"}} class="has-top-bottom" src="./Assets/img/nft9.jpeg" alt="" />
-    <div style={{marginTop:"10px" }}data-dsn-animate="down"> ALAN & STEVE</div>
+                                        <div style={{ marginTop: "10px" }}>UFC EXCLUSIVE ACCESS</div>
+                                    </div>
+                                    <div class="image"
+                                        style={{
+                                            textAlign: "center",
+                                            verticalAlign: "middle",
+                                            position: "relative",
+                                            top: "50%"
+                                        }}
+                                    >
+                                        Ever dreamed of sitting front row at every UFC
+                                        fight before partying with the champion?
+                                    </div>
+                                    <div class="text">
+                                        <img style={{ borderRadius: "20px" }} class="has-top-bottom" src="./Assets/img/nft4.jpeg" alt="" />
+                                        <div style={{ marginTop: "10px" }}>Etéreo DISTILLERY</div>
 
-    </div>
-    <div class="image" style={{textAlign: "center",
-    verticalAlign: "middle",
-    position: "relative",
-    top: "50%"}}>
-        Ever dreamed of receiving free merchandise from 
-one of the most up and coming brand of sustainable
-fashion ?
-    </div>
-    <div class="text"
-    style={{textAlign: "center",
-    verticalAlign: "middle",
-    position: "relative",
-    top: "50%"}}
-    data-dsn-animate="left">
-        Ever dreamed of the finest dining experiences
-        as Etéreo’s exclusive guest
-    </div>
-    <div class="image">
-    <img style={{borderRadius:"20px"}} class="has-top-bottom" src="./Assets/img/nft10.jpeg" alt="" />
-    <div style={{marginTop:"10px" }}>UKIYO SPECIAL TREATMENT</div>
+                                    </div>
+                                    <div class="image"
 
-    </div>
-    
-</article>
-  
+                                        style={{
+                                            textAlign: "center",
+                                            verticalAlign: "middle",
+                                            position: "relative",
+                                            top: "50%"
+                                        }}
+                                        data-dsn-animate="up">
+                                        Ever dreamed of a unique trip to Mexico’s
+                                        finest and most genuine tequila distillery ?
+                                    </div>
+                                    <div class="text">
+                                        <img style={{ borderRadius: "20px" }} class="has-top-bottom" src="./Assets/img/nft5.jpeg" alt="" />
+                                        <div style={{ marginTop: "10px" }}>SW Clinic</div>
+
+                                    </div>
+                                    <div class="image"
+                                        style={{
+                                            textAlign: "center",
+                                            verticalAlign: "middle",
+                                            position: "relative",
+                                            top: "50%"
+                                        }}
+                                        data-dsn-animate="up">
+                                        Ever dreamed of being offered all the plastic
+                                        surgery you have wished for in the most high-end
+                                        cliniques ?
+                                    </div>
+                                </article>
+
+                                <article>
+                                    <div class="text"
+                                        style={{
+                                            textAlign: "center",
+                                            verticalAlign: "middle",
+                                            position: "relative",
+                                            top: "50%"
+                                        }}
+                                        data-dsn-animate="up">
+                                        Ever dreamed of free life-memberships to the
+                                        most exclusive Yoga Center in London ?
+                                    </div>
+                                    <div class="image">
+                                        <img style={{ borderRadius: "20px" }} class="has-top-bottom" src="./Assets/img/nft6.jpeg" alt="" />
+                                        <div style={{ marginTop: "10px" }}>YOGA</div>
+
+                                    </div>
+                                    <div class="text"
+                                        style={{
+                                            textAlign: "center",
+                                            verticalAlign: "middle",
+                                            position: "relative",
+                                            top: "50%"
+                                        }}
+                                        data-dsn-animate="up">
+                                        Ever dreamed of unlimited supply of the finest
+                                        Caviar ?
+                                    </div>
+                                    <div class="image">
+                                        <img style={{ borderRadius: "20px" }} class="has-top-bottom" src="./Assets/img/nft7.jpeg" alt="" />
+                                        <div style={{ marginTop: "10px" }}>Caviar</div>
+
+                                    </div>
+                                    <div class="text"
+                                        style={{
+                                            textAlign: "center",
+                                            verticalAlign: "middle",
+                                            position: "relative",
+                                            top: "50%"
+                                        }}
+                                        data-dsn-animate="up">
+                                        Ever dreamed of waking up one morning with
+                                        a free 50 000 $ on your bank account ?
+                                    </div>
+                                    <div class="image">
+                                        <img style={{ borderRadius: "20px" }} class="has-top-bottom" src="./Assets/img/nft8.jpeg" alt="" />
+                                        <div style={{ marginTop: "10px" }}>50 000 $</div>
+
+                                    </div>
+                                    <div class="text">
+                                        <img style={{ borderRadius: "20px" }} class="has-top-bottom" src="./Assets/img/nft9.jpeg" alt="" />
+                                        <div style={{ marginTop: "10px" }} data-dsn-animate="down"> ALAN & STEVE</div>
+
+                                    </div>
+                                    <div class="image" style={{
+                                        textAlign: "center",
+                                        verticalAlign: "middle",
+                                        position: "relative",
+                                        top: "50%"
+                                    }}>
+                                        Ever dreamed of receiving free merchandise from
+                                        one of the most up and coming brand of sustainable
+                                        fashion ?
+                                    </div>
+                                    <div class="text"
+                                        style={{
+                                            textAlign: "center",
+                                            verticalAlign: "middle",
+                                            position: "relative",
+                                            top: "50%"
+                                        }}
+                                        data-dsn-animate="left">
+                                        Ever dreamed of the finest dining experiences
+                                        as Etéreo’s exclusive guest
+                                    </div>
+                                    <div class="image">
+                                        <img style={{ borderRadius: "20px" }} class="has-top-bottom" src="./Assets/img/nft10.jpeg" alt="" />
+                                        <div style={{ marginTop: "10px" }}>UKIYO SPECIAL TREATMENT</div>
+
+                                    </div>
+
+                                </article>
+
                             </div>
                         </div>
 
@@ -437,16 +443,16 @@ fashion ?
                                                 Well thanks to Etéreo, making all these dreams your reality has never been simpler.<br />
 
                                                 Just like we were not only creating a Tequila…
-We are not only creating NFTs…<br />
+                                                We are not only creating NFTs…<br />
 
-                                                
-We are purveying a lifestyle.<br />
+
+                                                We are purveying a lifestyle.<br />
 
 
                                                 The only question is, are you truly ready for this lifestyle?<br />
                                             </p>
                                             <br />
-                                       
+
                                         </div>
                                     </div>
                                 </div>
@@ -483,5 +489,4 @@ We are purveying a lifestyle.<br />
         </div>
     );
 }
-
 
