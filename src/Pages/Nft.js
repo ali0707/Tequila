@@ -67,53 +67,106 @@ export default function Nft() {
                                 </div>
 
 
-                                <div style={{ marginTop: "50px", marginBottom: "50px" }} class="container-fluid gallery-col">
-                                    <div class="row">
-                                        <div class="col-md-4 box-im section-padding" style={{ padding: 10 }} >
-                                            <div class="image-zoom" data-dsn="parallax"
-                                            >
-                                                <a
-                                                    class="single-image"
-                                                    href="./Assets/img/NFT/1.png"
-                                                >
-                                                    <img src="./Assets/img/347.png" alt=""
-                                                        style={{ borderRadius: "20px" }}
-                                                    />
-                                                </a>
+                                <section class="our-news section-margin">
+                                    <div class="container">
 
-                                                {/* <div class="caption">Trevor Bittinger</div> */}
+                                        <div class="custom-container">
+                                            <div class="slick-slider">
+
+
+                                                <div class="item-new slick-slide">
+                                                    <div class="image" data-overlay="1" style={{ borderRadius: "20px" }}>
+                                                        <img src="assets/img/nft2/1.jpeg
+                                                        " alt="" />
+                                                    </div>
+
+                                                </div>
+
+
+                                                <div class="item-new slick-slide">
+                                                    <div class="image" data-overlay="1" style={{ borderRadius: "20px" }}>
+                                                        <img src="assets/img/nft2/2.jpeg
+                                                        " alt="" />
+                                                    </div>
+
+                                                </div>
+                                                <div class="item-new slick-slide">
+                                                    <div class="image" data-overlay="1" style={{ borderRadius: "20px" }}>
+                                                        <img src="assets/img/nft2/3.jpeg
+                                                        " alt="" />
+                                                    </div>
+
+                                                </div>
+                                                <div class="item-new slick-slide">
+                                                    <div class="image" data-overlay="1" style={{ borderRadius: "20px" }}>
+                                                        <img src="assets/img/nft2/4.jpeg
+                                                        " alt="" />
+                                                    </div>
+
+                                                </div>
+                                                <div class="item-new slick-slide">
+                                                    <div class="image" data-overlay="1" style={{ borderRadius: "20px" }}>
+                                                        <img src="assets/img/nft2/5.jpeg
+                                                        " alt="" />
+                                                    </div>
+
+                                                </div>
+                                                <div class="item-new slick-slide">
+                                                    <div class="image" data-overlay="1" style={{ borderRadius: "20px" }}>
+                                                        <img src="assets/img/nft2/6.jpeg
+                                                        " alt="" />
+                                                    </div>
+
+                                                </div>
+                                                <div class="item-new slick-slide">
+                                                    <div class="image" data-overlay="1" style={{ borderRadius: "20px" }}>
+                                                        <img src="assets/img/nft2/7.jpeg
+                                                        " alt="" />
+                                                    </div>
+
+                                                </div>
+                                                <div class="item-new slick-slide">
+                                                    <div class="image" data-overlay="1" style={{ borderRadius: "20px" }}>
+                                                        <img src="assets/img/nft2/8.jpeg
+                                                        " alt="" />
+                                                    </div>
+
+                                                </div>
+                                                <div class="item-new slick-slide">
+                                                    <div class="image" data-overlay="1" style={{ borderRadius: "20px" }}>
+                                                        <img src="assets/img/nft2/9.jpeg
+                                                        " alt="" />
+                                                    </div>
+
+                                                </div>
+                                                <div class="item-new slick-slide">
+                                                    <div class="image" data-overlay="1" style={{ borderRadius: "20px" }}>
+                                                        <img src="assets/img/nft2/10.jpeg
+                                                        " alt="" />
+                                                    </div>
+
+                                                </div>
+                                                <div class="item-new slick-slide">
+                                                    <div class="image" data-overlay="1" style={{ borderRadius: "20px" }}>
+                                                        <img src="assets/img/nft2/11.jpeg
+                                                        " alt="" />
+                                                    </div>
+
+                                                </div>
+                                                <div class="item-new slick-slide">
+                                                    <div class="image" data-overlay="1" style={{ borderRadius: "20px" }}>
+                                                        <img src="assets/img/nft2/12.jpeg
+                                                        " alt="" />
+                                                    </div>
+
+                                                </div>
+
+
+
                                             </div>
                                         </div>
-                                        <div class="col-md-4 box-im section-padding" style={{ padding: 10 }}>
-                                            <div class="image-zoom" data-dsn="parallax">
-                                                <a
-                                                    class="single-image"
-                                                    href="./Assets/img/NFT/2.png"
-                                                >
-                                                    <img src="./Assets/img/Montre.png" alt=""
-                                                        style={{ borderRadius: "20px" }}
-
-                                                    />
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4 box-im section-padding" style={{ padding: 10 }}>
-                                            <div class="image-zoom" data-dsn="parallax">
-                                                <a
-                                                    class="single-image"
-                                                    href="./Assets/img/NFT/3.png"
-                                                >
-                                                    <img src="./Assets/img/369.png" alt=""
-                                                        style={{ borderRadius: "20px" }}
-                                                    />
-                                                </a>
-                                            </div>
-                                        </div>
-
-
                                     </div>
-                                </div>
-
+                                </section>
                                 <div className="intro-text text-center">
 
                                     <div class='ctrl' style={{ justifyContent: "center" }}>
