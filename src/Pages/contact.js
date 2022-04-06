@@ -1,20 +1,24 @@
 import React from "react";
 import Header from "../components/Header";
-import Footer from "../components/Footer"
+import Footer from "../components/Footer";
 
 export default function Contact() {
   return (
-    <div
+    <body
       class=" hamburger-menu dsn-effect-scroll dsn-ajax"
-      data-dsn-mousemove="true">
+      data-dsn-mousemove="true"
+    >
       <div class="preloader">
         <div class="preloader-after"></div>
         <div class="preloader-before"></div>
         <div class="preloader-block">
-          <div class="title">étereo </div>
+          <div class="title">Etéreo </div>
           <div class="percent">0</div>
           <div class="loading">
-            <iframe src="https://embed.lottiefiles.com/animation/29783"></iframe>
+            <img
+              src="./Assets/img/logo/etero.png"
+              style={{ width: "90px", hight: "90px" }}
+            />{" "}
           </div>
         </div>
         <div class="preloader-bar">
@@ -24,7 +28,7 @@ export default function Contact() {
 
       <Header />
 
-      <div class="main-root">
+      <main class="main-root">
         <div id="dsn-scrollbar">
           <header>
             <div class="container header-hero">
@@ -41,8 +45,6 @@ export default function Contact() {
 
           <div class="wrapper">
             <div class="root-contact">
-           
-
               <div class="container section-margin">
                 <div class="row">
                   <div class="col-lg-6">
@@ -54,7 +56,8 @@ export default function Contact() {
 
                       <ul>
                         <li>
-                          <span>Email</span><br />
+                          <span>Email</span>
+                          <br />
                           <a href="#">JAMES@ETEREOLIFESTYLE.COM</a>
                           <br />
                           <a href="#">HAMADE@ETEREOLIFESTYLE.COM</a>
@@ -62,7 +65,7 @@ export default function Contact() {
                         <li>
                           <span>Address</span>
                           <a href="#">
-                          Etéreo Spirits LLC 2855 Michelle Drive Suite 280 ,
+                            Etéreo Spirits LLC 2855 Michelle Drive Suite 280 ,
                             Irvine, California 92606 – USA
                           </a>
                         </li>
@@ -141,7 +144,7 @@ export default function Contact() {
             <Footer />
           </div>
         </div>
-      </div>
+      </main>
 
       <div class="wait-loader">
         <div class="loader-inner">
@@ -162,6 +165,6 @@ export default function Contact() {
 
         <div class="cursor-helper cursor-link"></div>
       </div>
-    </div>
+    </body>
   );
 }

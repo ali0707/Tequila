@@ -5,7 +5,7 @@ import Header2 from "../components/Header2";
 
 export default function Process() {
   return (
-    <div
+    <body
       class="hamburger-menu dsn-effect-scroll dsn-ajax"
       data-dsn-mousemove="true"
     >
@@ -13,64 +13,20 @@ export default function Process() {
         <div class="preloader-after"></div>
         <div class="preloader-before"></div>
         <div class="preloader-block">
-          <div class="title">Etéreo</div>
+          <div class="title">Etéreo </div>
           <div class="percent">0</div>
-          <div class="loading">loading...</div>
+          <div class="loading">
+            <img
+              src="./Assets/img/logo/etero.png"
+              style={{ width: "90px", hight: "90px" }}
+            />{" "}
+          </div>
         </div>
         <div class="preloader-bar">
           <div class="preloader-progress"></div>
         </div>
       </div>
       <Header2 />
-      <div class="dsn-nav-bar">
-        <div class="header-top header-top-hamburger">
-          <div class="header-container">
-            <div class="logo main-logo">
-              <a href="index.html">
-                <img
-                  class="dark-logo"
-                  src="./Assets/img/logo/eterologo-blanc.png"
-                  alt=""
-                />
-                <img
-                  class="light-logo"
-                  src="./Assets/img/logo/eterologo-blanc.png"
-                  alt=""
-                />
-              </a>
-            </div>
-
-            <div class="menu-icon" data-dsn="parallax" data-dsn-move="5">
-              <div class="icon-m">
-                <i class="menu-icon-close fas fa-times"></i>
-                <span class="menu-icon__line menu-icon__line-left"></span>
-                <span class="menu-icon__line"></span>
-                <span class="menu-icon__line menu-icon__line-right"></span>
-              </div>
-
-              <div class="text-menu">
-                <div class="text-button">Menu</div>
-                <div class="text-open">Open</div>
-                <div class="text-close">Close</div>
-              </div>
-            </div>
-
-            <div class="nav">
-              <div class="inner">
-                <div class="nav__content"></div>
-              </div>
-            </div>
-            <div class="nav-content">
-              <div class="inner-content">
-                <address class="v-middle">
-                  <span> California 92606 – USA</span>
-                  <span>Etéreo Spirits LLC 2855 Michelle Drive Suite 280 , Irvine,</span>
-                </address>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
 
       <main class="main-root">
         <div id="dsn-scrollbar">
@@ -89,10 +45,7 @@ export default function Process() {
 
                         <div class="title-text-header">
                           <div class="title-text-header-inner">
-                            <a
-                              class="effect-ajax"
-                              data-dsn-ajax="slider"
-                            >
+                            <a class="effect-ajax" data-dsn-ajax="slider">
                               HARVESTING
                             </a>
                           </div>
@@ -107,8 +60,6 @@ export default function Process() {
                           fields in the lowlands which have been cultivated for
                           three generations.
                         </p>
-
-
                       </div>
                     </div>
                     <div class="image-container">
@@ -133,11 +84,7 @@ export default function Process() {
 
                         <div class="title-text-header">
                           <div class="title-text-header-inner">
-                            <a
-
-                              class="effect-ajax"
-                              data-dsn-ajax="slider"
-                            >
+                            <a class="effect-ajax" data-dsn-ajax="slider">
                               COOKING
                             </a>
                           </div>
@@ -151,8 +98,6 @@ export default function Process() {
                           sugars. Cooking also softens the piña, making the
                           process of sugar extraction easier.
                         </p>
-
-
                       </div>
                     </div>
                     <div class="image-container">
@@ -166,7 +111,6 @@ export default function Process() {
                     </div>
                   </div>
 
-
                   <div class="slide-item swiper-slide">
                     <div class="slide-content">
                       <div class="slide-content-inner">
@@ -178,21 +122,24 @@ export default function Process() {
 
                         <div class="title-text-header">
                           <div class="title-text-header-inner">
-                            <a
-
-                              class="effect-ajax"
-                              data-dsn-ajax="slider"
-                            >
+                            <a class="effect-ajax" data-dsn-ajax="slider">
                               EXTRACTION{" "}
                             </a>
                           </div>
                         </div>
 
                         <p>
-                          Once cooked, the agave heads are transported to a milling area for sugar extraction. The cooked piñas are crushed in order to release the juice, or “aguamiel,” that will be fermented. The traditional method is to crush the piñas with a “tahona,” a giant grinding wheel operated by mules, oxen or tractors within a circular pit. Modern distilleries now use a mechanical crusher to separate the fiber from the juices. Once the piñas are minced they are washed with water and strained to remove the juices.
+                          Once cooked, the agave heads are transported to a
+                          milling area for sugar extraction. The cooked piñas
+                          are crushed in order to release the juice, or
+                          “aguamiel,” that will be fermented. The traditional
+                          method is to crush the piñas with a “tahona,” a giant
+                          grinding wheel operated by mules, oxen or tractors
+                          within a circular pit. Modern distilleries now use a
+                          mechanical crusher to separate the fiber from the
+                          juices. Once the piñas are minced they are washed with
+                          water and strained to remove the juices.
                         </p>
-
-
                       </div>
                     </div>
                     <div class="image-container">
@@ -206,7 +153,6 @@ export default function Process() {
                     </div>
                   </div>
 
-
                   <div class="slide-item swiper-slide">
                     <div class="slide-content">
                       <div class="slide-content-inner">
@@ -218,11 +164,7 @@ export default function Process() {
 
                         <div class="title-text-header">
                           <div class="title-text-header-inner">
-                            <a
-
-                              class="effect-ajax"
-                              data-dsn-ajax="slider"
-                            >
+                            <a class="effect-ajax" data-dsn-ajax="slider">
                               FERMENTATION{" "}
                             </a>
                           </div>
@@ -234,8 +176,6 @@ export default function Process() {
                           stainless steel tanks. Yeast may be added to
                           accelerate and control the fermentation.
                         </p>
-
-
                       </div>
                     </div>
                     <div class="image-container">
@@ -259,21 +199,27 @@ export default function Process() {
                         </div>
                         <div class="title-text-header">
                           <div class="title-text-header-inner">
-                            <a
-
-                              class="effect-ajax"
-                              data-dsn-ajax="slider"
-                            >
+                            <a class="effect-ajax" data-dsn-ajax="slider">
                               DISTILLATION
                             </a>
                           </div>
                         </div>
 
                         <p>
-                          The fifth step of creating tequila is distillation, in which ferments are separated by heat and steam pressure within stainless steel pot stills or distillation towers. While some tequilas are distilled three times, the majority are only distilled twice, including IZKALI Tequila. The first distillation, also known as “deztrozamiento” or “smashing,” takes a couple hours and yields a liquid with an alcohol level of about 20% known as “ordinario.” The second distillation, known as “rectification,” takes three to four hours and yields a liquid with an alcohol level near 55%. After the second distillation the tequila is considered silver, or “blanco,” tequila.
+                          The fifth step of creating tequila is distillation, in
+                          which ferments are separated by heat and steam
+                          pressure within stainless steel pot stills or
+                          distillation towers. While some tequilas are distilled
+                          three times, the majority are only distilled twice,
+                          including IZKALI Tequila. The first distillation, also
+                          known as “deztrozamiento” or “smashing,” takes a
+                          couple hours and yields a liquid with an alcohol level
+                          of about 20% known as “ordinario.” The second
+                          distillation, known as “rectification,” takes three to
+                          four hours and yields a liquid with an alcohol level
+                          near 55%. After the second distillation the tequila is
+                          considered silver, or “blanco,” tequila.
                         </p>
-
-
                       </div>
                     </div>
                     <div class="image-container">
@@ -297,28 +243,24 @@ export default function Process() {
                         </div>
                         <div class="title-text-header">
                           <div class="title-text-header-inner">
-                            <a
-
-                              class="effect-ajax"
-                              data-dsn-ajax="slider"
-                            >
-                              AGING</a>
+                            <a class="effect-ajax" data-dsn-ajax="slider">
+                              AGING
+                            </a>
                           </div>
                         </div>
 
                         <p>
-                          Almost all containers used in tequila aging
-                          are French or American white oak barrels that
-                          have previously been used to age bourbon.
-                          Reposados are aged between two and twelve months,
-                          Añejos are aged between one and three years and Extra Añejos
-                          are aged for over three years. The longer the tequila ages,
-                          the more color and tannins the final product will have.
-                          The condition of the barrels (such as their age,
-                          previous use and if their interiors have been burnt or toasted)
-                          will also affect the tequila’s taste. </p>
-
-
+                          Almost all containers used in tequila aging are French
+                          or American white oak barrels that have previously
+                          been used to age bourbon. Reposados are aged between
+                          two and twelve months, Añejos are aged between one and
+                          three years and Extra Añejos are aged for over three
+                          years. The longer the tequila ages, the more color and
+                          tannins the final product will have. The condition of
+                          the barrels (such as their age, previous use and if
+                          their interiors have been burnt or toasted) will also
+                          affect the tequila’s taste.{" "}
+                        </p>
                       </div>
                     </div>
                     <div class="image-container">
@@ -342,11 +284,7 @@ export default function Process() {
                         </div>
                         <div class="title-text-header">
                           <div class="title-text-header-inner">
-                            <a
-
-                              class="effect-ajax"
-                              data-dsn-ajax="slider"
-                            >
+                            <a class="effect-ajax" data-dsn-ajax="slider">
                               BOTTLING
                             </a>
                           </div>
@@ -360,8 +298,6 @@ export default function Process() {
                           three years and Extra Añejos are aged for over three
                           years
                         </p>
-
-
                       </div>
                     </div>
                     <div class="image-container">
@@ -374,7 +310,6 @@ export default function Process() {
                       </div>
                     </div>
                   </div>
-
                 </div>
               </div>
             </div>
@@ -565,11 +500,7 @@ export default function Process() {
                     src="./Assets/img/steps/1.jpg"
                     alt=""
                   />
-                  <a
-
-                    class="effect-ajax"
-                    data-dsn-ajax="list"
-                  >
+                  <a class="effect-ajax" data-dsn-ajax="list">
                     <div class="num">
                       <small>01</small>
                     </div>
@@ -583,11 +514,7 @@ export default function Process() {
                     src="./Assets/img/steps/2.jpeg"
                     alt=""
                   />
-                  <a
-
-                    class="effect-ajax"
-                    data-dsn-ajax="list"
-                  >
+                  <a class="effect-ajax" data-dsn-ajax="list">
                     <div class="num">
                       <small>02</small>
                     </div>
@@ -601,11 +528,7 @@ export default function Process() {
                     alt=""
                   />
 
-                  <a
-
-                    class="effect-ajax"
-                    data-dsn-ajax="list"
-                  >
+                  <a class="effect-ajax" data-dsn-ajax="list">
                     <div class="num">
                       <small>03</small>
                     </div>
@@ -620,11 +543,7 @@ export default function Process() {
                     alt=""
                   />
 
-                  <a
-
-                    class="effect-ajax"
-                    data-dsn-ajax="list"
-                  >
+                  <a class="effect-ajax" data-dsn-ajax="list">
                     <div class="num">
                       <small>04</small>
                     </div>
@@ -639,11 +558,7 @@ export default function Process() {
                     alt=""
                   />
 
-                  <a
-
-                    class="effect-ajax"
-                    data-dsn-ajax="list"
-                  >
+                  <a class="effect-ajax" data-dsn-ajax="list">
                     <div class="num">
                       <small>05</small>
                     </div>
@@ -658,11 +573,7 @@ export default function Process() {
                     alt=""
                   />
 
-                  <a
-
-                    class="effect-ajax"
-                    data-dsn-ajax="list"
-                  >
+                  <a class="effect-ajax" data-dsn-ajax="list">
                     <div class="num">
                       <small>06</small>
                     </div>
@@ -677,11 +588,7 @@ export default function Process() {
                     alt=""
                   />
 
-                  <a
-
-                    class="effect-ajax"
-                    data-dsn-ajax="list"
-                  >
+                  <a class="effect-ajax" data-dsn-ajax="list">
                     <div class="num">
                       <small>07</small>
                     </div>
@@ -702,7 +609,10 @@ export default function Process() {
           <div class="nav-work-img-box" data-overlay="5"></div>
         </div>
 
-        <div style={{ marginTop: "100px" }} class="container intro-project section-margin">
+        <div
+          style={{ marginTop: "100px" }}
+          class="container intro-project section-margin"
+        >
           <div class="intro-text text-center">
             <div
               class="title-cover"
@@ -716,20 +626,19 @@ export default function Process() {
             <div class="inner">
               <h2 data-dsn-animate="text">THIS IS HOW WE MAKE OUR TEQUILA</h2>
               <p data-dsn-animate="up">
-                Our tequilas come from the lowlands of Jalisco, where
-                volcanic minerals have fertilized the soil and generated
-                optimal conditions for our blue weber agave resulting in our
-                exceptional and unique flavor profiles.<br />
-
-                With a rich and favorful taste paired with an exceptionally smooth fnish across the range,
-                we are bringing the product up to levels of high end champagne, whiskys, and cognacs
-                while retaining a more relaxed and upper casual feel.                                </p>
-
-
+                Our tequilas come from the lowlands of Jalisco, where volcanic
+                minerals have fertilized the soil and generated optimal
+                conditions for our blue weber agave resulting in our exceptional
+                and unique flavor profiles.
+                <br />
+                With a rich and favorful taste paired with an exceptionally
+                smooth fnish across the range, we are bringing the product up to
+                levels of high end champagne, whiskys, and cognacs while
+                retaining a more relaxed and upper casual feel.{" "}
+              </p>
             </div>
           </div>
         </div>
-
 
         <div class="box-seat">
           <div class="dsn-v-text">
@@ -753,17 +662,17 @@ export default function Process() {
             </div>
           </div>
         </div>
+      </main>
 
-        <Footer />
+      <Footer />
 
-        <div class="wait-loader">
-          <div class="loader-inner">
-            <div class="loader-circle">
-              <div class="loader-layer"></div>
-            </div>
+      <div class="wait-loader">
+        <div class="loader-inner">
+          <div class="loader-circle">
+            <div class="loader-layer"></div>
           </div>
         </div>
-      </main>
-    </div>
+      </div>
+    </body>
   );
 }

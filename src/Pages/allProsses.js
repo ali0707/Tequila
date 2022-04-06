@@ -11,9 +11,14 @@ export default function Allprosses() {
         <div class="preloader-after"></div>
         <div class="preloader-before"></div>
         <div class="preloader-block">
-          <div class="title">Droow</div>
+          <div class="title">Etéreo </div>
           <div class="percent">0</div>
-          <div class="loading">loading...</div>
+          <div class="loading">
+            <img
+              src="./Assets/img/logo/etero.png"
+              style={{ width: "90px", hight: "90px" }}
+            />{" "}
+          </div>
         </div>
         <div class="preloader-bar">
           <div class="preloader-progress"></div>
@@ -21,7 +26,7 @@ export default function Allprosses() {
       </div>
       <Header2 />
       <main class="main-root">
-        <div >
+        <div>
           <header>
             <div class="headefr-fexid" data-dsn-header="project">
               <div class="bg" id="dsn-hero-parallax-img" data-dsn-ajax="img">
@@ -126,7 +131,7 @@ export default function Allprosses() {
                         class="single-image"
                         href="./Assets/img/project/project9/2.jpg"
                       >
-                        <img src="./Assets/img/project/project9/2.jpg" alt=""/>
+                        <img src="./Assets/img/project/project9/2.jpg" alt="" />
                       </a>
 
                       <div class="caption">Trevor Bittinger</div>

@@ -1683,13 +1683,13 @@ body > * {
 
 .section-padding {
   padding-top: 120px;
-  padding-bottom: 120px;
+  padding-bottom: 50px;
 }
 
 @media only screen and (max-width: 991px) {
   .section-padding {
     padding-top: 80px;
-    padding-bottom: 80px;
+    padding-bottom: 10px;
   }
 }
 
@@ -7666,7 +7666,7 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
   color: transparent;
   border: 0;
   outline: none;
-  background: #fff;
+  /* background: #fff; */
   -webkit-transform: scaleX(1);
   -ms-transform: scaleX(1);
   transform: scaleX(1);
@@ -7719,14 +7719,14 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
   height: 100%;
   top: 0;
   left: 0;
-  background-color: #090909;
+  background-color: transparent;
   -webkit-transform-origin: right;
   -ms-transform-origin: right;
   transform-origin: right;
 }
 
 .v-light .client-see .inner .bg {
-  background-color: #e6e6e6;
+  background-color: transparent;
 }
 
 .client-see .inner .bg:after {
@@ -7928,7 +7928,7 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
   color: transparent;
   border: 0;
   outline: none;
-  background: #fff;
+  background-color: transparent;
   -webkit-transform: scaleX(1);
   -ms-transform: scaleX(1);
   transform: scaleX(1);
@@ -7940,7 +7940,7 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
 }
 
 .v-light .client-see .slick-dots li button {
-  background: #000;
+  background: transparent;
 }
 
 .our-news {
@@ -10452,7 +10452,7 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
 .v-light .our-news .slick-slider .slick-dots li button,
 .v-light .our-team .slick-slider .slick-dots li button,
 .v-light [data-dsn-col="2"] .slick-slider .slick-dots li button {
-  background: #000;
+  background: transparent;
 }
 
 @media only screen and (max-width: 991px) {

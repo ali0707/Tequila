@@ -13,7 +13,6 @@ export default function Header() {
                   src="./Assets/img/logo/etero.png"
                   style={{ height: "76px" }}
                   alt=""
-                  alt=""
                 />
                 <img
                   className="light-logo"
@@ -28,7 +27,7 @@ export default function Header() {
               <li>
                 <a href="/">HOME</a>
               </li>
-              <li >
+              <li>
                 <a href="AboutUs">ABOUT US</a>
               </li>
               <li>
@@ -97,7 +96,9 @@ export default function Header() {
             <div className="inner-content">
               <address class="v-middle">
                 <span> California 92606 – USA</span>
-                <span>Etéreo Spirits LLC 2855 Michelle Drive Suite 280 , Irvine,</span>
+                <span>
+                  Etéreo Spirits LLC 2855 Michelle Drive Suite 280 , Irvine,
+                </span>
               </address>
             </div>
           </div>
