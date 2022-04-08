@@ -10,24 +10,6 @@ export default function Nft() {
       class="hamburger-menu dsn-effect-scroll dsn-ajax"
       data-dsn-mousemove="true"
     >
-      <div class="preloader">
-        <div class="preloader-after"></div>
-        <div class="preloader-before"></div>
-        <div class="preloader-block">
-          <div class="title">Etéreo </div>
-          <div class="percent">0</div>
-          <div class="loading">
-            <img
-              src="./Assets/img/logo/etero.png"
-              style={{ width: "90px", hight: "90px" }}
-            />{" "}
-          </div>
-        </div>
-        <div class="preloader-bar">
-          <div class="preloader-progress"></div>
-        </div>
-      </div>
-
       <Header />
 
       <main class="main-root">
@@ -69,6 +51,7 @@ export default function Nft() {
 
                     <video
                       class="image-bg cover-bg dsn-video"
+                      preload="none"
                       poster="./Assets/videos/ring2.mp4"
                       autoPlay={true}
                       loop
@@ -76,10 +59,6 @@ export default function Nft() {
                       <source
                         src="./Assets/videos/ring2.mp4"
                         type="video/mp4"
-                      />
-                      <source
-                        src="./Assets/videos/ring2.mp4"
-                        type="video/webm"
                       />
                     </video>
                   </div>
@@ -205,7 +184,7 @@ export default function Nft() {
                   </div>
                   <div className="intro-text text-center">
                     <div class="ctrl" style={{ justifyContent: "center" }}>
-                      <div class="ctrl__button mint">MINT</div>
+                      <button>MINT</button>
                     </div>
                   </div>
                   <div
@@ -241,12 +220,12 @@ export default function Nft() {
                   </div>
                 </section>
                 <div
-                  style={{ marginTop: "-105px" }}
+                  style={{ marginTop: "-62px" }}
                   class="container intro-project section-margin"
                 >
                   <div class="intro-text text-center">
                     <div class="inner">
-                      <h5 data-dsn-animate="text">Available Soon..</h5>
+                      <h6 data-dsn-animate="text">Available Soon..</h6>
                       <p data-dsn-animate="up">
                         2200 NFTs will be available for mint on our platform all
                         of which will provide unique Real life experiences.
@@ -276,25 +255,25 @@ export default function Nft() {
                       src="./Assets/img/nft02.jpeg"
                       alt=""
                     />
-                    <div style={{ marginTop: "30px" }}>Etéreo EVENTS</div>
+                    <div style={{ marginTop: "30px" }}>Etéreo events</div>
                   </div>
                   <div
-                    class="image xx"
+                    class="image xx xx1"
                     style={{
                       textAlign: "center",
                       verticalAlign: "middle",
                       position: "relative",
                       top: "50%",
-                      marginLeft: "31px",
+                      marginLeft: "15px",
                     }}
                   >
-                    <h5 data-dsn-animate="text">
+                    <h6 data-dsn-animate="text">
                       {" "}
                       Ever dreamed of all-inclusive trips to Etéreo events
                       worldwide as prime guests ?
-                    </h5>
+                    </h6>
                   </div>
-                  <div class="text">
+                  <div data-dsn-animate="up" class="text">
                     <img
                       style={{ borderRadius: "18px" }}
                       class="has-top-bottom"
@@ -306,19 +285,19 @@ export default function Nft() {
                     </div>
                   </div>
                   <div
-                    class="image xx"
+                    class="image xx xx1"
                     style={{
                       textAlign: "center",
                       verticalAlign: "middle",
                       position: "relative",
                       top: "50%",
-                      marginRight: "31px",
+                      marginRight: "15px",
                     }}
                   >
-                    <h5 data-dsn-animate="text">
+                    <h6 data-dsn-animate="text">
                       Ever dreamed of flying a private jet to Coachella and
                       partying with all the world’s celebrities ?
-                    </h5>
+                    </h6>
                   </div>
                   <div class="text">
                     <img
@@ -330,7 +309,7 @@ export default function Nft() {
                     <div style={{ marginTop: "30px" }}>RANGE ROVER</div>
                   </div>
                   <div
-                    class="image xx"
+                    class="image xx xx1"
                     style={{
                       textAlign: "center",
                       verticalAlign: "middle",
@@ -339,31 +318,31 @@ export default function Nft() {
                       marginLeft: "31px",
                     }}
                   >
-                    <h5 data-dsn-animate="text">
+                    <h6 data-dsn-animate="text">
                       Ever dreamed of being gifted a SUV from a brand that
                       represents the pinnacle of English craftsmanship and
                       luxury ?
-                    </h5>
+                    </h6>
                   </div>
                 </article>
                 <article>
                   <div
-                    class="image xx"
+                    class="image xx xx1"
                     style={{
                       textAlign: "center",
                       verticalAlign: "middle",
                       position: "relative",
                       top: "50%",
-                      marginRight: "31px",
+                      marginRight: "15px",
                     }}
                   >
-                    <h5 data-dsn-animate="text">
+                    <h6 data-dsn-animate="text">
                       Ever dreamed of spending a summer with your friends on a
                       Super Yacht sailing across the Adriatic Sea ?
-                    </h5>
+                    </h6>
                   </div>
 
-                  <div class="text">
+                  <div data-dsn-animate="up" class="text">
                     <img
                       style={{ borderRadius: "18px" }}
                       class="has-top-bottom"
@@ -373,7 +352,7 @@ export default function Nft() {
                     <div style={{ marginTop: "30px" }}>YACHT</div>
                   </div>
                   <div
-                    class="text xx"
+                    class="text xx xx1"
                     style={{
                       textAlign: "center",
                       verticalAlign: "middle",
@@ -382,53 +361,51 @@ export default function Nft() {
                       marginLeft: "31px",
                     }}
                   >
-                    <h5 data-dsn-animate="text">
+                    <h6 data-dsn-animate="text">
                       Ever dreamed of being gifted the most exquisite diamonds
                       and rings from one of London’s finest jeweller ?
-                    </h5>
+                    </h6>
                   </div>
-                  <div class="text">
-                    <div class="box-seat">
-                      <div class="text">
-                        <video
-                          style={{ borderRadius: "18px" }}
-                          class="has-top-bottom image-bg cover-bg dsn-video"
-                          preload="none"
-                          poster="./Assets/videos/zoom 1.mp4"
-                          autoPlay={true}
-                          muted={true}
-                          loop
-                        >
-                          <source
-                            src="./Assets/videos/zoom 1.mp4"
-                            type="video/mp4"
-                          />
-                          <source
-                            src="./Assets/videos/zoom 1.mp4"
-                            type="video/webm"
-                          />
-                        </video>
-                      </div>
-                    </div>{" "}
-                    <div style={{ marginTop: "30px" }}>CADARO LONDON</div>
+                  <div data-dsn-animate="up" class="text">
+                    <div class="text">
+                      <video
+                        style={{ borderRadius: "100px", marginTop: "-10px" }}
+                        class="has-top-bottom image-bg cover-bg dsn-video"
+                        preload="none"
+                        poster="./Assets/videos/zoom1.mp4"
+                        autoPlay={true}
+                        muted={true}
+                        loop
+                      >
+                        <source
+                          src="./Assets/videos/zoom1.mp4"
+                          type="video/mp4"
+                        />
+                        <source
+                          src="./Assets/videos/zoom1.mp4"
+                          type="video/mp4"
+                        />
+                      </video>
+                    </div>
+                    <div style={{ marginTop: "-5px" }}>CADARO LONDON</div>
                   </div>
                   <div
-                    class="image xx"
+                    class="image xx xx1"
                     style={{
                       textAlign: "center",
                       verticalAlign: "middle",
                       position: "relative",
                       top: "50%",
-                      marginRight: "31px",
+                      marginRight: "15px",
                     }}
                   >
-                    <h5 data-dsn-animate="text">
+                    <h6 data-dsn-animate="text">
                       Ever dreamed of being gifted the most iconique watches
                       from the two best watchmakers to ever be ?
-                    </h5>
+                    </h6>
                   </div>
 
-                  <div class="text">
+                  <div data-dsn-animate="up" class="text">
                     <img
                       style={{ borderRadius: "18px" }}
                       class="has-top-bottom"
@@ -443,7 +420,7 @@ export default function Nft() {
                 </article>
 
                 <article>
-                  <div class="text">
+                  <div data-dsn-animate="up" class="text">
                     <img
                       style={{ borderRadius: "18px" }}
                       class="has-top-bottom"
@@ -456,7 +433,7 @@ export default function Nft() {
                     </div>
                   </div>
                   <div
-                    class="image xx"
+                    class="image xx xx1"
                     style={{
                       textAlign: "center",
                       verticalAlign: "middle",
@@ -465,12 +442,12 @@ export default function Nft() {
                       marginLeft: "31px",
                     }}
                   >
-                    <h5 data-dsn-animate="text">
+                    <h6 data-dsn-animate="text">
                       Ever dreamed of sitting front row at every UFC fight
                       before partying with the champion?
-                    </h5>
+                    </h6>
                   </div>
-                  <div class="text">
+                  <div data-dsn-animate="up" class="text">
                     <img
                       style={{ borderRadius: "18px" }}
                       class="has-top-bottom"
@@ -480,22 +457,22 @@ export default function Nft() {
                     <div style={{ marginTop: "30px" }}>Etéreo DISTILLERY</div>
                   </div>
                   <div
-                    class="image xx"
+                    class="image xx xx1"
                     style={{
                       textAlign: "center",
                       verticalAlign: "middle",
                       position: "relative",
                       top: "50%",
-                      marginRight: "31px",
+                      marginRight: "15px",
                     }}
                     data-dsn-animate="up"
                   >
-                    <h5 data-dsn-animate="text">
+                    <h6 data-dsn-animate="text">
                       Ever dreamed of a unique trip to Mexico’s finest and most
                       genuine tequila distillery ?
-                    </h5>
+                    </h6>
                   </div>
-                  <div class="text">
+                  <div data-dsn-animate="up" class="text">
                     <img
                       style={{ borderRadius: "18px" }}
                       class="has-top-bottom"
@@ -505,7 +482,7 @@ export default function Nft() {
                     <div style={{ marginTop: "30px" }}>SW Clinic London</div>
                   </div>
                   <div
-                    class="image xx"
+                    class="image xx xx1"
                     style={{
                       textAlign: "center",
                       verticalAlign: "middle",
@@ -515,31 +492,31 @@ export default function Nft() {
                     }}
                     data-dsn-animate="up"
                   >
-                    <h5 data-dsn-animate="text">
+                    <h6 data-dsn-animate="text">
                       Ever dreamed of being offered all the plastic surgery you
                       have wished for in the most high-end cliniques ?
-                    </h5>
+                    </h6>
                   </div>
                 </article>
 
                 <article>
                   <div
-                    class="text xx"
+                    class="text xx xx1"
                     style={{
                       textAlign: "center",
                       verticalAlign: "middle",
                       position: "relative",
                       top: "50%",
-                      marginRight: "31px",
+                      marginRight: "15px",
                     }}
                     data-dsn-animate="up"
                   >
-                    <h5 data-dsn-animate="text">
+                    <h6 data-dsn-animate="text">
                       Ever dreamed of free life-memberships to the most
                       exclusive Yoga Center in London ?
-                    </h5>
+                    </h6>
                   </div>
-                  <div class="image">
+                  <div data-dsn-animate="up" class="image">
                     <img
                       style={{ borderRadius: "18px" }}
                       class="has-top-bottom"
@@ -549,7 +526,7 @@ export default function Nft() {
                     <div style={{ marginTop: "30px" }}>YOGA</div>
                   </div>
                   <div
-                    class="text xx"
+                    class="text xx xx1"
                     style={{
                       textAlign: "center",
                       verticalAlign: "middle",
@@ -559,11 +536,11 @@ export default function Nft() {
                     }}
                     data-dsn-animate="up"
                   >
-                    <h5 data-dsn-animate="text">
+                    <h6 data-dsn-animate="text">
                       Ever dreamed of unlimited supply of the finest Caviar ?
-                    </h5>
+                    </h6>
                   </div>
-                  <div class="image">
+                  <div data-dsn-animate="up" class="image">
                     <img
                       style={{ borderRadius: "18px" }}
                       class="has-top-bottom"
@@ -575,22 +552,22 @@ export default function Nft() {
                     </div>
                   </div>
                   <div
-                    class="text xx"
+                    class="text xx xx1"
                     style={{
                       textAlign: "center",
                       verticalAlign: "middle",
                       position: "relative",
                       top: "50%",
-                      marginRight: "31px",
+                      marginRight: "15px",
                     }}
                     data-dsn-animate="up"
                   >
-                    <h5 data-dsn-animate="text">
+                    <h6 data-dsn-animate="text">
                       Ever dreamed of waking up one morning with a free 40 000 $
                       on your bank account ?{" "}
-                    </h5>
+                    </h6>
                   </div>
-                  <div class="image">
+                  <div data-dsn-animate="up" class="image">
                     <img
                       style={{ borderRadius: "18px" }}
                       class="has-top-bottom"
@@ -599,7 +576,7 @@ export default function Nft() {
                     />
                     <div style={{ marginTop: "30px" }}>40 000 $</div>
                   </div>
-                  <div class="text">
+                  <div data-dsn-animate="up" class="text">
                     <img
                       style={{ borderRadius: "18px" }}
                       class="has-top-bottom"
@@ -612,7 +589,7 @@ export default function Nft() {
                     </div>
                   </div>
                   <div
-                    class="image xx"
+                    class="image xx xx1"
                     style={{
                       textAlign: "center",
                       verticalAlign: "middle",
@@ -621,28 +598,28 @@ export default function Nft() {
                       marginLeft: "31px",
                     }}
                   >
-                    <h5 data-dsn-animate="text">
+                    <h6 data-dsn-animate="text">
                       Ever dreamed of receiving free merchandise from one of the
                       most up and coming brand of sustainable fashion ?{" "}
-                    </h5>
+                    </h6>
                   </div>
                   <div
-                    class="text xx"
+                    class="text xx xx1"
                     style={{
                       textAlign: "center",
                       verticalAlign: "middle",
                       position: "relative",
                       top: "50%",
-                      marginRight: "31px",
+                      marginRight: "15px",
                     }}
                     data-dsn-animate="left"
                   >
-                    <h5 data-dsn-animate="text">
+                    <h6 data-dsn-animate="text">
                       Ever dreamed of the finest dining experiences as Etéreo’s
                       exclusive guest
-                    </h5>
+                    </h6>
                   </div>
-                  <div class="image">
+                  <div data-dsn-animate="up" class="image">
                     <img
                       style={{ borderRadius: "18px" }}
                       class="has-top-bottom"
@@ -695,26 +672,6 @@ export default function Nft() {
           </div>
         </div>
       </main>
-
-      <div class="wait-loader">
-        <div class="loader-inner">
-          <div class="loader-circle">
-            <div class="loader-layer"></div>
-          </div>
-        </div>
-      </div>
-
-      <div class="cursor">
-        <div class="cursor-helper cursor-view">
-          <span>VIEW</span>
-        </div>
-
-        <div class="cursor-helper cursor-close">
-          <span>Close</span>
-        </div>
-
-        <div class="cursor-helper cursor-link"></div>
-      </div>
     </body>
   );
 }

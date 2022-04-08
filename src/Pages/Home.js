@@ -561,7 +561,7 @@ export default function Home() {
                   <div class="slick-slider">
                     <div class="item-new slick-slide">
                       <div
-                        class="image"
+                        class=""
                         data-overlay="1"
                         style={{ borderRadius: "20px" }}
                       >
@@ -582,7 +582,7 @@ export default function Home() {
 
                     <div class="item-new slick-slide">
                       <div
-                        class="image"
+                        class=""
                         data-overlay="1"
                         style={{ borderRadius: "20px" }}
                       >
@@ -603,7 +603,7 @@ export default function Home() {
 
                     <div class="item-new slick-slide">
                       <div
-                        class="image"
+                        class=""
                         data-overlay="1"
                         style={{ borderRadius: "20px" }}
                       >
@@ -624,7 +624,7 @@ export default function Home() {
 
                     <div class="item-new slick-slide">
                       <div
-                        class="image"
+                        class=""
                         data-overlay="1"
                         style={{ borderRadius: "20px" }}
                       >
@@ -645,12 +645,13 @@ export default function Home() {
 
                     <div class="item-new slick-slide">
                       <div
-                        class="image"
+                        class=""
                         data-overlay="1"
                         style={{ borderRadius: "20px" }}
                       >
                         <img src="./Assets/img/events/osman2.jpeg" alt="" />
                       </div>
+
                       <div class="content">
                         <div
                           class="background"
@@ -659,7 +660,7 @@ export default function Home() {
                         <h5>THE CHAMPION USMAN KAMARU</h5>
 
                         <div class="cta">
-                          <a href="NFT">LEARN MORE </a>
+                          <a href="Events"></a>
                         </div>
                       </div>
                     </div>
@@ -676,7 +677,11 @@ export default function Home() {
               <div class="container">
                 <div class="row align-items-center h-100">
                   <div class="col-lg-6 ">
-                    <div class="box-im" data-dsn-grid="move-up">
+                    <div
+                      class="box-im"
+                      data-dsn-grid="move-up"
+                      style={{ borderRadius: "20px" }}
+                    >
                       <img
                         class="has-top-bottom"
                         src="./Assets/img/Lifestyle/event.jpeg"
@@ -719,27 +724,69 @@ export default function Home() {
                 </div>
 
                 <div class="wapper-client">
-                  <div class="logo-box" style={{ padding: -30 }}>
-                    <img src="./Assets/img/partners/p1.jpeg" alt="" />
+                  <div
+                    class="logo-box"
+                    style={{ padding: -30, borderRadius: "20px" }}
+                  >
+                    <img
+                      src="./Assets/img/partners/p1.jpeg"
+                      alt=""
+                      style={{ borderRadius: "20px" }}
+                    />
                   </div>
 
-                  <div class="logo-box" style={{ padding: -30 }}>
-                    <img src="./Assets/img/partners/p2.jpeg" alt="" />
+                  <div
+                    class="logo-box"
+                    style={{ padding: -30, borderRadius: "20px" }}
+                  >
+                    <img
+                      src="./Assets/img/partners/p2.jpeg"
+                      alt=""
+                      style={{ borderRadius: "20px" }}
+                    />
                   </div>
-                  <div class="logo-box" style={{ padding: -30 }}>
-                    <img src="./Assets/img/partners/p3.jpeg" alt="" />
+                  <div
+                    class="logo-box"
+                    style={{ padding: -30, borderRadius: "20px" }}
+                  >
+                    <img
+                      src="./Assets/img/partners/p3.jpeg"
+                      alt=""
+                      style={{ borderRadius: "20px" }}
+                    />
                   </div>
 
-                  <div class="logo-box" style={{ padding: -30 }}>
-                    <img src="./Assets/img/partners/p4.png" alt="" />
+                  <div
+                    class="logo-box"
+                    style={{ padding: -30, borderRadius: "20px" }}
+                  >
+                    <img
+                      src="./Assets/img/partners/p4.png"
+                      alt=""
+                      style={{ borderRadius: "20px" }}
+                    />
                   </div>
 
-                  <div class="logo-box" style={{ padding: -30 }}>
-                    <img src="./Assets/img/partners/p5.jpg" alt="" />
+                  <div
+                    class="logo-box"
+                    style={{ padding: -30, borderRadius: "20px" }}
+                  >
+                    <img
+                      src="./Assets/img/partners/p5.jpg"
+                      alt=""
+                      style={{ borderRadius: "20px" }}
+                    />
                   </div>
 
-                  <div class="logo-box" style={{ padding: -30 }}>
-                    <img src="./Assets/img/partners/p6.jpeg" alt="" />
+                  <div
+                    class="logo-box"
+                    style={{ padding: -30, borderRadius: "20px" }}
+                  >
+                    <img
+                      src="./Assets/img/partners/p6.jpeg"
+                      alt=""
+                      style={{ borderRadius: "20px" }}
+                    />
                   </div>
                 </div>
               </div>

@@ -6,7 +6,7 @@ import Contact from "./contact";
 import Home from "./Home";
 import Nft from "./Nft";
 import Shop from "./Shop";
-import LifeStyle from "./lifeStyle"
+import LifeStyle from "./lifeStyle";
 import Cocktails from "./cocktails";
 import Process from "./ourProcess";
 import Events from "./events";
@@ -26,9 +26,7 @@ export default function RouterPage() {
           <Route path="Nft" element={<Nft />} />
           <Route path="Cocktails" element={<Cocktails />} />
           <Route path="Events" element={<Events />} />
-
-
-
+          <Route path="*" element={<Home />} />
         </Routes>
       </Router>
     </div>

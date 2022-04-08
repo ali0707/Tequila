@@ -9,8 +9,6 @@ export default function Events() {
       data-dsn-mousemove="true"
     >
       <div class="preloader">
-        <div class="preloader-after"></div>
-        <div class="preloader-before"></div>
         <div class="preloader-block">
           <div class="title">Etéreo </div>
           <div class="percent">0</div>
